@@ -1,0 +1,185 @@
+\begin{thebibliography}{31}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
+  \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
+  \def\publ#1{#1}\def\arxiv#1{#1}\def\org#1{#1}\def\st#1{\textit{#1}}
+
+\bibitem[Baqui {\em et~al.\/}(2014)Baqui, Agarwal \& Cavalieri]{Baqui2014}
+{\sc \au{Baqui, Y.~B.}, \au{Agarwal, A.} \& \au{Cavalieri, A.}} \yr{2014} A
+  coherence-matched linear model for subsonic jet noise.  \bt{In {\em 20th
+  AIAA/CEAS Aeroacoustics Conference\/}}.
+
+\bibitem[Berkooz {\em et~al.\/}(1993)Berkooz, Holmes \& Lumley]{Berkooz1993}
+{\sc \au{Berkooz, G.}, \au{Holmes, P.} \& \au{Lumley, J.~L.}} \yr{1993}
+  \at{The proper orthogonal decomposition in the analysis of turbulent flows}.
+  \jt{Annual Review of Fluid Mechanics}  \bvol{25},  \pg{539--575}.
+
+\bibitem[Bonnet {\em et~al.\/}(1994)Bonnet, Cole, Delville, Glauser \&
+  Ukeiley]{Bonnet1994}
+{\sc \au{Bonnet, J.-P.}, \au{Cole, D.~R.}, \au{Delville, J.}, \au{Glauser,
+  M.~N.} \& \au{Ukeiley, L.~S.}} \yr{1994}  \at{Stochastic estimation and
+  proper orthogonal decomposition: Complementary techniques for identifying
+  structure}.  \jt{Experiments in Fluids}  \bvol{17}~(5),  \pg{307--314}.
+
+\bibitem[Cabana {\em et~al.\/}(2008)Cabana, Fortun{\'e} \& Jordan]{Cabana2008}
+{\sc \au{Cabana, M.}, \au{Fortun{\'e}, V.} \& \au{Jordan, P.}} \yr{2008}
+  \at{Identifying the radiating core of lighthill's source term}.
+  \jt{Theoretical Computational Fluid Dynamics}  \bvol{22},  \pg{87--106}.
+
+\bibitem[Cavalieri {\em et~al.\/}(2011)Cavalieri, Jordan, Agarwal \&
+  Gervais]{Cavalieri2010}
+{\sc \au{Cavalieri, A.}, \au{Jordan, P.}, \au{Agarwal, A.} \& \au{Gervais, Y.}}
+  \yr{2011}  \at{Jittering wave-packet models for subsonic jet noise}.
+  \jt{Journal of Sound and Vibration}  \bvol{330},  \pg{4474--4492}.
+
+\bibitem[Cavalieri {\em et~al.\/}(2013)Cavalieri, Rodriguezl, Jordan, Colonius
+  \& Gervais]{Cavalieri2013}
+{\sc \au{Cavalieri, A.}, \au{Rodriguezl, D.}, \au{Jordan, P.}, \au{Colonius,
+  T.} \& \au{Gervais, Y.}} \yr{2013}  \at{Wavepackets in the velocity field of
+  turbulent jets}.  \jt{Journal of Fluid Mechanics}  \bvol{730},
+  \pg{559--592}.
+
+\bibitem[Durgesh \& Naughton(2010)]{Durgesh2010}
+{\sc \au{Durgesh, V.} \& \au{Naughton, J.~W.}} \yr{2010}  \at{Multi-time-delay
+  lse-pod complementary approach applied to unsteady high-reynolds-number near
+  wake flow}.  \jt{Experiments in Fluids}  \bvol{49}~(3),  \pg{571--583}.
+
+\bibitem[Ewing \& Citriniti(1997)]{Ewing1997}
+{\sc \au{Ewing, D.} \& \au{Citriniti, J.~H.}} \yr{1997} Examination of a
+  lse/pod complementary technique using single and multi-time information in
+  the axisymmetric shear layer.  \bt{In {\em Proceedings of the IUTAM Symposium
+  on simulation and identication of organized structures in flows\/} (ed.
+  \ed{J.N. Sorensen, E.J. Hopfinger \& N.~Aubry})},  \pg{pp. 375--384}.
+  \publ{Lyngby, Denmark: Kluwer Academic Press}.
+
+\bibitem[Hahn(2011)]{Hahn2011}
+{\sc \au{Hahn, C.}} \yr{2011} Design and validation of the new jet facility and
+  anechoic chamber. Masters, The Ohio State University.
+
+\bibitem[Hahn {\em et~al.\/}(2011)Hahn, Kearney-Fischer \& Samimy]{Hahn2011a}
+{\sc \au{Hahn, C.}, \au{Kearney-Fischer, M.} \& \au{Samimy, M.}} \yr{2011}
+  \at{On factors influencing arc filament plasma actuator performance in
+  control of high speed jets}.  \jt{Experiments in Fluids}  \bvol{51}~(6),
+  \pg{1591--1603}.
+
+\bibitem[Haykin(1994)]{Haykin1994}
+{\sc \au{Haykin, S.}} \yr{1994} {\em Neural Networks A Comprehensive
+  Foundation\/}.  \publ{Macmillan College Publishing Company}.
+
+\bibitem[Hileman {\em et~al.\/}(2005)Hileman, Thurow, Caraballo \&
+  Samimy]{Hileman2005}
+{\sc \au{Hileman, J.}, \au{Thurow, B.}, \au{Caraballo, E.~J.} \& \au{Samimy,
+  M.}} \yr{2005}  \at{Large-scale structure evolution and sound emission in
+  high-speed jets: real-time visualization with simultaneous acoustic
+  measurements}.  \jt{Journal of Fluid Mechanics}  \bvol{544},  \pg{277--307}.
+
+\bibitem[Jordan \& Gervais(2008)]{Jordan2008}
+{\sc \au{Jordan, P.} \& \au{Gervais, Y.}} \yr{2008}  \at{Subsonic jet
+  aeroacoustics: associating experiment, modelling and simulations}.
+  \jt{Experiments in Fluids}  \bvol{44},  \pg{1--21}.
+
+\bibitem[Jordan {\em et~al.\/}(2007)Jordan, Schlegel, Stalnov, Noack \&
+  Tinney]{Jordan2007}
+{\sc \au{Jordan, P.}, \au{Schlegel, M.}, \au{Stalnov, O.}, \au{Noack, B.R.} \&
+  \au{Tinney, C.E.}} \yr{2007} Identifying noisy and quiet modes in a jet.
+  \bt{In {\em 13th AIAA/CEAS Aeroacoustics Conference (28th AIAA Aeroacoustics
+  Conference)\/}}, ,  \vol{vol. Paper 2007-3602}.
+
+\bibitem[Kearney-Fischer {\em et~al.\/}(2009)Kearney-Fischer, Kim \&
+  Samimy]{Kearney-Fischer2009}
+{\sc \au{Kearney-Fischer, M.}, \au{Kim, J.-H.} \& \au{Samimy, M.}} \yr{2009}
+  \at{Control of a high reynolds number mach 0.9 heated jet using plasma
+  actuators}.  \jt{Physics of Fluids}  \bvol{21},  \pg{095101}.
+
+\bibitem[Kearney-Fischer {\em et~al.\/}(2013)Kearney-Fischer, Sinha \&
+  Samimy]{Kearney-Fischer2013}
+{\sc \au{Kearney-Fischer, M.}, \au{Sinha, A.} \& \au{Samimy, M.}} \yr{2013}
+  \at{Intermittent nature of subsonic jet noise}.  \jt{AIAA Journal}
+  \bvol{51}~(5),  \pg{1142--1155}.
+
+\bibitem[Lasagna {\em et~al.\/}(2015)Lasagna, Fronges, Orazi \&
+  Iuso]{Lasagna2015}
+{\sc \au{Lasagna, D.}, \au{Fronges, L.}, \au{Orazi, M.} \& \au{Iuso, G.}}
+  \yr{2015}  \at{Nonlinear multi-time-delay stochastic estimation: Application
+  to cavity flow and turbulent channel flow}.  \jt{AIAA Journal}
+  \bvol{53}~(10),  \pg{2920--2935}.
+
+\bibitem[Noack {\em et~al.\/}(2008)Noack, Afanasiev, Morzynski, Tadmor \&
+  Thiele]{Noack2008}
+{\sc \au{Noack, B.~R.}, \au{Afanasiev, K.}, \au{Morzynski, M.}, \au{Tadmor, G.}
+  \& \au{Thiele, F.}} \yr{2008}  \at{A hierarchy of low-dimensional models for
+  the transient and post-transient cylinder wake}.  \jt{Journal of Flui}
+  \bvol{497},  \pg{103--148}.
+
+\bibitem[Obrist(2011)]{Obrist2011}
+{\sc \au{Obrist, D.}} \yr{2011}  \at{Acoustic emissions from convected wave
+  packets}.  \jt{Physics of Fluids}  \bvol{23},  \pg{026101}.
+
+\bibitem[Ribner(1962)]{Ribner1962}
+{\sc \au{Ribner, H.~S.}} \yr{1962}  \bt{Aerodynamic sound from fluid
+  dilatations}. UTIA Report~86.  \org{Institute of Aerophysics, University of
+  Toronto}.
+
+\bibitem[Schmid(2010)]{Schmid2010}
+{\sc \au{Schmid, P.}} \yr{2010}  \at{Dynamic mode decomposition of numerical
+  and experimental data}.  \jt{Journal of Fluid Mechanics}  \bvol{656},
+  \pg{5--28}.
+
+\bibitem[Sinha {\em et~al.\/}(2012)Sinha, Alkandry, Kearney-Fischer, Samimy \&
+  Colonius]{Sinha2012}
+{\sc \au{Sinha, A.}, \au{Alkandry, H.}, \au{Kearney-Fischer, M.}, \au{Samimy,
+  M.} \& \au{Colonius, T.}} \yr{2012}  \at{The impulse response of a high-speed
+  jet forced with localized arc filament plasma actuators}.  \jt{Physics of
+  Fluids}  \bvol{24},  \pg{125104}.
+
+\bibitem[Sinha {\em et~al.\/}(2010)Sinha, Serrani \& Samimy]{Sinha2010}
+{\sc \au{Sinha, A.}, \au{Serrani, A.} \& \au{Samimy, M.}} \yr{2010}
+  \at{Initial development of reduced-order models for feedback control of
+  axisymmetric jets}.  \jt{International Journal of Flow Control}
+  \bvol{2}~(1),  \pg{39--60}.
+
+\bibitem[Sirovich(1987)]{Sirovich1987}
+{\sc \au{Sirovich, L.}} \yr{1987}  \at{Turbulence and the dynamics of coherent
+  structures, parts i-iii}.  \jt{Quarterly of Applied Mathematics}
+  \bvol{XLV}~(3),  \pg{561--590}.
+
+\bibitem[Tam(1995)]{Tam1995}
+{\sc \au{Tam, C. K.~W.}} \yr{1995}  \at{Supersonic jet noise}.  \jt{Annual
+  Review of Fluid Mechanics}  \bvol{27},  \pg{17--43}.
+
+\bibitem[Tam {\em et~al.\/}(1996)Tam, Golebiowski \& Seiner]{Tam1996}
+{\sc \au{Tam, C. K.~W.}, \au{Golebiowski, M.} \& \au{Seiner, J.~M.}} \yr{1996}
+  On the two components of turbulent mixing noise from supersonic jets.  \bt{In
+  {\em 2nd AIAA/CEAS Aeroacoustics Conference\/}}.
+
+\bibitem[Tam {\em et~al.\/}(2008)Tam, Viswanathan, Ahuja \& Panda]{Tam2008}
+{\sc \au{Tam, C. K.~W.}, \au{Viswanathan, K.}, \au{Ahuja, K.} \& \au{Panda,
+  J.}} \yr{2008}  \at{The source of jet noise: Experimental evidence}.
+  \jt{Journal of Fluid Mechanics}  \bvol{615},  \pg{253--292}.
+
+\bibitem[Tinney {\em et~al.\/}(2006)Tinney, Coiffet, Delville, Hall, Jordan \&
+  Glauser]{Tinney2006}
+{\sc \au{Tinney, C.~E.}, \au{Coiffet, F.}, \au{Delville, J.}, \au{Hall, A.~M.},
+  \au{Jordan, P.} \& \au{Glauser, M.~N.}} \yr{2006}  \at{On spectral linear
+  stochastic estimation}.  \jt{Experiments in Fluids}  \bvol{41},
+  \pg{763--775}.
+
+\bibitem[Tinney {\em et~al.\/}(2008)Tinney, Eukeiley \& Glauser]{Tinney2008b}
+{\sc \au{Tinney, C.~E.}, \au{Eukeiley, L.~S.} \& \au{Glauser, M.~N.}} \yr{2008}
+   \at{Low-dimensional characteristics of a transonic jet. part 2. estimate and
+  far-field prediction}.  \jt{Journal of Fluid Mechanics}  \bvol{615},
+  \pg{53--92}.
+
+\bibitem[Utkin {\em et~al.\/}(2007)Utkin, Keshav, Kim, Kastner, Adamovich \&
+  Samimy]{Utkin2007}
+{\sc \au{Utkin, Y.}, \au{Keshav, S.}, \au{Kim, J.-H.}, \au{Kastner, J.},
+  \au{Adamovich, I.} \& \au{Samimy, M.}} \yr{2007}  \at{Development and use of
+  localized arc filament plasma actuators for high-speed flow control}.
+  \jt{Journal of Physics D: Applied Physics}  \bvol{40}~(3),  \pg{685--694}.
+
+\bibitem[Viswanathan(2006)]{Viswanathan2006}
+{\sc \au{Viswanathan, K.}} \yr{2006}  \at{Scaling laws and a method for
+  identifying components of jet noise}.  \jt{AIAA Journal}  \bvol{44}~(10),
+  \pg{2274--2285}.
+
+\end{thebibliography}

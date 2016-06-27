@@ -1,0 +1,55 @@
+% This is file JFM2esam.tex
+% first release v1.0, 20th October 1996
+%       release v1.01, 29th October 1996
+%       release v1.1, 25th June 1997
+%       release v2.0, 27th July 2004
+%       release v3.0, 16th July 2014
+%   (based on JFMsampl.tex v1.3 for LaTeX2.09)
+% Copyright (C) 1996, 1997, 2014 Cambridge University Press
+
+\documentclass{jfm}
+\usepackage{graphicx}
+\usepackage{epstopdf, epsfig,subfig}
+
+% Macros for consistent formatting
+\newcommand*{\fig}[1]{Fig.~\ref{#1}}
+\newcommand*{\sect}[1]{\S\ref{#1}}
+
+\title{Aeroacoustic Source Mechanisms in High-Speed Jets}
+
+\author{Michael Crawley\aff{1},
+  Lior Gefen\aff{2},
+  Ching-Wen Kuo\aff{3},
+  Mo Samimy\aff{3}\corresp{\email{Samimy.1@osu.edu}}
+ \and Roberto Camussi\aff{2}}
+
+\affiliation{\aff{1}Department of Chemical Engineering, University of America,
+Somewhere, IN 12345, USA
+\aff{2}Department of Aerospace and Mechanical Engineering, University of
+Camford, Academic Street, Camford CF3 5QL, UK
+\aff{3}Department of Aerospace and Mechanical Engineering, University of
+Camford, Academic Street, Camford CF3 5QL, UK}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\begin{keywords}
+
+\end{keywords}
+
+\include{sect_introduction}
+\include{sect_methodology}
+\include{sect_velocity_reconstruction}
+\include{sect_acoustic_source}
+
+%Acknowledgements should be included at the end of the paper, before the References section or any appendicies, and should be a separate paragraph without a heading. Several anonymous individuals are thanked for contributions to these instructions.
+
+\bibliographystyle{jfm}
+\bibliography{master.bib}
+
+\end{document}
