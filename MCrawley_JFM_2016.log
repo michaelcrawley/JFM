@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  26 JUN 2016 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  4 JUL 2016 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,59 +173,32 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 \epsfxsize=\dimen106
 \epsfysize=\dimen107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
-Package: subfig 2005/06/28 ver: 1.3 subfig package
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip48
+\subfigcapskip=\skip49
+\subfigcaptopadj=\dimen108
+\subfigbottomskip=\skip50
+\subfigcapmargin=\dimen109
+\subfiglabelskip=\skip51
+\c@subfigure=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@lotdepth=\count94
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen108
-\captionmargin@=\dimen109
-\captionwidth=\dimen110
-\caption@tempdima=\dimen111
-\caption@indent=\dimen112
-\caption@parindent=\dimen113
-\caption@hangindent=\dimen114
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip52
+\subfig@bottom=\skip53
 )
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\ifbot@fig \rule {\text
-width }{.25pt}\fi \vskip 5\p@ \@plus .4\p@ \@minus .4\p@ \begingroup \small \se
-tbox \@tempboxa \hbox {{\normalfont \scshape #1\ifrem@fullpt \else .\fi } #2}\i
-fdim \wd \@tempboxa >\tw@ \hsize \unhbox \@tempboxa \par \else {\centering \unh
-box \@tempboxa \par }\fi \endgroup \global \rem@fullptfalse \global \bot@figfal
-se .
-\c@ContinuedFloat=\count91
-)
-\c@KVtest=\count92
-\sf@farskip=\skip50
-\sf@captopadj=\dimen115
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
-\c@subfigure=\count93
-\c@subfigure@save=\count94
-\c@lofdepth=\count95
-\c@subtable=\count96
-\c@subtable@save=\count97
-\c@lotdepth=\count98
-\sf@top=\skip53
-\sf@bottom=\skip54
-) (./natbib.sty
+(./natbib.sty
 Package: natbib 2000/07/24 7.0a (PWD)
-\bibhang=\skip55
-\bibsep=\skip56
+\bibhang=\skip54
+\bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 508.
-\c@NAT@ctr=\count99
+\c@NAT@ctr=\count95
 ) (./MCrawley_JFM_2016.aux (./sect_introduction.aux)
 (./sect_methodology.aux) (./sect_velocity_reconstruction.aux)
 (./sect_acoustic_source.aux))
@@ -246,21 +219,18 @@ LaTeX Font Info:    ... okay on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen116
+\scratchcounter=\count96
+\scratchdimen=\dimen110
 \scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
+\nofMPsegments=\count97
+\nofMParguments=\count98
 \everyMPshowfont=\toks17
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen117
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen111
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
 \everyMPtoPDFconversion=\toks18
 )
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for U+msa on input line 36.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -333,48 +303,99 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [8
 
 
-]) [9]
+] [9]
+<Figures/ch4_St005_lambda.png, id=51, 517.09184pt x 524.6802pt>
+File: Figures/ch4_St005_lambda.png Graphic file (type png)
+
+<use Figures/ch4_St005_lambda.png>
+Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
+(pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
+
+
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 10 undefined
+ on input line 91.
+
+
+LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 10 undefined on
+ input line 92.
+
+[10] <Figures/ch4_St025_lambda.png, id=56, 594.5412pt x 655.0071pt>
+File: Figures/ch4_St025_lambda.png Graphic file (type png)
+
+<use Figures/ch4_St025_lambda.png>
+Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
+(pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
+ [11 <./Figures/ch4_St005_lambda.png>]
+
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 12 undefined
+ on input line 129.
+
+[12] <Figures/ch4_St035_lambda_evolution.png, id=66, 589.2414pt x 502.7583pt>
+File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
+
+<use Figures/ch4_St035_lambda_evolution.png>
+Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
+ine 147.
+(pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
+ [13 <./Figures/ch4_St025_lambda.png>]
+
+LaTeX Warning: Reference `fig:ch3_farfield' on page 14 undefined on input line 
+153.
+
+
+LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 14 undefined on input line 1
+53.
+
+) [14 <./Figures/ch4_St035_lambda_evolution.png>] [15]
 \openout2 = `sect_acoustic_source.aux'.
 
 
-(./sect_acoustic_source.tex) [10
+(./sect_acoustic_source.tex) [16
 
 
-] (./MCrawley_JFM_2016.bbl [11
+] (./MCrawley_JFM_2016.bbl
+Underfull \vbox (badness 6380) has occurred while \output is active []
 
-]) [12]
-(./MCrawley_JFM_2016.aux (./sect_introduction.aux) (./sect_methodology.aux)
-(./sect_velocity_reconstruction.aux) (./sect_acoustic_source.aux)) ) 
+ [17
+
+])
+[18] (./MCrawley_JFM_2016.aux (./sect_introduction.aux) (./sect_methodology.aux
+) (./sect_velocity_reconstruction.aux) (./sect_acoustic_source.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4076 strings out of 493085
- 58208 string characters out of 6136917
- 128558 words of memory out of 5000000
- 7475 multiletter control sequences out of 15000+600000
- 14998 words of font info for 57 fonts, out of 8000000 for 9000
+ 3083 strings out of 493085
+ 40068 string characters out of 6136917
+ 107133 words of memory out of 5000000
+ 6480 multiletter control sequences out of 15000+600000
+ 15617 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,42p,820b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb>
-Output written on MCrawley_JFM_2016.pdf (12 pages, 382885 bytes).
+ 42i,9n,28p,820b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb>
+Output written on MCrawley_JFM_2016.pdf (18 pages, 5301332 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+ 154 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
