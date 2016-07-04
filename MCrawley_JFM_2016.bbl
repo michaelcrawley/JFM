@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{42}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
   \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
@@ -68,6 +68,11 @@
 {\sc \au{Freund, J.~B.}, \au{Lele, S.~K.} \& \au{Moin, P.}} \yr{2000}
   \at{Numerical simulation of a mach 1.92 turbulent jet and its sound field}.
   \jt{AIAA Journal}  \bvol{38}~(11),  \pg{2023--2031}.
+
+\bibitem[Glauser \& George(1987)]{Glauser1987}
+{\sc \au{Glauser, M.~N.} \& \au{George, W.~K.}} \yr{1987}  \at{Orthogonal
+  decomposition of the axisymmetric jet mixing layer including azimuthal
+  dependence}.  \jt{Advances in Turbulence}  \pg{pp. 357--366}.
 
 \bibitem[Hahn(2011)]{Hahn2011}
 {\sc \au{Hahn, C.}} \yr{2011} Design and validation of the new jet facility and

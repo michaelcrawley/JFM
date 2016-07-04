@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  4 JUL 2016 13:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  4 JUL 2016 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -311,6 +311,22 @@ File: Figures/ch4_St005_lambda.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
 (pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
 
+<Figures/ch4_centerline_mach_temporal.png, id=53, 385.07864pt x 202.71735pt>
+File: Figures/ch4_centerline_mach_temporal.png Graphic file (type png)
+
+<use Figures/ch4_centerline_mach_temporal.png>
+Package pdftex.def Info: Figures/ch4_centerline_mach_temporal.png used on input
+ line 77.
+(pdftex.def)             Requested size: 252.94499pt x 133.16284pt.
+
+<Figures/ch4_rawUx_acceleration.png, id=54, 384.59685pt x 204.0423pt>
+File: Figures/ch4_rawUx_acceleration.png Graphic file (type png)
+
+<use Figures/ch4_rawUx_acceleration.png>
+Package pdftex.def Info: Figures/ch4_rawUx_acceleration.png used on input line 
+83.
+(pdftex.def)             Requested size: 252.94499pt x 134.19507pt.
+
 
 LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 10 undefined
  on input line 91.
@@ -319,25 +335,28 @@ LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 10 undefined
 LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 10 undefined on
  input line 92.
 
-[10] <Figures/ch4_St025_lambda.png, id=56, 594.5412pt x 655.0071pt>
+[10] <Figures/ch4_St025_lambda.png, id=58, 594.5412pt x 655.0071pt>
 File: Figures/ch4_St025_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St025_lambda.png>
 Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
 (pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
  [11 <./Figures/ch4_St005_lambda.png>]
+[12 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
+ion.png>]
 
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 12 undefined
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 13 undefined
  on input line 129.
 
-[12] <Figures/ch4_St035_lambda_evolution.png, id=66, 589.2414pt x 502.7583pt>
+[13 <./Figures/ch4_St025_lambda.png>]
+<Figures/ch4_St035_lambda_evolution.png, id=75, 589.2414pt x 502.7583pt>
 File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
 
 <use Figures/ch4_St035_lambda_evolution.png>
 Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
 ine 147.
 (pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
- [13 <./Figures/ch4_St025_lambda.png>]
+
 
 LaTeX Warning: Reference `fig:ch3_farfield' on page 14 undefined on input line 
 153.
@@ -346,33 +365,33 @@ LaTeX Warning: Reference `fig:ch3_farfield' on page 14 undefined on input line
 LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 14 undefined on input line 1
 53.
 
-) [14 <./Figures/ch4_St035_lambda_evolution.png>] [15]
+) [14] [15 <./Figures/ch4_St035_lambda_evolution.png>]
 \openout2 = `sect_acoustic_source.aux'.
 
 
-(./sect_acoustic_source.tex) [16
+(./sect_acoustic_source.tex [16
 
 
-] (./MCrawley_JFM_2016.bbl
+]) [17] (./MCrawley_JFM_2016.bbl
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
- [17
+ [18
 
 ])
-[18] (./MCrawley_JFM_2016.aux (./sect_introduction.aux) (./sect_methodology.aux
+[19] (./MCrawley_JFM_2016.aux (./sect_introduction.aux) (./sect_methodology.aux
 ) (./sect_velocity_reconstruction.aux) (./sect_acoustic_source.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3083 strings out of 493085
- 40068 string characters out of 6136917
- 107133 words of memory out of 5000000
- 6480 multiletter control sequences out of 15000+600000
+ 3094 strings out of 493085
+ 40473 string characters out of 6136917
+ 107169 words of memory out of 5000000
+ 6489 multiletter control sequences out of 15000+600000
  15617 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,28p,820b,290s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,28p,820b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -392,10 +411,10 @@ st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msam10.pfb>
-Output written on MCrawley_JFM_2016.pdf (18 pages, 5301332 bytes).
+Output written on MCrawley_JFM_2016.pdf (19 pages, 6135158 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 162 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

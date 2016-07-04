@@ -30,23 +30,23 @@ Ribner's analysis then assumes that the full density and velocity fields can be 
 In this way, acoustic pressure field is ultimately linked to the time rate of change of the dilatation (see \citet{Ristorcelli1997} for a very enlightening perturbation analysis which makes this relationship far more clear).
 Numerous researchers have used the dilatation field to examine the aeroacoustic phenomena (primarily using DNS or LES simulations); see \citet{Mitchell1995}, \citet{Colonius1997}, or \citet{Freund2000} for examples.
 
-%\section{Numerical Methodology}
-%Computing the aeroacoustic source per Ribner's dilatation method from the estimated, time-resolved velocity field constitutes a three-step process. 
-%First, the solenoidal velocity field is computed via the Helmholtz' decomposition; the double divergence of the resulting stress tensor is then used as the source of Poisson's equation to calculate the pseudo-pressure field. 
-%Finally, the pseudo-pressure field is filtered in time using an energy threshold in the wavelet domain, and the second time derivative of the resultant field is computed, producing the source field.
-%This process is outlined in the following sections.
-%\subsubsection{Helmholtz Decomposition}
-%For a given vector field, $\mathbf{F}$, Helmholtz's theorem states that any sufficiently smooth vector field can be linearly decomposed into irrotational and solenoidal vector fields, as
-%\begin{equation}
-%\mathbf{F} = \mathbf{F}_{potential} + \mathbf{F}_{rotational} = \nabla \Phi + \nabla \times \Psi
-%\end{equation}
-%where $\Phi$ is a scalar field and $\Psi$ is a vector field.
-%From basic vector calculus properties, one can therefore compute these solenoidal and irrotational components by taking the divergence of this equation, leading to:
-%\begin{equation}
-%\nabla \cdot \mathbf{F} = \nabla^{2} \Phi
-%\end{equation}
-%which is simply Poisson's equation, where in the context of a velocity decomposition the forcing term is simply the divergence of the flow field (that is, the dilatation).
-%
+\subsection{Numerical Methodology}
+Computing the aeroacoustic source per Ribner's dilatation method from the estimated, time-resolved velocity field constitutes a three-step process. 
+First, the solenoidal velocity field is computed via the Helmholtz' decomposition; the double divergence of the resulting stress tensor is then used as the source of Poisson's equation to calculate the pseudo-pressure field. 
+Finally, the pseudo-pressure field is filtered in time using an energy threshold in the wavelet domain, and the second time derivative of the resultant field is computed, producing the source field.
+This process is outlined in the following sections.
+\subsubsection{Helmholtz Decomposition}
+For a given vector field, $\mathbf{F}$, Helmholtz's theorem states that any sufficiently smooth vector field can be linearly decomposed into irrotational and solenoidal vector fields, as
+\begin{equation}
+\mathbf{F} = \mathbf{F}_{potential} + \mathbf{F}_{rotational} = \nabla \Phi + \nabla \times \Psi
+\end{equation}
+where $\Phi$ is a scalar field and $\Psi$ is a vector field.
+From basic vector calculus properties, one can therefore compute these solenoidal and irrotational components by taking the divergence of this equation, leading to:
+\begin{equation}
+\nabla \cdot \mathbf{F} = \nabla^{2} \Phi
+\end{equation}
+which is simply Poisson's equation, where in the context of a velocity decomposition the forcing term is simply the divergence of the flow field (that is, the dilatation).
+
 %This initially presents a quandary for the researcher, as only planar PIV measurements are available, and hence the azimuthal velocity and derivative terms are unknown.
 %As mentioned previously, the flow-field in a natural, high Reynolds number jet is a combination of numerous azimuthal Fourier modes.
 %Though the velocity field has been found to contain a significant amount of energy at the higher order modes, the axisymmetric mode is still the dominant mode within the potential core region of the jet \citep{Glauser1987}.
