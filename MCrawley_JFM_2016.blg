@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: MCrawley_JFM_2016.aux
 A level-1 auxiliary file: sect_introduction.aux
 A level-1 auxiliary file: sect_methodology.aux
+A level-1 auxiliary file: sect_nearfield.aux
 A level-1 auxiliary file: sect_velocity_reconstruction.aux
 A level-1 auxiliary file: sect_acoustic_source.aux
 A level-1 auxiliary file: sect_conclusion.aux
@@ -12,45 +13,45 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--there's a number but no series in Baqui2014
 Warning--there's a number but no series in Speth2014
 Warning--there's a number but no series in Tam1996
-You've used 49 entries,
+You've used 54 entries,
             3068 wiz_defined-function locations,
-            1021 strings with 13165 characters,
-and the built_in function-call counts, 26186 in all, are:
-= -- 2367
-> -- 1148
-< -- 29
-+ -- 460
-- -- 393
-* -- 2770
-:= -- 4369
-add.period$ -- 102
-call.type$ -- 49
-change.case$ -- 386
-chr.to.int$ -- 49
-cite$ -- 52
-duplicate$ -- 1379
-empty$ -- 2128
-format.name$ -- 460
-if$ -- 5147
+            1054 strings with 13968 characters,
+and the built_in function-call counts, 29102 in all, are:
+= -- 2634
+> -- 1286
+< -- 31
++ -- 515
+- -- 441
+* -- 3101
+:= -- 4848
+add.period$ -- 112
+call.type$ -- 54
+change.case$ -- 427
+chr.to.int$ -- 54
+cite$ -- 57
+duplicate$ -- 1523
+empty$ -- 2356
+format.name$ -- 519
+if$ -- 5714
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 46
-newline$ -- 152
-num.names$ -- 198
-pop$ -- 360
+missing$ -- 51
+newline$ -- 167
+num.names$ -- 218
+pop$ -- 396
 preamble$ -- 1
-purify$ -- 326
+purify$ -- 362
 quote$ -- 0
-skip$ -- 620
+skip$ -- 679
 stack$ -- 0
-substring$ -- 1488
-swap$ -- 498
+substring$ -- 1670
+swap$ -- 552
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 438
+type$ -- 483
 warning$ -- 3
-while$ -- 218
+while$ -- 243
 width$ -- 0
-write$ -- 543
+write$ -- 598
 (There were 3 warnings)

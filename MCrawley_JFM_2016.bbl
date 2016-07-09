@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{54}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
   \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
@@ -56,10 +56,27 @@
   turbulent jets}.  \jt{Journal of Fluid Mechanics}  \bvol{730},
   \pg{559--592}.
 
+\bibitem[Coiffet {\em et~al.\/}(2006)Coiffet, Jordan, Delville, Gervais \&
+  Ricaud]{Coiffet2006}
+{\sc \au{Coiffet, F.}, \au{Jordan, P.}, \au{Delville, J.}, \au{Gervais, Y.} \&
+  \au{Ricaud, F.}} \yr{2006}  \at{Coherent structures in subsonic jets: a
+  quasi-irrotational source mechanism?}  \jt{International Journal of
+  Aeroacoustics}  \bvol{5}~(1),  \pg{67 -- 89}.
+
 \bibitem[Colonius {\em et~al.\/}(1997)Colonius, Lele \& Moin]{Colonius1997}
 {\sc \au{Colonius, T.}, \au{Lele, S.} \& \au{Moin, P.}} \yr{1997}  \at{Sound
   generation in a mixing layer}.  \jt{Journal of Fluid Mechanics}  \bvol{330},
   \pg{375--409}.
+
+\bibitem[Crawley {\em et~al.\/}(2015)Crawley, Sinha \& Samimy]{Crawley2015}
+{\sc \au{Crawley, M.}, \au{Sinha, A.} \& \au{Samimy, M.}} \yr{2015}
+  \at{Near-field and acoustic far-field response of a high-speed jet}.
+  \jt{AIAA Journal}  \bvol{53}~(7),  \pg{1894--1909}.
+
+\bibitem[Crighton \& Huerre(1990)]{Crighton1990}
+{\sc \au{Crighton, D.~G.} \& \au{Huerre, P.}} \yr{1990}  \at{Shear-layer
+  pressure fluctuations and superdirective acoustic sources}.  \jt{Journal of
+  Fluid Mechanics}  \bvol{220},  \pg{355--368}.
 
 \bibitem[Durgesh \& Naughton(2010)]{Durgesh2010}
 {\sc \au{Durgesh, V.} \& \au{Naughton, J.~W.}} \yr{2010}  \at{Multi-time-delay
@@ -105,6 +122,11 @@
   high-speed jets: real-time visualization with simultaneous acoustic
   measurements}.  \jt{Journal of Fluid Mechanics}  \bvol{544},  \pg{277--307}.
 
+\bibitem[Hussain \& Reynolds(1970)]{Hussain1970}
+{\sc \au{Hussain, A. K. M.~F.} \& \au{Reynolds, W.~C.}} \yr{1970}  \at{The
+  mechanics of an organized wave in turbulent shear flow}.  \jt{Journal of
+  Fluid Mechanics}  \bvol{41}~(2),  \pg{241--258}.
+
 \bibitem[Jordan \& Gervais(2008)]{Jordan2008}
 {\sc \au{Jordan, P.} \& \au{Gervais, Y.}} \yr{2008}  \at{Subsonic jet
   aeroacoustics: associating experiment, modelling and simulations}.
@@ -116,6 +138,11 @@
   \au{Tinney, C.E.}} \yr{2007} Identifying noisy and quiet modes in a jet.
   \bt{In {\em 13th AIAA/CEAS Aeroacoustics Conference (28th AIAA Aeroacoustics
   Conference)\/}}, ,  \vol{vol. Paper 2007-3602}.
+
+\bibitem[Kambe \& Minota(1983)]{Kambe1983}
+{\sc \au{Kambe, T.} \& \au{Minota, T.}} \yr{1983}  \at{Acoustic wave radiated
+  by head-on collision of two vortex rings}.  \jt{Proceedings of the Royal
+  Society of London. Series A}  \bvol{386},  \pg{277--308}.
 
 \bibitem[Kearney-Fischer {\em et~al.\/}(2009)Kearney-Fischer, Kim \&
   Samimy]{Kearney-Fischer2009}
@@ -170,11 +197,6 @@
 \bibitem[Obrist(2011)]{Obrist2011}
 {\sc \au{Obrist, D.}} \yr{2011}  \at{Acoustic emissions from convected wave
   packets}.  \jt{Physics of Fluids}  \bvol{23},  \pg{026101}.
-
-\bibitem[Papamoschou(2011)]{Papamoschou2011}
-{\sc \au{Papamoschou, D.}} \yr{2011}  \at{Imaging of directional distributed
-  noise sources}.  \jt{Journal of Sound and Vibration}  \bvol{330},
-  \pg{2265--2280}.
 
 \bibitem[Ribner(1962)]{Ribner1962}
 {\sc \au{Ribner, H.~S.}} \yr{1962}  \bt{Aerodynamic sound from fluid
@@ -263,6 +285,11 @@
   \au{Adamovich, I.} \& \au{Samimy, M.}} \yr{2007}  \at{Development and use of
   localized arc filament plasma actuators for high-speed flow control}.
   \jt{Journal of Physics D: Applied Physics}  \bvol{40}~(3),  \pg{685--694}.
+
+\bibitem[Veltin {\em et~al.\/}(2011)Veltin, Day \& McLaughlin]{Veltin2011}
+{\sc \au{Veltin, J.}, \au{Day, B.} \& \au{McLaughlin, D.~K.}} \yr{2011}
+  \at{Correlation of flowfield and acoustic field measurements in high-speed
+  jets}.  \jt{AIAA Journal}  \bvol{49}~(1),  \pg{150--163}.
 
 \bibitem[Viswanathan(2006)]{Viswanathan2006}
 {\sc \au{Viswanathan, K.}} \yr{2006}  \at{Scaling laws and a method for
