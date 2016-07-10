@@ -11,47 +11,48 @@ The style file: jfm.bst
 Database file #1: master.bib.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--there's a number but no series in Baqui2014
+Warning--there's a number but no series in Hall2006
 Warning--there's a number but no series in Speth2014
 Warning--there's a number but no series in Tam1996
-You've used 54 entries,
+You've used 62 entries,
             3068 wiz_defined-function locations,
-            1054 strings with 13968 characters,
-and the built_in function-call counts, 29102 in all, are:
-= -- 2634
-> -- 1286
-< -- 31
-+ -- 515
-- -- 441
-* -- 3101
-:= -- 4848
-add.period$ -- 112
-call.type$ -- 54
-change.case$ -- 427
-chr.to.int$ -- 54
-cite$ -- 57
-duplicate$ -- 1523
-empty$ -- 2356
-format.name$ -- 519
-if$ -- 5714
+            1107 strings with 15282 characters,
+and the built_in function-call counts, 33629 in all, are:
+= -- 3032
+> -- 1510
+< -- 34
++ -- 603
+- -- 519
+* -- 3597
+:= -- 5600
+add.period$ -- 129
+call.type$ -- 62
+change.case$ -- 494
+chr.to.int$ -- 62
+cite$ -- 66
+duplicate$ -- 1750
+empty$ -- 2719
+format.name$ -- 609
+if$ -- 6600
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 51
-newline$ -- 167
-num.names$ -- 218
-pop$ -- 396
+missing$ -- 60
+newline$ -- 191
+num.names$ -- 250
+pop$ -- 463
 preamble$ -- 1
-purify$ -- 362
+purify$ -- 420
 quote$ -- 0
-skip$ -- 679
+skip$ -- 777
 stack$ -- 0
-substring$ -- 1670
-swap$ -- 552
+substring$ -- 1921
+swap$ -- 634
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 483
-warning$ -- 3
-while$ -- 243
+type$ -- 552
+warning$ -- 4
+while$ -- 278
 width$ -- 0
-write$ -- 598
-(There were 3 warnings)
+write$ -- 685
+(There were 4 warnings)

@@ -192,7 +192,7 @@ The mother wavelet was defined as the $5^{th}$-order Battle-Lemarie wavelet; sam
 A threshold of $\epsilon = 8 \sigma_n \sqrt{ \mathrm{log}_e N}$ was used; this value was found by trial-and-error to be the lowest threshold which consistently removed all discontinuities in the temporal derivative of the pressure trace.
 
 Once the pseudo-pressure field has been properly filtered, the aeroacoustic source is simply calculated using second-order finite differences in time (\fig{fig:valid_denoising}).
-To compute the far-field noise, the source field can be spatially-integrated in retarded time, accounting for the propagation delay from each source location to the observer, per \eq{eq:source_integration}; here, this was performed by trapezoidal integration. 
+To compute the far-field noise, the source field can be spatially-integrated in retarded time, accounting for the propagation delay from each source location to the observer, per \eq{eq:source_integration}. 
 \begin{figure}
 	\centering
 	\includegraphics[width = 3.5in]{Figures/ch5_valid_Inst_source.png}

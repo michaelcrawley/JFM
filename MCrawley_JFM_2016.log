@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  9 JUL 2016 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  9 JUL 2016 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,27 +344,89 @@ png)
  <use Figures/ch3_farfield_linearsuperposition_st035_v2.png>
 Package pdftex.def Info: Figures/ch3_farfield_linearsuperposition_st035_v2.png 
 used on input line 74.
-(pdftex.def)             Requested size: 252.94499pt x 164.97168pt.
+(pdftex.def)             Requested size: 172.79883pt x 112.69865pt.
 
 Underfull \vbox (badness 1838) has occurred while \output is active []
 
  [9 <./Figures/ch3_farfield_phavg_v2.png> <./Figures/ch3_farfield_linear_v2.png
->]) [10 <./Figures/ch3_farfield_linearsuperposition_st035_v2.png>] [11]
+>] [10 <./Figures/ch3_farfield_linearsuperposition_st035_v2.png>]
+<Figures/ch3_St000_xcorr_r1D.png, id=68, 336.0555pt x 196.3335pt>
+File: Figures/ch3_St000_xcorr_r1D.png Graphic file (type png)
+
+<use Figures/ch3_St000_xcorr_r1D.png>
+Package pdftex.def Info: Figures/ch3_St000_xcorr_r1D.png used on input line 114
+.
+(pdftex.def)             Requested size: 172.79883pt x 100.9556pt.
+
+<Figures/ch3_St000_xcorr_acoustic.png, id=69, 337.26pt x 196.3335pt>
+File: Figures/ch3_St000_xcorr_acoustic.png Graphic file (type png)
+
+<use Figures/ch3_St000_xcorr_acoustic.png>
+Package pdftex.def Info: Figures/ch3_St000_xcorr_acoustic.png used on input lin
+e 120.
+(pdftex.def)             Requested size: 172.79883pt x 100.5961pt.
+
+<Figures/ToA_tau.png, id=70, 514.13821pt x 259.03296pt>
+File: Figures/ToA_tau.png Graphic file (type png)
+
+<use Figures/ToA_tau.png>
+Package pdftex.def Info: Figures/ToA_tau.png used on input line 166.
+(pdftex.def)             Requested size: 216.81pt x 109.23181pt.
+ [11 <./Figures/ch3_St000_xcorr_r1D.png> <./Figures/ch3_St000_xcorr_acoustic.pn
+g>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+<Figures/St000_r120_ff30xcor_xcor_oa.png, id=76, 337.26pt x 196.3335pt>
+File: Figures/St000_r120_ff30xcor_xcor_oa.png Graphic file (type png)
+
+<use Figures/St000_r120_ff30xcor_xcor_oa.png>
+Package pdftex.def Info: Figures/St000_r120_ff30xcor_xcor_oa.png used on input 
+line 185.
+(pdftex.def)             Requested size: 172.79883pt x 100.5961pt.
+
+<Figures/St005_r120_ff30xcor_xcor_oa.png, id=77, 337.26pt x 196.3335pt>
+File: Figures/St005_r120_ff30xcor_xcor_oa.png Graphic file (type png)
+
+<use Figures/St005_r120_ff30xcor_xcor_oa.png>
+Package pdftex.def Info: Figures/St005_r120_ff30xcor_xcor_oa.png used on input 
+line 191.
+(pdftex.def)             Requested size: 172.79883pt x 100.5961pt.
+
+<Figures/St025_r120_ff30xcor_xcor_oa.png, id=78, 337.26pt x 196.3335pt>
+File: Figures/St025_r120_ff30xcor_xcor_oa.png Graphic file (type png)
+
+<use Figures/St025_r120_ff30xcor_xcor_oa.png>
+Package pdftex.def Info: Figures/St025_r120_ff30xcor_xcor_oa.png used on input 
+line 197.
+(pdftex.def)             Requested size: 172.79883pt x 100.5961pt.
+
+<Figures/St035_r120_ff30xcor_xcor_oa.png, id=79, 337.26pt x 196.3335pt>
+File: Figures/St035_r120_ff30xcor_xcor_oa.png Graphic file (type png)
+
+<use Figures/St035_r120_ff30xcor_xcor_oa.png>
+Package pdftex.def Info: Figures/St035_r120_ff30xcor_xcor_oa.png used on input 
+line 203.
+(pdftex.def)             Requested size: 172.79883pt x 100.5961pt.
+) [12 <./Figures/ToA_tau.png>]
+[13 <./Figures/St000_r120_ff30xcor_xcor_oa.png> <./Figures/St005_r120_ff30xcor_
+xcor_oa.png> <./Figures/St025_r120_ff30xcor_xcor_oa.png> <./Figures/St035_r120_
+ff30xcor_xcor_oa.png>]
 \openout2 = `sect_velocity_reconstruction.aux'.
 
+ (./sect_velocity_reconstruction.tex [14
 
-(./sect_velocity_reconstruction.tex [12
 
-
-] [13]
-<Figures/ch4_St005_lambda.png, id=78, 517.09184pt x 524.6802pt>
+] [15]
+<Figures/ch4_St005_lambda.png, id=98, 517.09184pt x 524.6802pt>
 File: Figures/ch4_St005_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St005_lambda.png>
 Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
 (pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
 
-<Figures/ch4_centerline_mach_temporal.png, id=79, 385.07864pt x 202.71735pt>
+<Figures/ch4_centerline_mach_temporal.png, id=99, 385.07864pt x 202.71735pt>
 File: Figures/ch4_centerline_mach_temporal.png Graphic file (type png)
 
 <use Figures/ch4_centerline_mach_temporal.png>
@@ -372,7 +434,7 @@ Package pdftex.def Info: Figures/ch4_centerline_mach_temporal.png used on input
  line 77.
 (pdftex.def)             Requested size: 252.94499pt x 133.16284pt.
 
-<Figures/ch4_rawUx_acceleration.png, id=80, 384.59685pt x 204.0423pt>
+<Figures/ch4_rawUx_acceleration.png, id=100, 384.59685pt x 204.0423pt>
 File: Figures/ch4_rawUx_acceleration.png Graphic file (type png)
 
 <use Figures/ch4_rawUx_acceleration.png>
@@ -381,48 +443,42 @@ Package pdftex.def Info: Figures/ch4_rawUx_acceleration.png used on input line
 (pdftex.def)             Requested size: 252.94499pt x 134.19507pt.
 
 
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 14 undefined
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 16 undefined
  on input line 91.
 
 
-LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 14 undefined on
+LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 16 undefined on
  input line 92.
 
-[14] <Figures/ch4_St025_lambda.png, id=84, 594.5412pt x 655.0071pt>
+[16] <Figures/ch4_St025_lambda.png, id=104, 594.5412pt x 655.0071pt>
 File: Figures/ch4_St025_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St025_lambda.png>
 Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
 (pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
- [15 <./Figures/ch4_St005_lambda.png>]
-[16 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
+ [17 <./Figures/ch4_St005_lambda.png>]
+[18 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
 ion.png>]
 
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 17 undefined
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 19 undefined
  on input line 129.
 
-[17 <./Figures/ch4_St025_lambda.png>]
-<Figures/ch4_St035_lambda_evolution.png, id=98, 589.2414pt x 502.7583pt>
+[19 <./Figures/ch4_St025_lambda.png>]
+<Figures/ch4_St035_lambda_evolution.png, id=119, 589.2414pt x 502.7583pt>
 File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
 
 <use Figures/ch4_St035_lambda_evolution.png>
 Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
 ine 147.
 (pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
-
-
-LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 18 undefined on input line 1
-53.
-
-) [18] [19 <./Figures/ch4_St035_lambda_evolution.png>]
+) [20] [21 <./Figures/ch4_St035_lambda_evolution.png>]
 \openout2 = `sect_acoustic_source.aux'.
 
-
-(./sect_acoustic_source.tex [20
+ (./sect_acoustic_source.tex [22
 
 
 ]
-<Figures/LES_phavg_streamwise_Ur.png, id=110, 380.1402pt x 199.7061pt>
+<Figures/LES_phavg_streamwise_Ur.png, id=130, 380.1402pt x 199.7061pt>
 File: Figures/LES_phavg_streamwise_Ur.png Graphic file (type png)
 
 <use Figures/LES_phavg_streamwise_Ur.png>
@@ -430,7 +486,7 @@ Package pdftex.def Info: Figures/LES_phavg_streamwise_Ur.png used on input line
  65.
 (pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
 
-<Figures/LES_phavg_streamwise_p.png, id=111, 380.1402pt x 199.7061pt>
+<Figures/LES_phavg_streamwise_p.png, id=131, 380.1402pt x 199.7061pt>
 File: Figures/LES_phavg_streamwise_p.png Graphic file (type png)
 
 <use Figures/LES_phavg_streamwise_p.png>
@@ -438,36 +494,36 @@ Package pdftex.def Info: Figures/LES_phavg_streamwise_p.png used on input line
 70.
 (pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
 
-<Figures/LES_2CDil.png, id=112, 380.1402pt x 203.8014pt>
+<Figures/LES_2CDil.png, id=132, 380.1402pt x 203.8014pt>
 File: Figures/LES_2CDil.png Graphic file (type png)
 
 <use Figures/LES_2CDil.png>
 Package pdftex.def Info: Figures/LES_2CDil.png used on input line 87.
 (pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
 
-<Figures/LES_3CDil.png, id=113, 380.1402pt x 203.8014pt>
+<Figures/LES_3CDil.png, id=133, 380.1402pt x 203.8014pt>
 File: Figures/LES_3CDil.png Graphic file (type png)
 
 <use Figures/LES_3CDil.png>
 Package pdftex.def Info: Figures/LES_3CDil.png used on input line 92.
 (pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
- [21] [22 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
+ [23] [24 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
 se_p.png> <./Figures/LES_2CDil.png> <./Figures/LES_3CDil.png>] <Figures/ch5_val
-id_Inst_Uz.png, id=124, 393.99194pt x 199.947pt>
+id_Inst_Uz.png, id=144, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Uz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Uz.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Uz.png used on input line 129.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_Ur.png, id=125, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_Ur.png, id=145, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Ur.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Ur.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Ur.png used on input line 134.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_solUz.png, id=126, 393.99194pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUz.png, id=146, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUz.png>
@@ -475,7 +531,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUz.png used on input line 13
 9.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_solUr.png, id=127, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUr.png, id=147, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUr.png>
@@ -483,7 +539,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUr.png used on input line 14
 4.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_potUz.png, id=128, 391.58295pt x 204.0423pt>
+<Figures/ch5_valid_Inst_potUz.png, id=148, 391.58295pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_potUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUz.png>
@@ -491,7 +547,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUz.png used on input line 14
 9.
 (pdftex.def)             Requested size: 172.79883pt x 90.0404pt.
 
-<Figures/ch5_valid_Inst_potUr.png, id=129, 391.58295pt x 201.99464pt>
+<Figures/ch5_valid_Inst_potUr.png, id=149, 391.58295pt x 201.99464pt>
 File: Figures/ch5_valid_Inst_potUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUr.png>
@@ -501,25 +557,25 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUr.png used on input line 15
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-<Figures/ch5_valid_Inst_ps.png, id=133, 405.6756pt x 204.0423pt>
+ [25]
+<Figures/ch5_valid_Inst_ps.png, id=154, 405.6756pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_ps.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_ps.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_ps.png used on input line 181.
 (pdftex.def)             Requested size: 252.94499pt x 127.2241pt.
- [24 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
+ [26 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
 ures/ch5_valid_Inst_solUz.png> <./Figures/ch5_valid_Inst_solUr.png> <./Figures/
 ch5_valid_Inst_potUz.png> <./Figures/ch5_valid_Inst_potUr.png>]
 
-LaTeX Warning: Reference `fig:valid_denoising' on page 25 undefined on input li
+LaTeX Warning: Reference `fig:valid_denoising' on page 27 undefined on input li
 ne 194.
 
 
-LaTeX Warning: Reference `eq:source_integration' on page 25 undefined on input 
+LaTeX Warning: Reference `eq:source_integration' on page 27 undefined on input 
 line 195.
 
-<Figures/ch5_valid_Inst_source.png, id=143, 394.71465pt x 215.3646pt>
+<Figures/ch5_valid_Inst_source.png, id=164, 394.71465pt x 215.3646pt>
 File: Figures/ch5_valid_Inst_source.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_source.png>
@@ -527,7 +583,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_source.png used on input line 1
 98.
 (pdftex.def)             Requested size: 252.94499pt x 138.0136pt.
 
-<Figures/ch5_st005_NearField_wvpkts.png, id=144, 389.2944pt x 266.6763pt>
+<Figures/ch5_st005_NearField_wvpkts.png, id=165, 389.2944pt x 266.6763pt>
 File: Figures/ch5_st005_NearField_wvpkts.png Graphic file (type png)
 
 <use Figures/ch5_st005_NearField_wvpkts.png>
@@ -535,7 +591,7 @@ Package pdftex.def Info: Figures/ch5_st005_NearField_wvpkts.png used on input l
 ine 212.
 (pdftex.def)             Requested size: 172.79883pt x 118.37149pt.
 
-<Figures/ch5_st005_FlowField_wvpkts.png, id=145, 409.89136pt x 266.6763pt>
+<Figures/ch5_st005_FlowField_wvpkts.png, id=166, 409.89136pt x 266.6763pt>
 File: Figures/ch5_st005_FlowField_wvpkts.png Graphic file (type png)
 
 <use Figures/ch5_st005_FlowField_wvpkts.png>
@@ -543,7 +599,7 @@ Package pdftex.def Info: Figures/ch5_st005_FlowField_wvpkts.png used on input l
 ine 217.
 (pdftex.def)             Requested size: 172.79883pt x 112.42647pt.
 
-<Figures/ch5_st025_NearField_wvpkts.png, id=146, 409.89136pt x 266.6763pt>
+<Figures/ch5_st025_NearField_wvpkts.png, id=167, 409.89136pt x 266.6763pt>
 File: Figures/ch5_st025_NearField_wvpkts.png Graphic file (type png)
 
 <use Figures/ch5_st025_NearField_wvpkts.png>
@@ -551,88 +607,88 @@ Package pdftex.def Info: Figures/ch5_st025_NearField_wvpkts.png used on input l
 ine 222.
 (pdftex.def)             Requested size: 172.79883pt x 112.42647pt.
 
-<Figures/ch5_st025_FlowField_wvpkts.png, id=147, 409.89136pt x 266.6763pt>
+<Figures/ch5_st025_FlowField_wvpkts.png, id=168, 409.89136pt x 266.6763pt>
 File: Figures/ch5_st025_FlowField_wvpkts.png Graphic file (type png)
 
 <use Figures/ch5_st025_FlowField_wvpkts.png>
 Package pdftex.def Info: Figures/ch5_st025_FlowField_wvpkts.png used on input l
 ine 227.
 (pdftex.def)             Requested size: 172.79883pt x 112.42647pt.
- [25 <./Figures/ch5_valid_Inst_ps.png>] [26 <./Figures/ch5_valid_Inst_source.pn
+ [27 <./Figures/ch5_valid_Inst_ps.png>] [28 <./Figures/ch5_valid_Inst_source.pn
 g> <./Figures/ch5_st005_NearField_wvpkts.png> <./Figures/ch5_st005_FlowField_wv
 pkts.png> <./Figures/ch5_st025_NearField_wvpkts.png> <./Figures/ch5_st025_FlowF
 ield_wvpkts.png>]
-<Figures/ch5_St005_FF_v2.png, id=164, 369.66106pt x 218.85765pt>
+<Figures/ch5_St005_FF_v2.png, id=184, 369.66106pt x 218.85765pt>
 File: Figures/ch5_St005_FF_v2.png Graphic file (type png)
 
 <use Figures/ch5_St005_FF_v2.png>
 Package pdftex.def Info: Figures/ch5_St005_FF_v2.png used on input line 266.
 (pdftex.def)             Requested size: 252.94499pt x 149.75627pt.
 
-<Figures/ch5_St025_FF_v3.png, id=165, 369.66106pt x 186.2157pt>
+<Figures/ch5_St025_FF_v3.png, id=185, 369.66106pt x 186.2157pt>
 File: Figures/ch5_St025_FF_v3.png Graphic file (type png)
 
 <use Figures/ch5_St025_FF_v3.png>
 Package pdftex.def Info: Figures/ch5_St025_FF_v3.png used on input line 272.
 (pdftex.def)             Requested size: 252.94499pt x 127.4206pt.
 
-<Figures/ch5_St035_FF_v3.png, id=166, 366.28845pt x 184.5294pt>
+<Figures/ch5_St035_FF_v3.png, id=186, 366.28845pt x 184.5294pt>
 File: Figures/ch5_St035_FF_v3.png Graphic file (type png)
 
 <use Figures/ch5_St035_FF_v3.png>
 Package pdftex.def Info: Figures/ch5_St035_FF_v3.png used on input line 277.
 (pdftex.def)             Requested size: 252.94499pt x 127.4296pt.
- [27]
-<Figures/ch5_St005_PSL_101.png, id=170, 385.44pt x 203.8014pt>
+ [29]
+<Figures/ch5_St005_PSL_101.png, id=190, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_PSL_101.png Graphic file (type png)
 
 <use Figures/ch5_St005_PSL_101.png>
 Package pdftex.def Info: Figures/ch5_St005_PSL_101.png used on input line 296.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St005_PSL_161.png, id=171, 385.44pt x 203.8014pt>
+<Figures/ch5_St005_PSL_161.png, id=191, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_PSL_161.png Graphic file (type png)
 
 <use Figures/ch5_St005_PSL_161.png>
 Package pdftex.def Info: Figures/ch5_St005_PSL_161.png used on input line 301.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St025_PSL_41.png, id=172, 385.44pt x 203.8014pt>
+<Figures/ch5_St025_PSL_41.png, id=192, 385.44pt x 203.8014pt>
 File: Figures/ch5_St025_PSL_41.png Graphic file (type png)
 
 <use Figures/ch5_St025_PSL_41.png>
 Package pdftex.def Info: Figures/ch5_St025_PSL_41.png used on input line 309.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [28 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
+ [30 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
 /ch5_St035_FF_v3.png>]
 
-LaTeX Warning: Reference `fig:SL_St005' on page 29 undefined on input line 318.
+LaTeX Warning: Reference `fig:SL_St005' on page 31 undefined on input line 318.
 
 
-<Figures/ch5_St005_SL_131.png, id=179, 385.44pt x 203.8014pt>
+<Figures/ch5_St005_SL_131.png, id=199, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_SL_131.png Graphic file (type png)
 
 <use Figures/ch5_St005_SL_131.png>
 Package pdftex.def Info: Figures/ch5_St005_SL_131.png used on input line 326.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St025_SL_1.png, id=180, 385.44pt x 203.8014pt>
+<Figures/ch5_St025_SL_1.png, id=200, 385.44pt x 203.8014pt>
 File: Figures/ch5_St025_SL_1.png Graphic file (type png)
 
 <use Figures/ch5_St025_SL_1.png>
 Package pdftex.def Info: Figures/ch5_St025_SL_1.png used on input line 332.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [29 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
-<Figures/sect_acoustic_source_modulated_source.png, id=186, 465.1779pt x 357.49
-56pt>
+ [31 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
+<Figures/sect_acoustic_source_modulated_source.png, id=207, 465.1779pt x 340.63
+26pt>
 File: Figures/sect_acoustic_source_modulated_source.png Graphic file (type png)
 
  <use Figures/sect_acoustic_source_modulated_source.png>
 Package pdftex.def Info: Figures/sect_acoustic_source_modulated_source.png used
  on input line 351.
-(pdftex.def)             Requested size: 345.59766pt x 265.60631pt.
- [30 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
-es/ch5_St025_SL_1.png>]) [31 <./Figures/sect_acoustic_source_modulated_source.p
+(pdftex.def)             Requested size: 345.59766pt x 253.07771pt.
+ [32 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
+es/ch5_St025_SL_1.png>]) [33 <./Figures/sect_acoustic_source_modulated_source.p
 ng>]
 \openout2 = `sect_conclusion.aux'.
 
@@ -640,13 +696,17 @@ ng>]
 (./sect_conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [34
 
 
 ])
-[33] (./MCrawley_JFM_2016.bbl [34
+[35] (./MCrawley_JFM_2016.bbl [36
 
-] [35]) [36] (./MCrawley_JFM_2016.aux
+]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+ [37]) [38] (./MCrawley_JFM_2016.aux
 (./sect_introduction.aux) (./sect_methodology.aux) (./sect_nearfield.aux)
 (./sect_velocity_reconstruction.aux) (./sect_acoustic_source.aux)
 (./sect_conclusion.aux))
@@ -655,13 +715,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3295 strings out of 493085
- 46508 string characters out of 6136917
- 111505 words of memory out of 5000000
- 6644 multiletter control sequences out of 15000+600000
+ 3340 strings out of 493085
+ 47935 string characters out of 6136917
+ 111989 words of memory out of 5000000
+ 6682 multiletter control sequences out of 15000+600000
  16097 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,29p,820b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,29p,820b,344s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -684,10 +744,10 @@ ic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
 msam10.pfb>
-Output written on MCrawley_JFM_2016.pdf (36 pages, 22241213 bytes).
+Output written on MCrawley_JFM_2016.pdf (38 pages, 26877861 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 310 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 181 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

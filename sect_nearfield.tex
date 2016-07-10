@@ -71,7 +71,7 @@ The phase-averaged waveforms were also investigated at polar angles of $60^\circ
 Additional details and analysis of the phase-averaged near- and far-field signals can be found in \citet{Crawley2015}.
 \begin{figure}
 	\centering
-	\includegraphics[width=3.5in]{Figures/ch3_farfield_linearsuperposition_st035_v2.png}
+	\includegraphics[width=0.45\linewidth]{Figures/ch3_farfield_linearsuperposition_st035_v2.png}
 	\caption{Linear superposition of the phase-averaged impulse response to excitation against the measured periodic response for $St_{DF} = 0.35$ at the  $30^\circ$ far-field microphone.}
 	\label{fig:ch3_farfield_nonlinear}
 \end{figure}
@@ -85,9 +85,7 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 Much of the difficulty in identifying the aeroacoustic source terms revolves around the dissimilar range of scales and fluctuation intensities of the turbulent eddies in the shear layer and the resulting radiated noise. 
 Outside the jet shear layer, in the irrotational near-field of the jet, strong hydrodynamic pressure fluctuations associated directly with the passage of coherent structures in the shear layer and their resultant weak acoustic radiation coexist \citep{Arndt1997}. 
 Beyond this, in the acoustic far-field, the hydrodynamic signature of the coherent structures is nonexistent owing to their strong exponential decay with radial distance.
-Much work has focused in the irrotational near-field, in order to improve the aeroacoustic community's understanding of the link between shear layer turbulence and far-field acoustic radiation. 
-
-Owing to the presence of strong hydrodynamic fluctuations dominating the irrotational pressure field near the noise source regions, identification of pure acoustic waves and their corresponding source events is problematic.
+Owing to this, identification of pure acoustic waves and their corresponding source events is problematic.
 A decomposition of the pressure field into its constitutive hydrodynamic and acoustic components is therefore required. 
 By identification and prediction of coherence nulls in the near field, \citet{Coiffet2006} showed that the full irrotational near-field consistent primarily as a linear superposition of its hydrodynamic and acoustic components, which lead subsequent researchers to propose linear filters to extract the individual components from the near-field pressure, with varying degrees of success. 
 
@@ -97,86 +95,36 @@ Acoustic pressure fluctuations will impinge on the linear microphone array at ob
 Therefore, a demarcaction between the hydrodynamic and acoustic energy components should be readily identifiable about the sonic wavenumber, $k_a = \omega / a_\infty$.
 Decomposition of the irrotational near-field pressure is therefore straightforward in Fourier space.
 
-%\subsection{The Wavelet Transform}
-%Fourier analysis is commonly employed in the aeroacoustics community to study fundamental aspects of jet noise due to its simplicity and the great abundance of information it can provide. 
-%However, there is also a great drawback associated with Fourier analysis: while it analyzes a given signal at a distinct frequency, local information for a given event is spread over all spectral coefficients. 
-%This is due to the fact that the basis functions used by the Fourier transform oscillate indefinitely. 
-%For a signal composed of completely random fluctuations this is not an issue, however it has become increasingly clear that the jet noise phenomenon is not a random process \citep{Kearney-Fischer2013}.
-%Transient events, such as intermittency or the spatial and temporal modulation of a wavepacket, have been shown to be important in the noise generation process. 
-%
-%Morlet \citep{Morlet1981} introduced the wavelet transform in an effort to overcome some of the shortcomings of the Fourier transform.
-%Unlike the Fourier transform, the wavelet transform involves a convolution of the signal with a set of basis functions which decay to zero at the bounds.
-%As a direct result, translation of the basis function in space and/or time is now meaningful. 
-%The basis functions (often referred to as the analyzing or daughter wavelets) are all derived from a single function, the mother wavelet, which must satisfy certain criteria \citep{Farge1992},
-%Most notable of these criteria is that of admissibility, which in essence requires that the wavelet must be of finite energy. 
-%In practice, it is also helpful to choose a mother wavelet which is well-localized in both the spatio-temporal domain and the frequency domain. 
-%For a given mother wavelet, $\psi (\vec{x})$, the daughter wavelets can be constructed as
-%\begin{equation}
-%	\psi_d \left( \vec{x};s,\vec{\tau},\theta \right) = s^{-n/2} \psi \left( s^{-1} r_{-\theta} \left(\vec{x}-\vec{\tau} \right) \right) \
-%	\label{eq:daughter_wavelets}
-%\end{equation}
-%where $s$ is the scale factor, $\vec{\tau}$ the translation parameter, and in the case of a multidimensional transform, $r_{-\theta}$ is the rotation vector (which can be neglected for an isotropic mother wavelet). 
-%The $s^{-n/2}$ factor ensures constant energy across all dilations. 
-%For a specific scale, translation, and rotation, the wavelet transform then becomes
-%\begin{equation}
-%	\tilde{f} \left( s, \vec{\tau}, \theta \right) = \int_{\mathbb{R}^n} f \left( \vec{x} \right) \psi^*_d \left( \vec{x};s,\vec{\tau},\theta \right) d^n \vec{x}.
-%\end{equation}
-%
-%Because the basis functions of the wavelet transform are of finite energy, the locality of information in the original signal is preserved in the wavelet coefficients. 
-%This allows the identification, analysis, and reconstruction of localized events in the original signal, something not possible with the Fourier transform, which spreads temporal/spatial information over all transform coefficients. 
-%This has enabled previous researchers to perform a range of new analysis techniques to turbulence and acoustic phenomena not possible with the traditional Fourier transform. An excellent review of the development of wavelet analysis as well as applications to turbulence can be found in Farge \citep{Farge1992}.
-%
-%Use of a multidimensional, continuous wavelet transform to extract intermittent events with a specific phase-velocity is not immediately straightforward, due to the global nature of the scale factor. 
-%A `speed-tuning' parameter, $c$, was introduced to the wavelet transform (now specifically referred to as a \textit{spatio-temporal} wavelet transform) by Antoine \etal \citep{Antoine2004}, who used it for use in motion tracking and identification in two-dimensional images. 
-%The definition for the daughter wavelets (\ref{eq:daughter_wavelets}) is modified to
-%\begin{equation}
-%	\psi_d \left( \vec{x}, t;s,\vec{x}', t' \right) = s^{-n/2} \psi \left(s^{-1} c^{-1/n} (\vec{x}-\vec{x}'), s^{-1} c^{(n-1)/n} (t-t') \right)
-%\end{equation} 
-%where $n$ corresponds to the total number of dimensions (temporal and spatial).
-%
+However, there is also a great drawback associated with Fourier analysis: while it analyzes a given signal at a distinct frequency, local information for a given event is spread over all spectral coefficients. 
+This is due to the fact that the basis functions used by the Fourier transform oscillate indefinitely. 
+For a signal composed of completely random fluctuations this is not an issue, however it has become increasingly clear that the jet noise phenomenon is not a random process \citep{Kearney-Fischer2013}.
+Transient events, such as intermittency or the spatial and temporal modulation of a wavepacket, have been shown to be important in the noise generation process. 
+It was for this reason that a continuous spatio-temporal wavelet filter, based off of the work of \cite{Antoine2004} and \cite{Kikuchi2010}, was instead used in the current work to decompose the acoustic and hydrodynamic near-fields based on phase-velocity.
+It has been shown that by using a temporally/spatially localized fluctuation as a basis, the wavelet transform compresses the information in a turbulent field much more efficiently (and accurately) than the Fourier transform \citep{Farge1992}.
+A much more detailed explanation of the spatio-temporal wavelet transform, the justification for its use in decomposing the near-field pressure, and validation of the methodology using the current database can be found in \citet{Crawley2016}. 
 
-
-%
-%In the case of a subsonically-convecting jet, the conceptual basis behind the Fourier decomposition algorithm is not in error (excluding the periodicity assumed by the Fourier transform). 
-%Instead, the practical requirements of discretely sampled microphones spanning a finite region in space, in addition to noise in the data acquisition, lead to numerical artifacts in the reconstructions. 
-%The Fourier transform required an extensive axial array of microphones (16 microphones spanning $21D$ in the current study) in order to accurately represent the pressure fluctuations (the array was originally designed with the intent of using the  Fourier-based decomposition).  
-%This is because the basis functions (trigonometric function) used in the Fourier transform are not physically representative of the physical phenomena under study. 
-%As discussed previously, the turbulent jet (and resultant acoustic field) is highly intermittent. 
-%Even with the excitation producing regular large-scale structures, these, as well as the resultant acoustic emissions, exist as temporally and spatially localized energy bursts, rather that space-filling sinusoidal waves (as assumed by the Fourier transform). 
-%It has been shown that by using a temporally/spatially localized fluctuation as a basis, the wavelet transform compresses the information in a turbulent field much more efficiently (and accurately) than the Fourier transform \citep{Farge1992}.
-%
-%Though there are some relatively minor discrepancies between the expected acoustic near-field and the one produced by the spatio-temporal wavelet filter, overall the results are promising.
-%The decomposition algorithm is extracting hydrodynamic and acoustic fields which accurately reproduce the expected radial and frequency decay rates per theoretical analysis over the large domain investigated in this work (both in terms of spatial and frequency/wavenumber extent).
-%Additionally, this accuracy is also not just a statistical phenomenon, as the decomposition algorithm is also found to accurately identify and reconstruct strongly-energetic, localized bursts of energy in the constitutive fields. 
-%Based on these results, the author felt confident that the decomposed acoustic field produced by the spatio-temporal wavelet filter was highly representative of the true acoustic near-field.
-
-%Correlation analysis has long been used by researchers as a simple tool to quantify the relationship between two or more signals separated either by space or time.
-%In its simplest form, two-point correlations measure the similarity and phase delay by a linear convolution of two signals.
-%It is perhaps unsurprising then that two-point correlations are ubiquitous in fluid dynamics research.
-%In this work, they will be used to better understand the relationship between the near-field dynamics and the acoustic radiation reaching the far field at aft angles.
-%Correlations were computed (using the measured signals, as opposed to the phase-averaged waveforms) between each microphone in the near field and the far-field microphone at $30^\circ$. 
-%The correlations were then examined in the spatio-temporal domain, which showed distinct regions of positive and negative correlation spanning several jet diameters and flow time scales.
-%\begin{figure}
-%	\centering
+By decomposing the irrotational near-field pressure, the relationship between the near- and far-field can be more easily elucidated. 
+Two-point correlations were computed using both the full near-field and the acoustic near-field component, between each microphone in the near field and the far-field microphone at $30^\circ$; results can be found in \ref{fig:ch3_full_vs_partial_xcorr}. 
+Examination in the spatio-temporal domain shows distinct regions of positive and negative correlation spanning several jet diameters and flow time scales.
+The time lag, $\tau$, in the figures have been non-dimensionalized by the ambient speed of sound, $a_\infty$, and $R$, the distance from each near-field microphone to the far-field microphone (note that this results in an ordinate that is scaled separately along the abscissa, due to the dependence of the axial position on $R$).
+\begin{figure}
+	\centering
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r1D.png}
+		\includegraphics[width=0.45\linewidth]{Figures/ch3_St000_xcorr_r1D.png}
 %		\caption{$r/D = 1.2$}
 %		\label{fig:ch3_fullxcorr_r1D}
 %	\end{subfigure}%
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/ch3_St000_xcorr_r4D.png}
+		\includegraphics[width=0.45\linewidth]{Figures/ch3_St000_xcorr_acoustic.png}
 %		\caption{$r/D = 4.2$}
 %		\label{fig:ch3_fullxcorr_r4D}
 %	\end{subfigure}
-%	\caption{Normalized two-point correlations for the natural jet between the near field and the far field at $30^\circ$ for two microphone array positions.}
-%	\label{fig:ch3_fullxcorr}
-%\end{figure}
-%
-%This behavior can be observed in \fig{fig:ch3_fullxcorr}, where the two-point correlations between the near-field and the far-field at $30^\circ$ for two microphone array positions (starting at $x/D = 1, r/D = 1.20$ and $x/D = 1, r/D = 4.20$) have been plotted.
-%The time lag, $\tau$, in the figures have been non-dimensionalized by the ambient speed of sound, $a_\infty$, and $R$, the distance from each near-field microphone to the far-field microphone (note that this results in an ordinate that is scaled separately along the abscissa, due to the dependence of the axial position on $R$).
-%Therefore, $\tau a_\infty /R = 1$ corresponds to the time delay for an acoustic wave to travel directly from the near-field microphone to the far-field microphone.
+	\caption{Normalized two-point correlations for the natural jet between the near field and the far field at $30^\circ$ for the full near-field pressure (a) and the acoustic component only (b).}
+	\label{fig:ch3_full_vs_partial_xcorr}
+\end{figure}
+
 %
 %Near the jet shear layer (\fig{fig:ch3_fullxcorr_r1D}), four distinct correlation regions can be observed: two positive, two negative; one strong and one weak for each. 
 %The first correlation regions, the strong-negative and weak-positive, are noticeable beginning at the most upstream microphone and reach their peak values around $5 < x/D < 10$, decaying significantly beyond that.
@@ -196,7 +144,6 @@ Decomposition of the irrotational near-field pressure is therefore straightforwa
 %This relationship becomes even more clear when just the acoustic component of the near-field is considered during computation of the two-point correlations, rather than the full irrotational near-field. 
 %Gone entirely now are the correlation regions with subsonic propagation velocities, even at the closest microphone array positions, as can be seen in \fig{fig:ch3_St000_acoustic}.
 %Instead, a single positive correlation region corresponding to sonically-propagating waves exists over the entire domain with significantly enhanced correlation over the full field results. 
-%In fact, the results found here for the acoustic component along the first microphone array position are nearly identical to those for the full field response at the further away array positions (\fig{fig:ch3_fullxcorr_r4D}), which were dominated by acoustic, rather than hydrodynamic, energy.
 %\begin{figure}
 %	\centering
 %	\includegraphics[width=4in]{Figures/ch3_St000_xcorr_acoustic.png}
@@ -204,62 +151,62 @@ Decomposition of the irrotational near-field pressure is therefore straightforwa
 %	\label{fig:ch3_St000_acoustic}
 %\end{figure}
 %
-%We can now use the correlations of the decomposed near-field in order to identify the acoustic source region, at least in a rough sense, by comparing the time lag at which the greatest correlation is achieved against expected times-of-arrival for different propagation paths.
-%A schematic of these propagation paths is provided in \fig{fig:ch3_ToA}.
-%The first expected time of arrival, $\tau_a$, corresponds to the expected time lag for an acoustic wave traveling directly from the noise source to the near-field microphone and on to the far-field microphone and hence, the noise source region lies along the axis created by the near-field and far-field microphones.
-%Another expected time-of-arrival can be constructed by assuming the source region is stationary in space; from simple geometric considerations of the distance from the assumed source region to the near-field and far-field microphones, the time lag, $\tau_s$, between the arrival of an acoustic wave at both microphones can be computed.
-%The stationary source region is of course not known \textit{a priori}, but is set by the author subsequent to the computation of the two-point correlations.
-%
-%For simplicity, density and convection effects on the acoustic wave as it travels through the jet shear layer have been neglected in this analysis. 
-%By necessity, it has been assumed that the acoustic radiation in the jet is dominated by $m = 0$ azimuthal Fourier mode (the near-field and far-field microphone arrays are not at the same azimuthal angle with respect to the nozzle). 
-%This assumption is easily justified in the excited jets, where the actuators have been fired in phase. 
-%While the near-field pressure and acoustic radiation towards aft polar angles in a natural, high Reynolds number jet is a combination of numerous azimuthal Fourier modes, previous researchers have found these fields to be dominated by the axisymmetric mode \citep{Arndt1997,Hall2006,Koenig2013,Juve1979}.
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=4in]{Figures/ToA_tau.png}
-%	\caption{Expected times of arrival for on-axis acoustic propagation, $\tau_a$, and off-axis acoustic propagation, $\tau_s$ from a stationary source region centered at $x_s$.}
-%	\label{fig:ch3_ToA}
-%\end{figure}
-%
-%Here, the acoustic source region was assumed to be located at $x_s /D = 4$, which is just upstream of the end of the potential core in the unforced jet. 
-%(Please note that this analysis is not meant to imply that the source region is located at a specific, fixed point – it is merely a convenient way of understanding the propagation paths.)
-%Similar behavior is observed between the natural jet and the excited cases in \fig{fig:ch3_xcorrOA}; note that due to numerical discrepancies at the domain boundaries (see Torrence \& Campo \citep{Torrence1998} for a discussion of the `cone of influence' of wavelet coefficients and the effect thereof), the correlation values have been truncated at the most upstream and downstream microphones.
-%For the impulsively-excited jet, nearly identical correlation regions are observed between the excited and natural jet; in the periodically-excited jet continuous oscillations occur throughout time due to the similarity of continuously-generated large-scale structures and resultant acoustic radiation.
-%In the upstream region of the jet, the peaks of the positive correlation region match $\tau_a$ nearly exactly. 
-%In the downstream region, $\tau_a$ begins to increasingly over-predict the time lag for the maximum correlation. 
-%On the other hand, $\tau_s$ tracks the time lags for the peak correlation consistently over the downstream region, but not the upstream region. 
-%The results found here appear to indicate that the dominant acoustic radiation reaching the far-field aft angles is being generated over an extended region of the jet mixing layer, roughly $x/D \leq 4$, which is just upstream of the time-averaged end of the potential core in the natural jet.
-%This is not too dissimilar from the findings of other researchers, who have suggested that the acoustic source region lies just \textit{downstream} of the end of the potential core \citep{Hileman2005}.
-%It should be clarified here though, that the interpretation of these results is not meant to suggest that only trivial levels of noise are generated outside of this apparent noise source region, just that the dominant radiation is produced in this region in a time-averaged sense.
-%\begin{figure}
-%	\centering
+The correlations of the decomposed near-field can be used to identify the acoustic source region, at least in a rough sense, by comparing the time lag at which the greatest correlation is achieved against expected times-of-arrival for different propagation paths.
+A schematic of these propagation paths is provided in \fig{fig:ch3_ToA}.
+The first expected time of arrival, $\tau_a$, corresponds to the expected time lag for an acoustic wave traveling directly from the noise source to the near-field microphone and on to the far-field microphone and hence, the noise source region lies along the axis created by the near-field and far-field microphones.
+Another expected time-of-arrival can be constructed by assuming the source region is stationary in space; from simple geometric considerations of the distance from the assumed source region to the near-field and far-field microphones, the time lag, $\tau_s$, between the arrival of an acoustic wave at both microphones can be computed.
+The stationary source region is of course not known \textit{a priori}, but is set by the author subsequent to the computation of the two-point correlations.
+
+For simplicity, density and convection effects on the acoustic wave as it travels through the jet shear layer have been neglected in this analysis. 
+By necessity, it has been assumed that the acoustic radiation in the jet is dominated by $m = 0$ azimuthal Fourier mode (the near-field and far-field microphone arrays are not at the same azimuthal angle with respect to the nozzle). 
+This assumption is easily justified in the excited jets, where the actuators have been fired in phase. 
+While the near-field pressure and acoustic radiation towards aft polar angles in a natural, high Reynolds number jet is a combination of numerous azimuthal Fourier modes, previous researchers have found these fields to be dominated by the axisymmetric mode \citep{Arndt1997,Hall2006,Koenig2013,Juve1979}.
+\begin{figure}
+	\centering
+	\includegraphics[width=3in]{Figures/ToA_tau.png}
+	\caption{Expected times of arrival for on-axis acoustic propagation, $\tau_a$, and off-axis acoustic propagation, $\tau_s$ from a stationary source region centered at $x_s$.}
+	\label{fig:ch3_ToA}
+\end{figure}
+
+Here, the acoustic source region was assumed to be located at $x_s /D = 4$, which is just upstream of the end of the potential core in the unforced jet. 
+(Please note that this analysis is not meant to imply that the source region is located at a specific, fixed point – it is merely a convenient way of understanding the propagation paths.)
+Similar behavior is observed between the natural jet and the excited cases in \fig{fig:ch3_xcorrOA}; note that due to numerical discrepancies at the domain boundaries (see \citet{Torrence1998} for a discussion of the `cone of influence' of wavelet coefficients and the effect thereof), the correlation values have been truncated at the most upstream and downstream microphones.
+For the impulsively-excited jet, nearly identical correlation regions are observed between the excited and natural jet; in the periodically-excited jet continuous oscillations occur throughout time due to the similarity of continuously-generated large-scale structures and resultant acoustic radiation.
+In the upstream region of the jet, the peaks of the positive correlation region match $\tau_a$ nearly exactly. 
+In the downstream region, $\tau_a$ begins to increasingly over-predict the time lag for the maximum correlation. 
+On the other hand, $\tau_s$ tracks the time lags for the peak correlation consistently over the downstream region, but not the upstream region. 
+The results found here appear to indicate that the dominant acoustic radiation reaching the far-field aft angles is being generated over an extended region of the jet mixing layer, roughly $x/D \leq 4$, which is just upstream of the time-averaged end of the potential core in the natural jet.
+This is not too dissimilar from the findings of other researchers, who have suggested that the acoustic source region lies just \textit{downstream} of the end of the potential core \citep{Hileman2005}.
+It should be clarified here though, that the interpretation of these results is not meant to suggest that only trivial levels of noise are generated outside of this apparent noise source region, just that the dominant radiation is produced in this region in a time-averaged sense.
+\begin{figure}
+	\centering
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/St000_r120_ff30xcor_xcor_oa.png}
+		\includegraphics[width=0.45\linewidth]{Figures/St000_r120_ff30xcor_xcor_oa.png}
 %		\caption{}
 %		\label{fig:ch3_xcorrOA_St000}
 %	\end{subfigure}%
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/St005_r120_ff30xcor_xcor_oa.png}
+		\includegraphics[width=0.45\linewidth]{Figures/St005_r120_ff30xcor_xcor_oa.png}\\
 %		\caption{}
 %		\label{fig:ch3_xcorrOA_St005}
 %	\end{subfigure}\\
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/St025_r120_ff30xcor_xcor_oa.png}
+		\includegraphics[width=0.45\linewidth]{Figures/St025_r120_ff30xcor_xcor_oa.png}
 %		\caption{}
 %		\label{fig:ch3_xcorrOA_St025}
 %	\end{subfigure}%
 %	\begin{subfigure}{.5\textwidth}
 %		\centering
-%		\includegraphics[width=0.95\linewidth]{Figures/St035_r120_ff30xcor_xcor_oa.png}
+		\includegraphics[width=0.45\linewidth]{Figures/St035_r120_ff30xcor_xcor_oa.png}
 %		\caption{}
 %		\label{fig:ch3_xcorrOA_St035}
 %	\end{subfigure}
-%	\caption{Normalized two-point correlations between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$ for the natural jet (a), $St_{DF} = 0.05$ (b), $St_{DF} = 0.25$ (c) and $St_{DF} = 0.35$ (d).}
-%	\label{fig:ch3_xcorrOA}
-%\end{figure}
+	\caption{Normalized two-point correlations between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$ for the natural jet (a), $St_{DF} = 0.05$ (b), $St_{DF} = 0.25$ (c) and $St_{DF} = 0.35$ (d).}
+	\label{fig:ch3_xcorrOA}
+\end{figure}
 %
 %However, these results should not be interpreted as indicating that the source mechanisms are necessarily consistent for all excitation frequencies. 
 %For the lower-frequency periodic excitation ($St_{DF} \leq 0.25$), the consistency in the far-field response (\fig{fig:ch3_farfield_linear}) coupled with the consistency in the apparent source region is suggestive of a consistent dominant source mechanism.
