@@ -344,9 +344,14 @@
 @Article{Crawley2016,
   Title                    = {Identification of the Acoustic Response in the Irrotational Near-field of an Excited Subsonic Jet},
   Author                   = {M. Crawley and C.-H. Kuo and and M. Samimy},
-  Journal                  = {To appear in International Journal of Aeroacoustics},
+  Journal                  = {International Journal of Aeroacoustics},
   Year                     = {2016},
 
+  Month                    = {July},
+  Pages                    = {496--514},
+  Volume                   = {15},
+
+  Doi                      = {10.1177/1475472X16642137},
   Owner                    = {michael},
   Timestamp                = {2015.09.29}
 }
