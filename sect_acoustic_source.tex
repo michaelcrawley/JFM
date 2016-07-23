@@ -191,7 +191,7 @@ For the current work, the fast orthogonal wavelet transforms implemented in Stan
 The mother wavelet was defined as the $5^{th}$-order Battle-Lemarie wavelet; sample data was also analyzed using other smooth wavelets to ensure that the final results were not affected by the choice of mother wavelet.
 A threshold of $\epsilon = 8 \sigma_n \sqrt{ \mathrm{log}_e N}$ was used; this value was found by trial-and-error to be the lowest threshold which consistently removed all discontinuities in the temporal derivative of the pressure trace.
 
-Once the pseudo-pressure field has been properly filtered, the aeroacoustic source is simply calculated using second-order finite differences in time (\fig{fig:valid_denoising}).
+Once the pseudo-pressure field has been properly filtered, the aeroacoustic source is simply calculated using second-order finite differences in time.
 To compute the far-field noise, the source field can be spatially-integrated in retarded time, accounting for the propagation delay from each source location to the observer, per \eq{eq:source_integration}. 
 \begin{figure}
 	\centering
@@ -207,26 +207,7 @@ Similar results have also been found by \citet{Tinney2008} in a natural, subsoni
 Per Ribner's analysis, these near-field pressure signatures are related to the noise sources and hence can serve as a useful validation of the computed pseudo-pressure fields since they are close physical analogues (though the hydrodynamic component of the irrotational near-field pressure isn't strictly incompressible, compressibility effects are minor). 
 \begin{figure}
 	\centering
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch5_st005_NearField_wvpkts.png}
-%		\caption{}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch5_st005_FlowField_wvpkts.png}\\
-%		\caption{}
-%	\end{subfigure}\\
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch5_st025_NearField_wvpkts.png}
-%		\caption{}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch5_st025_FlowField_wvpkts.png}
-%		\caption{}
-%	\end{subfigure}
+	\includegraphics[width=0.9\linewidth]{Figures/sect_aeroacoustic_wvpkt_validation.png}
 	\caption{Comparison of wavepackets measured from the hydrodynamic component of the irrotational near-field (a,c) against those in the computed pseudo-pressure field (b,d) for $St_{DF} = 0.05$ (a,b) and $St_{DF} = 0.25$ (c,d). A constant intensity map of $\pm 500$ Pa was used for all plots, and the experimentally measured near-field pressure was acquired \textbf{separately} from the velocity fields used to compute the pseudo-pressure.}
 	\label{fig:flowfield_wvpkts}
 \end{figure}

@@ -77,8 +77,83 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 \end{figure}
 
 \subsection{Excited versus Natural Structures}
+As the forced large scale turbulent structures propogate downstream, they produce a nearfield pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. 
 
+It is not possible to use phase--averaging with the unforced case since the structures, although dominated by Strouhal numbers related to the instabilities in the jet, experience enough variation that they can not be captured using phase-averaging at a specific frequency. 
+It is necessary to use an alternative averaging method in order to appreciate a similar signature due to unforced jet turbulent--structures.
+Instead of phase-averaging, a wavelet--based method, namely wavelet--conditioning, was applied to the unforced and forced cases to determine how closely the forced structures relate to the natural structures in the jet for both the experiments and simulations.
 
+\subsubsection{Wavelet Conditioning Process}
+The wavelet--conditioning was used for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}.
+The technique is based on the use of the so--called Local Intermittency Measure or LIM, introduced in 1992 by \citet{Farge1992}.
+The LIM is the ratio between two energies: a local energy for a specific time and scale $(\tau, s)$ and an averaged energy in time for the same scale $s$.
+The LIM was demonstrated to be a well suited indicator for coherent structure identification \citet{Camussi1997}. Its mathematical expression is:
+\begin{equation}
+\label{eqn:LIM}
+L(s, \tau) = \frac{w^{2}(s, \tau)}{\left<w^{2}(s, \tau)\right>_{\tau}}
+\end{equation}
+where $w^{2}(s, \tau)$ is the local energy for a specific time and scale, and $\left< \bullet \right>_{\tau}$ represents a time average.
+As a ratio between positive quantities, LIM can only be positive ($L \geqslant 0 $). LIM gives an information about the fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to peaks with value greater than the threshold $T$.
+The peaks are local maxima of LIM and are constrained by the following conditions:
+\begin{equation}
+		\begin{array}{ll}
+			& L(s, \tau) > T,\\
+			\\
+			& \frac{\partial L}{\partial \tau}(s, \tau) = 0,\\
+			\\
+			&\frac{\partial^{2} L}{\partial \tau^{2}}(s, \tau) < 0.
+		\end{array}
+\end{equation}
+
+An iterative process was used in order to fix the threshold, $T$. To initiate the iterative process it is needed first to select a 'first estimate' of the threshold. It was taken to be equal to 1. The algorithm of the iterative process is applied to each scale of the wavelet--decomposition and allows to have a threshold for each scale. The algorithm used to obtain this is:
+\begin{enumerate}
+	\item Select a first threshold to initiate the iterative process (1 in the present case)
+	\item Evaluate the coefficient
+	\begin{equation}
+	R(T) = -\frac{\log\left(\frac{N_p}{N_m}\right)}{\log\left(\frac{\sigma_{w_p}}{\sigma_{w_m}}\right)}
+	\end{equation}
+	\item Re-evaluate $T$
+	\item Iterate points 2 and 3 until $T$ achieve the maximum of $L$ for the scale under analysis
+\end{enumerate}
+where $N_p$ is the length of the set $\{L > T\}$, $N_m$ is the length of the set $\{L \leqslant T\}$, $\sigma_{w_p}$ the standard deviation of the set $\{w\left( \tau_p\right) | L\left( \tau_p \right) > T\}$ and $\sigma_{w_m}$ the standard deviation of the set $\{w\left( \tau_m\right) | L\left( \tau_m \right) \leqslant T\}$.
+The outcome of this iterative process is a set of vectors: one containing the different value of $T$ and the second the different value of $R(T)$. The threshold for the analysis is selected to correspond to the maximum of $R(T)$.
+
+The next step is to get similar results to those obtained with the phase--average. In order to get the signatures, a conditional--average (eqn. \ref{eqn:ensembleAverage}) using the set of times $\{\tau_{i}\}$ is performed. In one way, the conditional--average and phase--average are similar: the set of times $\{\tau_{i}\}$ replaces the phases on which the phase--average is performed. At each time location corresponding to a peak of energy, a window $W$ of fixed time--length $l_{W}$ is selected from the original signal $p \left( t \right)$. The conditional--average, $\tilde{p}$ is calculated from this set of windows:
+\begin{equation} \label{eqn:ensembleAverage}
+	\tilde{p}^n_{m}\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} p_{m}\left(\xi_{i}\right),
+\end{equation}
+where the superscript $n$ and subscript $m$ stand for the position of the reference signal and of any other signal of the array, respectively. Also, the subscript $s$ stands for the scale, $N^n$ is the number of detected events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{l_W}{2}, \tilde{t}_{i} + \frac{l_w}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
+A first analysis using equation \ref{eqn:ensembleAverage} was performed on the microphones line--array. A second analysis was then performed by doing the conditional--average only with peaks with negative/positive value in the real domain (pressure).
+
+%\begin{figure}
+%	\centering{}
+%	\subfloat[only negative peaks]{\includegraphics[width=3.2in]{figures/eps/negativePeak.eps}}
+%	\subfloat[only positive peaks]{\includegraphics[width=3.2in]{figures/eps/positivePeak.eps}}
+%	
+%	\subfloat[comparison between the signatures]{\includegraphics[width=3.2in]{figures/eps/compPeaks}}
+%	\caption{Auto--conditioning signatures of the signal at $x/D = 3$} \label{fig:compPeaks}
+%\end{figure}
+%Figure \ref{fig:compPeaks} presents the two subfigures for the different cases (negative/positive peaks) and a third subfigure to compare them.
+%%\begin{itemize}
+%%  \item $(a)$ conditional--average (eqn. \ref{eqn:ensembleAverage}) using only the negative peaks
+%%  \item $(b)$ only the positive peaks
+%%  \item a comparison between the two previous one ($(a)$ was inverted in order to compare it to $(b)$)
+%%\end{itemize}
+%Figure \ref{fig:compPeaks}$(c)$ presents the resemblance between the signature of subfigures $(a)$ and $(b)$ on which the conditional--average was performed using only negative or positive peaks (it is important to understand that the differentiation is done by evaluating the value of each peak in the real domain and not in the LIM/wavelet domain). At this point, it is believed to be the result of the passage of two sucessive large scale turbulent--structures, in the zone where their interaction take place.
+%% Do you think I should put a scheme here to explain it?
+%The formulation of the conditional--average was modified to take this observation into account and reformulated as follows:
+%\begin{equation} \label{eqn:condAvgSign}
+%\tilde{p}_{m}^n\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} sign\left( p_{n} \left( \tilde{t}_{i} \right) \right) p_{m} \left( \xi_{i} \right),
+%\end{equation}
+%$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) but for a numerical database which is strongly limited in its time duration it improves the results obtained with the wavelet--conditioning.
+%The conditional--average using eqn. \ref{eqn:ensembleAverage} with all the peaks present (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
+%When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. The auto/cross--conditioning are presented in Fig.  \ref{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$. For more information about the wavelet--transform, see \cite{Farge1992}.
+%\begin{figure}[!ht]
+%	\centering
+%	\includegraphics[width=1\textwidth]{figures/pdf/condNcond}
+%	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+%	\label{fig:condNcond}
+%\end{figure}
 
 \subsection{Identifying the Acoustic Source Region}
 \label{sect:near_field_source_region}
@@ -109,48 +184,22 @@ Examination in the spatio-temporal domain shows distinct regions of positive and
 The time lag, $\tau$, in the figures have been non-dimensionalized by the ambient speed of sound, $a_\infty$, and $R$, the distance from each near-field microphone to the far-field microphone (note that this results in an ordinate that is scaled separately along the abscissa, due to the dependence of the axial position on $R$).
 \begin{figure}
 	\centering
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch3_St000_xcorr_r1D.png}
-%		\caption{$r/D = 1.2$}
-%		\label{fig:ch3_fullxcorr_r1D}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/ch3_St000_xcorr_acoustic.png}
-%		\caption{$r/D = 4.2$}
-%		\label{fig:ch3_fullxcorr_r4D}
-%	\end{subfigure}
+		\includegraphics[width=0.475\linewidth]{Figures/sect_nearfield_fullxcorr.png}
+		\includegraphics[width=0.401\linewidth]{Figures/sect_nearfield_acousticxcorr.png}
 	\caption{Normalized two-point correlations for the natural jet between the near field and the far field at $30^\circ$ for the full near-field pressure (a) and the acoustic component only (b).}
 	\label{fig:ch3_full_vs_partial_xcorr}
 \end{figure}
 
-%
-%Near the jet shear layer (\fig{fig:ch3_fullxcorr_r1D}), four distinct correlation regions can be observed: two positive, two negative; one strong and one weak for each. 
-%The first correlation regions, the strong-negative and weak-positive, are noticeable beginning at the most upstream microphone and reach their peak values around $5 < x/D < 10$, decaying significantly beyond that.
-%The slopes of these regions indicate propagation velocities noticeably below the sonic velocity; in the upstream region, they roughly match with the measured convective velocity of the large-scale structures ($U_c \simeq 0.7 U_j$ as measured by two-point correlations between subsequent near-field microphones, see Crawley \etal \citep{Crawley2015} for additional details) in the upstream region of the jet, and slowly decelerate downstream.
-%Similar behavior was observed by Bogey \& Bailley \citep{Bogey2007}, who noted that two-point correlations between the flow-field and acoustic near-field in a simulated jet produced strong positive correlation regions which peaked at the end of the potential core and which followed the convection of the large-scale structures.
-%Conversely, the strong-positive and weak-negative correlation regions exhibit propagation velocities that match well with the ambient speed of sound. 
-%These correlation regions start from almost negligible values upstream, strongly amplify near and just beyond the end of the potential core, and decay gradually in the most downstream region.
-%
-%As the microphone array is moved radially outwards (\fig{fig:ch3_fullxcorr_r4D}), the strong-negative and weak-positive correlation regions quickly decay to negligible values and all observable correlation regions begin to match the expected time-of-arrival for sonically-traveling waves. 
-%The distinctly different propagation velocities and axial and radial evolutions of the two pairs of correlation regions indicate that these correspond to different physical phenomena.
-%The strong-negative and weak-positive correlation regions observed near the jet shear layer are associated with the large-scale structures themselves, rather than acoustic phenomena. 
-%The positive and negative correlation regions are likely associated with the braid and core regions of the large-scale structure as they convect through the shear layer. 
-%The low-pressure core region of the vortex produces a positive correlation value with the far-field acoustic due to the phase inversion of the acoustic waveform at low polar angles (\fig{fig:ch3_nearfield}). 
-%At this radial location, the dominant energy measured by the microphone array is acoustic, owing to the strong decay of the hydrodynamic field with radial distance from the jet \citep{Arndt1997}.
-%Though they have not been included here for brevity, the two-point correlations in the excited jet cases show similar behavior, albeit with enhanced correlation levels particularly for the large-scale structure related regions. 
-%
-%This relationship becomes even more clear when just the acoustic component of the near-field is considered during computation of the two-point correlations, rather than the full irrotational near-field. 
-%Gone entirely now are the correlation regions with subsonic propagation velocities, even at the closest microphone array positions, as can be seen in \fig{fig:ch3_St000_acoustic}.
-%Instead, a single positive correlation region corresponding to sonically-propagating waves exists over the entire domain with significantly enhanced correlation over the full field results. 
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=4in]{Figures/ch3_St000_xcorr_acoustic.png}
-%	\caption{Normalized two-point correlations for the natural jet between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$. }
-%	\label{fig:ch3_St000_acoustic}
-%\end{figure}
-%
+Near the jet shear layer (\fig{fig:ch3_full_vs_partial_xcorr}a), four distinct correlation regions can be observed: two positive, two negative; one strong and one weak for each. 
+The first correlation regions, the strong-negative and weak-positive, are noticeable beginning at the most upstream microphone and reach their peak values around $5 < x/D < 10$, decaying significantly beyond that.
+The slopes of these regions indicate propagation velocities noticeably below the sonic velocity; in the upstream region, they roughly match with the measured convective velocity of the large-scale structures ($U_c \simeq 0.7 U_j$ as measured by two-point correlations between subsequent near-field microphones, see \citet{Crawley2015} for additional details) in the upstream region of the jet, and slowly decelerate downstream.
+Similar behavior was observed by \citet{Bogey2007}, who noted that two-point correlations between the flow-field and acoustic near-field in a simulated jet produced strong positive correlation regions which peaked at the end of the potential core and which followed the convection of the large-scale structures.
+Conversely, the strong-positive and weak-negative correlation regions exhibit propagation velocities that match well with the ambient speed of sound. 
+The distinctly different propagation velocities and of the two pairs of correlation regions indicate that these correspond to different physical phenomena.
+The strong-negative and weak-positive correlation regions observed near the jet shear layer are associated with the large-scale structures themselves, rather than acoustic phenomena. 
+This relationship becomes even more clear when just the acoustic component of the near-field is considered, rather than the full irrotational near-field. 
+Gone entirely now are the correlation regions with subsonic propagation velocities (\fig{fig:ch3_full_vs_partial_xcorr}b), and instead, a single positive correlation region corresponding to sonically-propagating waves exists over the entire domain. 
+
 The correlations of the decomposed near-field can be used to identify the acoustic source region, at least in a rough sense, by comparing the time lag at which the greatest correlation is achieved against expected times-of-arrival for different propagation paths.
 A schematic of these propagation paths is provided in \fig{fig:ch3_ToA}.
 The first expected time of arrival, $\tau_a$, corresponds to the expected time lag for an acoustic wave traveling directly from the noise source to the near-field microphone and on to the far-field microphone and hence, the noise source region lies along the axis created by the near-field and far-field microphones.
@@ -180,30 +229,7 @@ This is not too dissimilar from the findings of other researchers, who have sugg
 It should be clarified here though, that the interpretation of these results is not meant to suggest that only trivial levels of noise are generated outside of this apparent noise source region, just that the dominant radiation is produced in this region in a time-averaged sense.
 \begin{figure}
 	\centering
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/St000_r120_ff30xcor_xcor_oa.png}
-%		\caption{}
-%		\label{fig:ch3_xcorrOA_St000}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/St005_r120_ff30xcor_xcor_oa.png}\\
-%		\caption{}
-%		\label{fig:ch3_xcorrOA_St005}
-%	\end{subfigure}\\
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/St025_r120_ff30xcor_xcor_oa.png}
-%		\caption{}
-%		\label{fig:ch3_xcorrOA_St025}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/St035_r120_ff30xcor_xcor_oa.png}
-%		\caption{}
-%		\label{fig:ch3_xcorrOA_St035}
-%	\end{subfigure}
+	\includegraphics[width=\linewidth]{Figures/sect_nearfield_ffxcorr.png}
 	\caption{Normalized two-point correlations between the acoustic component of the near field and the far field at $30^\circ$ for microphone array position starting at $x/D = 1, r/D = 1.2$ for the natural jet (a), $St_{DF} = 0.05$ (b), $St_{DF} = 0.25$ (c) and $St_{DF} = 0.35$ (d).}
 	\label{fig:ch3_xcorrOA}
 \end{figure}

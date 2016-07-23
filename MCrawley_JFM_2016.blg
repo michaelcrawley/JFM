@@ -9,50 +9,54 @@ A level-1 auxiliary file: sect_acoustic_source.aux
 A level-1 auxiliary file: sect_conclusion.aux
 The style file: jfm.bst
 Database file #1: master.bib.bib
+Warning--I didn't find a database entry for "Camussi1997b"
+Warning--I didn't find a database entry for "Guj1999"
+Warning--I didn't find a database entry for "Camussi2002"
+Warning--I didn't find a database entry for "Guj2003"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--there's a number but no series in Baqui2014
 Warning--there's a number but no series in Hall2006
 Warning--there's a number but no series in Speth2014
 Warning--there's a number but no series in Tam1996
-You've used 62 entries,
+You've used 64 entries,
             3068 wiz_defined-function locations,
-            1108 strings with 15250 characters,
-and the built_in function-call counts, 33729 in all, are:
-= -- 3046
-> -- 1510
-< -- 34
-+ -- 603
-- -- 519
-* -- 3611
-:= -- 5611
-add.period$ -- 129
-call.type$ -- 62
-change.case$ -- 494
-chr.to.int$ -- 62
-cite$ -- 66
-duplicate$ -- 1752
-empty$ -- 2729
-format.name$ -- 609
-if$ -- 6622
+            1128 strings with 15622 characters,
+and the built_in function-call counts, 34737 in all, are:
+= -- 3143
+> -- 1546
+< -- 36
++ -- 619
+- -- 531
+* -- 3712
+:= -- 5778
+add.period$ -- 133
+call.type$ -- 64
+change.case$ -- 508
+chr.to.int$ -- 64
+cite$ -- 68
+duplicate$ -- 1806
+empty$ -- 2813
+format.name$ -- 627
+if$ -- 6824
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 60
-newline$ -- 191
-num.names$ -- 250
-pop$ -- 460
+missing$ -- 62
+newline$ -- 197
+num.names$ -- 258
+pop$ -- 472
 preamble$ -- 1
-purify$ -- 420
+purify$ -- 432
 quote$ -- 0
-skip$ -- 777
+skip$ -- 801
 stack$ -- 0
-substring$ -- 1946
-swap$ -- 636
+substring$ -- 2010
+swap$ -- 654
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 552
+type$ -- 570
 warning$ -- 4
-while$ -- 280
+while$ -- 289
 width$ -- 0
-write$ -- 686
-(There were 4 warnings)
+write$ -- 708
+(There were 8 warnings)
