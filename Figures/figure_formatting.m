@@ -1,9 +1,9 @@
 font = 'Times New Roman';
 fontsize = 14;
-boxsize  = [0 0 5 3];
+% boxsize  = [0 0 5 3];
 % boxsize  = [0 0 6 2.75];
 % boxsize  = [0 0 4.75 3.75];
-% boxsize = [0 0 6.5 4];
+boxsize = [0 0 6.5 4];
 
 set(gcf,'windowstyle','normal');
 set(gcf,'paperpositionmode','auto');
@@ -34,5 +34,5 @@ end
 filename = input('Input file name: ','s');
 
 saveas(h,[filename,'.fig']);
-export_fig(filename,'-png','-transparent','-r600');
+export_fig(filename,'-png','-transparent','-r300');
 close(h);

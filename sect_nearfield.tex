@@ -77,13 +77,28 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 \end{figure}
 
 \subsection{Excited versus Natural Structures}
-As the forced large scale turbulent structures propogate downstream, they produce a nearfield pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. 
+The effect of excitation on the turbulent jet is to generate highly energetic coherent structures which persist downstream for several lengthscales.
+As can be seen by the strong tonal energies observed for the excited jets in \fig{fig:sect_nearfield_spectra_prms}a, the near-field response to these structures contains energy at the fundamental excitation frequency as well as numerous higher harmonics as well.
+As the excitation frequency increases from the impulse-excitation regime to the periodic, the dominance of the fundamental tone over the higher harmonics becomes more pronounced, though this is an artifact of the Fourier transform and not a fundamental physical phenomenon. 
+The presence of these highly-energetic structures also leads to an amplification of the broadband turbulence, over a wide band of frequencies both above and below the fundamental excitation frequency.
+A continuous upstream shift is observed in the root-mean-squared peak amplitude of the phase-averaged, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (which is commonly identified as the jet column instability frequency in natural jets).
+However, the fluctuation intensities as a function of frequency in the excited jets saturate much further upstream than in the natural jet ($x/D \simeq 3$ for $St_{DF} \simeq 0.3$ rather than downstream near the end of the potential core at $x/D \simeq 6$).
+In light of this issue, an investigation of the coherent structures in the natural jet and their comparison against the excited was deemed pertinent to understanding the applicability of the analysis of the excited structure dynamics.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.44\linewidth]{Figures/sect_nearfield_spectra.png}
+	\includegraphics[width=0.46\linewidth]{Figures/sect_nearfield_prms.png}
+	\caption{Power spectral densities of the raw near-field pressure at $x/D = 3$ (a) and root-mean-squared pressure fluctuations of near-field pressure at (b).}
+	\label{fig:sect_nearfield_spectra_prms}
+\end{figure}
+
+As the forced large scale turbulent structures propagate downstream, they produce a near-field pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. 
 
 It is not possible to use phase--averaging with the unforced case since the structures, although dominated by Strouhal numbers related to the instabilities in the jet, experience enough variation that they can not be captured using phase-averaging at a specific frequency. 
 It is necessary to use an alternative averaging method in order to appreciate a similar signature due to unforced jet turbulent--structures.
 Instead of phase-averaging, a wavelet--based method, namely wavelet--conditioning, was applied to the unforced and forced cases to determine how closely the forced structures relate to the natural structures in the jet for both the experiments and simulations.
 
-\subsubsection{Wavelet Conditioning Process}
+\subsubsection{Wavelet Conditioning}
 The wavelet--conditioning was used for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}.
 The technique is based on the use of the so--called Local Intermittency Measure or LIM, introduced in 1992 by \citet{Farge1992}.
 The LIM is the ratio between two energies: a local energy for a specific time and scale $(\tau, s)$ and an averaged energy in time for the same scale $s$.
@@ -125,35 +140,33 @@ The next step is to get similar results to those obtained with the phase--averag
 where the superscript $n$ and subscript $m$ stand for the position of the reference signal and of any other signal of the array, respectively. Also, the subscript $s$ stands for the scale, $N^n$ is the number of detected events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{l_W}{2}, \tilde{t}_{i} + \frac{l_w}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
 A first analysis using equation \ref{eqn:ensembleAverage} was performed on the microphones line--array. A second analysis was then performed by doing the conditional--average only with peaks with negative/positive value in the real domain (pressure).
 
-%\begin{figure}
-%	\centering{}
-%	\subfloat[only negative peaks]{\includegraphics[width=3.2in]{figures/eps/negativePeak.eps}}
-%	\subfloat[only positive peaks]{\includegraphics[width=3.2in]{figures/eps/positivePeak.eps}}
-%	
-%	\subfloat[comparison between the signatures]{\includegraphics[width=3.2in]{figures/eps/compPeaks}}
-%	\caption{Auto--conditioning signatures of the signal at $x/D = 3$} \label{fig:compPeaks}
-%\end{figure}
-%Figure \ref{fig:compPeaks} presents the two subfigures for the different cases (negative/positive peaks) and a third subfigure to compare them.
-%%\begin{itemize}
-%%  \item $(a)$ conditional--average (eqn. \ref{eqn:ensembleAverage}) using only the negative peaks
-%%  \item $(b)$ only the positive peaks
-%%  \item a comparison between the two previous one ($(a)$ was inverted in order to compare it to $(b)$)
-%%\end{itemize}
-%Figure \ref{fig:compPeaks}$(c)$ presents the resemblance between the signature of subfigures $(a)$ and $(b)$ on which the conditional--average was performed using only negative or positive peaks (it is important to understand that the differentiation is done by evaluating the value of each peak in the real domain and not in the LIM/wavelet domain). At this point, it is believed to be the result of the passage of two sucessive large scale turbulent--structures, in the zone where their interaction take place.
-%% Do you think I should put a scheme here to explain it?
-%The formulation of the conditional--average was modified to take this observation into account and reformulated as follows:
-%\begin{equation} \label{eqn:condAvgSign}
-%\tilde{p}_{m}^n\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} sign\left( p_{n} \left( \tilde{t}_{i} \right) \right) p_{m} \left( \xi_{i} \right),
-%\end{equation}
-%$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) but for a numerical database which is strongly limited in its time duration it improves the results obtained with the wavelet--conditioning.
-%The conditional--average using eqn. \ref{eqn:ensembleAverage} with all the peaks present (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
-%When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. The auto/cross--conditioning are presented in Fig.  \ref{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$. For more information about the wavelet--transform, see \cite{Farge1992}.
-%\begin{figure}[!ht]
-%	\centering
-%	\includegraphics[width=1\textwidth]{figures/pdf/condNcond}
-%	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
-%	\label{fig:condNcond}
-%\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.45\linewidth]{Figures/negativePeak.eps}%
+	\includegraphics[width=0.45\linewidth]{Figures/positivePeak.eps}\\	
+	\includegraphics[width=0.45\linewidth]{Figures/compPeaks}
+	\caption{Auto--conditioning signatures of the signal at $x/D = 3$} \label{fig:compPeaks}
+\end{figure}
+\fig{fig:compPeaks} presents the two subfigures for the different cases (negative/positive peaks) and a third subfigure to compare them.
+\begin{itemize}
+  \item $(a)$ conditional--average (eqn. \ref{eqn:ensembleAverage}) using only the negative peaks
+  \item $(b)$ only the positive peaks
+  \item a comparison between the two previous one ($(a)$ was inverted in order to compare it to $(b)$)
+\end{itemize}
+\fig{fig:compPeaks}c presents the resemblance between the signature of subfigures (a) and (b) on which the conditional--average was performed using only negative or positive peaks (it is important to understand that the differentiation is done by evaluating the value of each peak in the real domain and not in the LIM/wavelet domain). At this point, it is believed to be the result of the passage of two sucessive large scale turbulent--structures, in the zone where their interaction take place.
+The formulation of the conditional--average was modified to take this observation into account and reformulated as follows:
+\begin{equation} \label{eqn:condAvgSign}
+\tilde{p}_{m}^n\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} sign\left( p_{n} \left( \tilde{t}_{i} \right) \right) p_{m} \left( \xi_{i} \right),
+\end{equation}
+$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) but for a numerical database which is strongly limited in its time duration it improves the results obtained with the wavelet--conditioning.
+The conditional--average using eqn. \ref{eqn:ensembleAverage} with all the peaks present (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
+When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. The auto/cross--conditioning are presented in Fig.  \ref{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$. For more information about the wavelet--transform, see \cite{Farge1992}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/condNcond.eps}
+	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+	\label{fig:condNcond}
+\end{figure}
 
 \subsection{Identifying the Acoustic Source Region}
 \label{sect:near_field_source_region}
