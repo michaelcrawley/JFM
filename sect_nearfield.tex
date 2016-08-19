@@ -92,7 +92,7 @@ In light of this issue, an investigation of the coherent structures in the natur
 	\label{fig:sect_nearfield_spectra_prms}
 \end{figure}
 
-As the forced large scale turbulent structures propagate downstream, they produce a near-field pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. 
+As the forced large scale turbulent structures propagate downstream, they produce a near-field pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. % It should not be 0.05, 0.25 and 0.35?
 
 It is not possible to use phase--averaging with the unforced case since the structures, although dominated by Strouhal numbers related to the instabilities in the jet, experience enough variation that they can not be captured using phase-averaging at a specific frequency. 
 It is necessary to use an alternative averaging method in order to appreciate a similar signature due to unforced jet turbulent--structures.
@@ -166,6 +166,159 @@ When the conditional--average is performed on a signal $p_{n}$ by using its own 
 	\includegraphics[width=1\textwidth]{Figures/condNcond.eps}
 	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
 	\label{fig:condNcond}
+\end{figure}
+
+For sake of brevity, only the results for four different cases, baseline, and $S_t = 0.05, 0.25 0.35$ are presented. First, the baseline is presented. The following figure \ref{fig:autoCondSt0p00} represents the auto--conditioning of closest microphones array at $r/D = 1.2$ and for the microphones contained between $x/D=1$ and $x/D=14$. Here, only the positive peaks are used to perform the conditional--average. The reason will be explained later with a forced case. The results are non-dimensionalized by the local standard deviation. The first observation is that the energetic event detected using the wavelet--conditioning consists of a positive (or negative) peak surrounded by two smaller peaks of the opposite sign. The local time--scale of the fluctuation grows as it is convected downstream. It is an expected result and can be reproduced using a simple auto--correlation at each axial position. The interest here is to see how the amplitude of the energetic event is growing. Up to $x/D=10$, the amplitude of the fluctuation is greater than the local standard deviation by at least twice. Then the fluctuation seems to weaker. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p00.png}
+	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+	\label{fig:autoCondSt0p00}
+\end{figure}
+
+The next figure \ref{fig:autoCondSt0p05} represents the auto--conditioning using the forced case at $S_t = 0.05$. The shape of the energetic event is different with compare to the previous case: it consists of a central peak, here positive, followed by a negative peak of the same amplitude close to the nozzle exit and becoming weaker further downstream. It is interesting to see that downstream, from around $x/D=8$, the energetic event shape of the excited case becomes more similar to the baseline, consisting of a central peak and surrounded by two smaller of the opposite sign. This is the reason of why the conditional--average is done using only the positive (or negative) peaks. The region in which the central peak start to strongly becomes weaker is closer to the nozzle exit, in this case around $x/D = 8$. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p05.png}
+	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+	\label{fig:autoCondSt0p05}
+\end{figure}
+
+The similarities between the two last cases are strong as it can be observed from figures \ref{fig:autoCondSt0p25} and \ref{fig:autoCondSt0p35}. The excitation achieved a state in which it can be observed multiple energetic events on the same time--scale as the two previous cases. For the case $S_t = 0.25$ case, the energetic event seems to be the same as $S_t = 0.05$. For the highest case it is a little bit more difficult to see it as the time between two successive energetic events is really small. The energetic--events are not retrieving the baseline shape, a central peak surrounded by two smaller of the opposite sign. Another observation true only for these two presented cases is that the length on which the excitation takes effect is becoming smaller as the excitation is becoming higher. On figure \ref{fig:autoCondSt0p25} the excitation seems to takes place up to $x/D=6$ while on the following figure, \ref{fig:autoCondSt0p35}, it is up to $x/D=4$. 
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p25.png}
+	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+	\label{fig:autoCondSt0p25}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p35.png}
+	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+	\label{fig:autoCondSt0p35}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X1DU0p7112.png}
+			\caption{}
+			\label{fig:ch3_farfield_phavg}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X3DU0p6806.png}
+			\caption{}
+			\label{fig:ch3_farfield_phavg}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X6DU0p6430.png}
+			\caption{}
+			\label{fig:ch3_farfield_phavg}
+		\end{subfigure}%
+		\begin{subfigure}{.5\textwidth}
+			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X9p50DU0p5873.png}
+			\caption{}
+			\label{fig:ch3_farfield_phavg}
+		\end{subfigure}%
+	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
+	\label{fig:crossCondSt0p00}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X1DU0p7060.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X3DU0p6962.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X6DU0p7054.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X9p50DU0p4585.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
+	\label{fig:crossCondSt0p15}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X1DU0p6223.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X3DU0p6647.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X6DU0p7505.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X9p50DU0p3901.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
+	\label{fig:crossCondSt0p25}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X1DU0p6502.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X3DU0p7053.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X6DU0p4709.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X9p50DU0p3532.png}
+		\caption{}
+		\label{fig:ch3_farfield_phavg}
+	\end{subfigure}%
+	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
+	\label{fig:crossCondSt0p35}
 \end{figure}
 
 \subsection{Identifying the Acoustic Source Region}
