@@ -80,8 +80,8 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 The effect of excitation on the turbulent jet is to generate highly energetic coherent structures which persist downstream for several lengthscales.
 As can be seen by the strong tonal energies observed for the excited jets in \fig{fig:sect_nearfield_spectra_prms}a, the near-field response to these structures contains energy at the fundamental excitation frequency as well as numerous higher harmonics as well.
 As the excitation frequency increases from the impulse-excitation regime to the periodic, the dominance of the fundamental tone over the higher harmonics becomes more pronounced, though this is an artifact of the Fourier transform and not a fundamental physical phenomenon. 
-The presence of these highly-energetic structures also leads to an amplification of the broadband turbulence, over a wide band of frequencies both above and below the fundamental excitation frequency.
-A continuous upstream shift is observed in the root-mean-squared peak amplitude of the phase-averaged, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (which is commonly identified as the jet column instability frequency in natural jets).
+The presence of these highly-energetic structures can also lead to an amplification of the broadband turbulence, over a wide band of frequencies both above and below the fundamental excitation frequency.
+It also produces a continuous upstream shift in the root-mean-squared peak amplitude of the phase-averaged, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (which is commonly identified as the jet column instability frequency in natural jets).
 However, the fluctuation intensities as a function of frequency in the excited jets saturate much further upstream than in the natural jet ($x/D \simeq 3$ for $St_{DF} \simeq 0.3$ rather than downstream near the end of the potential core at $x/D \simeq 6$).
 In light of this issue, an investigation of the coherent structures in the natural jet and their comparison against the excited was deemed pertinent to understanding the applicability of the analysis of the excited structure dynamics.
 \begin{figure}
@@ -92,23 +92,17 @@ In light of this issue, an investigation of the coherent structures in the natur
 	\label{fig:sect_nearfield_spectra_prms}
 \end{figure}
 
-As the forced large scale turbulent structures propagate downstream, they produce a near-field pressure wave signature that has been shown in figure \ref{fig:phaseaxialbothM} for three different excitations, $St_D \in \{ 0.05, 0.15, 0.25 \}$ in the phase-averaged sense. % It should not be 0.05, 0.25 and 0.35?
+Obviously, it is not possible to use phase--averaging with the unforced case since the natural turbulent structures, although dominated by Strouhal numbers related to the instabilities in the jet, contain a broad range of energetic scales with no fixed phase relationship. 
+It is necessary then to use an alternative averaging method in order to extract a coherent signature of the unforced jet turbulent--structures.
+Instead of phase-averaging a conditional-averaging method, namely wavelet--conditioning, was applied to the unforced and forced cases to determine how closely the forced structures relate to the natural structures in the jet.
+A wavelet decomposition is chosen as it affords an efficient methodology for analyzing intermittent events in a given signal due to the finite energy of its basis functions.
+This is in contrast to the more standard Fourier decomposition in which continuously-oscillating basis functions spread information from a single instance in time across all transform coefficients.
+For this reason, the use of the wavelet decomposition has become increasingly common in aeroacoustic research; an overview of the wavelet transform and its applications to turbulence and acoustics can be found in \citet{Farge1992}.
 
-It is not possible to use phase--averaging with the unforced case since the structures, although dominated by Strouhal numbers related to the instabilities in the jet, experience enough variation that they can not be captured using phase-averaging at a specific frequency. 
-It is necessary to use an alternative averaging method in order to appreciate a similar signature due to unforced jet turbulent--structures.
-Instead of phase-averaging, a wavelet--based method, namely wavelet--conditioning, was applied to the unforced and forced cases to determine how closely the forced structures relate to the natural structures in the jet for both the experiments and simulations.
-
-\subsubsection{Wavelet Conditioning}
-The wavelet--conditioning was used for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}.
-The technique is based on the use of the so--called Local Intermittency Measure or LIM, introduced in 1992 by \citet{Farge1992}.
-The LIM is the ratio between two energies: a local energy for a specific time and scale $(\tau, s)$ and an averaged energy in time for the same scale $s$.
-The LIM was demonstrated to be a well suited indicator for coherent structure identification \citet{Camussi1997}. Its mathematical expression is:
-\begin{equation}
-\label{eqn:LIM}
-L(s, \tau) = \frac{w^{2}(s, \tau)}{\left<w^{2}(s, \tau)\right>_{\tau}}
-\end{equation}
-where $w^{2}(s, \tau)$ is the local energy for a specific time and scale, and $\left< \bullet \right>_{\tau}$ represents a time average.
-As a ratio between positive quantities, LIM can only be positive ($L \geqslant 0 $). LIM gives an information about the fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to peaks with value greater than the threshold $T$.
+Wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}.
+The technique is based on the Local Intermittency Measure (LIM) \citep{Farge1992}, which is the ratio between the local energy of the wavelet coefficient for a specific time and scale $(\tau, s)$ and a time-averaged energy at the same scale $s$.
+The LIM was demonstrated to be a well-suited indicator for coherent structure identification \citep{Camussi1997}. 
+The LIM provides information about the instantaneous fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent, energetic events in the signal.
 The peaks are local maxima of LIM and are constrained by the following conditions:
 \begin{equation}
 		\begin{array}{ll}

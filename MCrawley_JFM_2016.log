@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.27)  31 JUL 2016 21:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.19)  20 AUG 2016 15:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **MCrawley_JFM_2016.tex
 (./MCrawley_JFM_2016.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (./jfm.cls
 Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -16,15 +16,15 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -80,10 +80,10 @@ LaTeX Info: Redefining \cite on input line 1157.
 Found the 'amsbsy' package on the system, using it.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen104
 )
@@ -199,10 +199,7 @@ Package: natbib 2000/07/24 7.0a (PWD)
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count95
-) (./MCrawley_JFM_2016.aux (./sect_introduction.aux)
-(./sect_methodology.aux) (./sect_nearfield.aux)
-(./sect_velocity_reconstruction.aux) (./sect_acoustic_source.aux)
-(./sect_conclusion.aux))
+) (./MCrawley_JFM_2016.aux)
 \openout1 = `MCrawley_JFM_2016.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -250,579 +247,132 @@ Non-PDF special ignored!]
 \openout2 = `sect_introduction.aux'.
 
  (./sect_introduction.tex
+
+Package natbib Warning: Citation `Jordan2008' on page 2 undefined on input line
+ 5.
+
+
+Package natbib Warning: Citation `Arndt1997' on page 2 undefined on input line 
+11.
+
+
+Package natbib Warning: Citation `Tam1995' on page 2 undefined on input line 12
+.
+
+
+Package natbib Warning: Citation `Obrist2011' on page 2 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Cavalieri2010' on page 2 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 2 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `Kearney-Fischer2013' on page 2 undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `Cavalieri2013' on page 2 undefined on input l
+ine 19.
+
+
+Package natbib Warning: Citation `Baqui2014' on page 2 undefined on input line 
+19.
+
+
+Package natbib Warning: Citation `Lighthill1952' on page 2 undefined on input l
+ine 22.
+
+
+Package natbib Warning: Citation `Phillips1960' on page 2 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Lilley1974' on page 2 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `Goldstein2003' on page 2 undefined on input l
+ine 23.
+
+
+Package natbib Warning: Citation `Powell1964' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Howe1975' on page 2 undefined on input line 2
+4.
+
+
+Package natbib Warning: Citation `Ribner1962' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Cabana2008' on page 2 undefined on input line
+ 25.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-])
-[3]
+]
+
+Package natbib Warning: Citation `Ribner1962' on page 3 undefined on input line
+ 34.
+
+) [3]
 \openout2 = `sect_methodology.aux'.
 
  (./sect_methodology.tex
+
+Package natbib Warning: Citation `Hahn2011' on page 4 undefined on input line 4
+.
+
 Missing character: There is no ã in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no – in font cmr10!
 Missing character: There is no ã in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no — in font cmr10!
+
+Package natbib Warning: Citation `Kearney-Fischer2009' on page 4 undefined on i
+nput line 15.
+
+
+Package natbib Warning: Citation `Hahn2011a' on page 4 undefined on input line 
+24.
+
+
+Package natbib Warning: Citation `Utkin2007' on page 4 undefined on input line 
+25.
+
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ¼ in font cmr10!
- [4
+
+Package natbib Warning: Citation `Hahn2011a' on page 4 undefined on input line 
+31.
+
+[4
 
 
-] [5]
+]
+
+Package natbib Warning: Citation `Kearney-Fischer2009' on page 5 undefined on i
+nput line 48.
+
+
+Package natbib Warning: Citation `Sinha2012' on page 5 undefined on input line 
+63.
+
+[5]
+
+LaTeX Warning: Reference `fig:piv_setup' on page 6 undefined on input line 87.
+
 Package epstopdf Info: Source file: <Figures/ch2_piv_setup.eps>
-(epstopdf)                    date: 2016-06-26 19:05:16
-(epstopdf)                    size: 394064 bytes
-(epstopdf)             Output file: <Figures/ch2_piv_setup-eps-converted-to.pdf
->
-(epstopdf)                    date: 2016-06-26 19:06:10
-(epstopdf)                    size: 133535 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/ch2_piv_setup-eps-
-converted-to.pdf Figures/ch2_piv_setup.eps>
-(epstopdf)             \includegraphics on input line 90.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/ch2_piv_setup-eps-converted-to.pdf, id=32, 1111.15125pt x 652.4375pt>
-File: Figures/ch2_piv_setup-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/ch2_piv_setup-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/ch2_piv_setup-eps-converted-to.pdf used on inp
-ut line 90.
-(pdftex.def)             Requested size: 289.07999pt x 169.73926pt.
-) [6] [7 <./Figures/ch2_piv_setup-eps-converted-to.pdf>]
-\openout2 = `sect_nearfield.aux'.
-
- (./sect_nearfield.tex
-<Figures/ch3_nearfield_phavg_v2.png, id=44, 331.7193pt x 226.32555pt>
-File: Figures/ch3_nearfield_phavg_v2.png Graphic file (type png)
-
-<use Figures/ch3_nearfield_phavg_v2.png>
-Package pdftex.def Info: Figures/ch3_nearfield_phavg_v2.png used on input line 
-19.
-(pdftex.def)             Requested size: 172.79883pt x 117.9006pt.
-
-<Figures/ch3_nearfield_linear_v2.png, id=46, 325.6968pt x 226.32555pt>
-File: Figures/ch3_nearfield_linear_v2.png Graphic file (type png)
-
-<use Figures/ch3_nearfield_linear_v2.png>
-Package pdftex.def Info: Figures/ch3_nearfield_linear_v2.png used on input line
- 25.
-(pdftex.def)             Requested size: 172.79883pt x 120.07973pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
- [8
-
-
- <./Figures/ch3_nearfield_phavg_v2.png> <./Figures/ch3_nearfield_linear_v2.png>
-]
-<Figures/ch3_farfield_phavg_v2.png, id=55, 321.1197pt x 228.49365pt>
-File: Figures/ch3_farfield_phavg_v2.png Graphic file (type png)
-
-<use Figures/ch3_farfield_phavg_v2.png>
-Package pdftex.def Info: Figures/ch3_farfield_phavg_v2.png used on input line 5
-1.
-(pdftex.def)             Requested size: 172.79883pt x 122.95589pt.
-
-<Figures/ch3_farfield_linear_v2.png, id=56, 315.21765pt x 228.6141pt>
-File: Figures/ch3_farfield_linear_v2.png Graphic file (type png)
-
-<use Figures/ch3_farfield_linear_v2.png>
-Package pdftex.def Info: Figures/ch3_farfield_linear_v2.png used on input line 
-57.
-(pdftex.def)             Requested size: 172.79883pt x 125.3265pt.
-
-<Figures/ch3_farfield_linearsuperposition_st035_v2.png, id=57, 316.18124pt x 20
-6.2104pt>
-File: Figures/ch3_farfield_linearsuperposition_st035_v2.png Graphic file (type 
-png)
- <use Figures/ch3_farfield_linearsuperposition_st035_v2.png>
-Package pdftex.def Info: Figures/ch3_farfield_linearsuperposition_st035_v2.png 
-used on input line 74.
-(pdftex.def)             Requested size: 172.79883pt x 112.69865pt.
-
-Underfull \vbox (badness 1838) has occurred while \output is active []
-
- [9 <./Figures/ch3_farfield_phavg_v2.png> <./Figures/ch3_farfield_linear_v2.png
->]
-<Figures/sect_nearfield_spectra.png, id=64, 411.4572pt x 272.4579pt>
-File: Figures/sect_nearfield_spectra.png Graphic file (type png)
-
-<use Figures/sect_nearfield_spectra.png>
-Package pdftex.def Info: Figures/sect_nearfield_spectra.png used on input line 
-89.
-(pdftex.def)             Requested size: 168.96094pt x 111.8789pt.
-
-<Figures/sect_nearfield_prms.png, id=65, 428.802pt x 271.4943pt>
-File: Figures/sect_nearfield_prms.png Graphic file (type png)
-
-<use Figures/sect_nearfield_prms.png>
-Package pdftex.def Info: Figures/sect_nearfield_prms.png used on input line 90.
-
-(pdftex.def)             Requested size: 176.64258pt x 111.83948pt.
-
-
-LaTeX Warning: Reference `fig:phaseaxialbothM' on page 10 undefined on input li
-ne 95.
-
-[10 <./Figures/ch3_farfield_linearsuperposition_st035_v2.png> <./Figures/sect_n
-earfield_spectra.png> <./Figures/sect_nearfield_prms.png>]
-
-Package natbib Warning: Citation `Camussi1997b' on page 11 undefined on input l
-ine 102.
-
-
-Package natbib Warning: Citation `Guj1999' on page 11 undefined on input line 1
-02.
-
-
-Package natbib Warning: Citation `Camussi2002' on page 11 undefined on input li
-ne 102.
-
-
-Package natbib Warning: Citation `Guj2003' on page 11 undefined on input line 1
-02.
-
-[11]
-Package epstopdf Info: Source file: <Figures/negativePeak.eps>
-(epstopdf)                    date: 2016-01-31 19:44:58
-(epstopdf)                    size: 239238 bytes
-(epstopdf)             Output file: <Figures/negativePeak-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2016-07-31 19:08:29
-(epstopdf)                    size: 10226 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/negativePeak-eps-c
-onverted-to.pdf Figures/negativePeak.eps>
-(epstopdf)             \includegraphics on input line 145.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/negativePeak-eps-converted-to.pdf, id=78, 490.83376pt x 355.3275pt>
-File: Figures/negativePeak-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/negativePeak-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/negativePeak-eps-converted-to.pdf used on inpu
-t line 145.
-(pdftex.def)             Requested size: 172.79883pt x 125.093pt.
-Package epstopdf Info: Source file: <Figures/positivePeak.eps>
-(epstopdf)                    date: 2016-01-31 19:44:58
-(epstopdf)                    size: 239235 bytes
-(epstopdf)             Output file: <Figures/positivePeak-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2016-07-31 19:08:30
-(epstopdf)                    size: 10235 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/positivePeak-eps-c
-onverted-to.pdf Figures/positivePeak.eps>
-(epstopdf)             \includegraphics on input line 146.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/positivePeak-eps-converted-to.pdf, id=79, 490.83376pt x 355.3275pt>
-File: Figures/positivePeak-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/positivePeak-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/positivePeak-eps-converted-to.pdf used on inpu
-t line 146.
-(pdftex.def)             Requested size: 172.79883pt x 125.093pt.
-Package epstopdf Info: Source file: <Figures/compPeaks.eps>
-(epstopdf)                    date: 2016-01-31 19:44:58
-(epstopdf)                    size: 242489 bytes
-(epstopdf)             Output file: <Figures/compPeaks-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-07-31 19:08:31
-(epstopdf)                    size: 11338 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/compPeaks-eps-conv
-erted-to.pdf Figures/compPeaks.eps>
-(epstopdf)             \includegraphics on input line 147.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/compPeaks-eps-converted-to.pdf, id=80, 490.83376pt x 355.3275pt>
-File: Figures/compPeaks-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/compPeaks-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/compPeaks-eps-converted-to.pdf used on input l
-ine 147.
-(pdftex.def)             Requested size: 172.79883pt x 125.093pt.
- [12 <./Figures/negativePeak-eps-converted-to.pdf> <./Figures/positivePeak-eps-
-converted-to.pdf> <./Figures/compPeaks-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <Figures/condNcond.eps>
-(epstopdf)                    date: 2016-01-18 16:22:54
-(epstopdf)                    size: 188811 bytes
-(epstopdf)             Output file: <Figures/condNcond-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-07-31 19:19:44
-(epstopdf)                    size: 11485 bytes
-(epstopdf)             Command: <repstopdf --outfile=Figures/condNcond-eps-conv
-erted-to.pdf Figures/condNcond.eps>
-(epstopdf)             \includegraphics on input line 166.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/condNcond-eps-converted-to.pdf, id=147, 1445.4pt x 689.57625pt>
-File: Figures/condNcond-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/condNcond-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/condNcond-eps-converted-to.pdf used on input l
-ine 166.
-(pdftex.def)             Requested size: 384.0pt x 183.1998pt.
- [13 <./Figures/condNcond-eps-converted-to.pdf>]
-<Figures/sect_nearfield_fullxcorr.png, id=165, 299.1978pt x 251.4996pt>
-File: Figures/sect_nearfield_fullxcorr.png Graphic file (type png)
-
-<use Figures/sect_nearfield_fullxcorr.png>
-Package pdftex.def Info: Figures/sect_nearfield_fullxcorr.png used on input lin
-e 200.
-(pdftex.def)             Requested size: 182.40234pt x 153.32626pt.
-
-<Figures/sect_nearfield_acousticxcorr.png, id=166, 251.9814pt x 251.0178pt>
-File: Figures/sect_nearfield_acousticxcorr.png Graphic file (type png)
-
-<use Figures/sect_nearfield_acousticxcorr.png>
-Package pdftex.def Info: Figures/sect_nearfield_acousticxcorr.png used on input
- line 201.
-(pdftex.def)             Requested size: 153.98438pt x 153.40024pt.
- [14]
-<Figures/ToA_tau.png, id=170, 514.13821pt x 259.03296pt>
-File: Figures/ToA_tau.png Graphic file (type png)
-
-<use Figures/ToA_tau.png>
-Package pdftex.def Info: Figures/ToA_tau.png used on input line 228.
-(pdftex.def)             Requested size: 216.81pt x 109.23181pt.
- [15 <./Figures/sect_nearfield_fullxcorr.png> <./Figures/sect_nearfield_acousti
-cxcorr.png>]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-
-<Figures/sect_nearfield_ffxcorr.png, id=176, 475.5366pt x 340.3917pt>
-File: Figures/sect_nearfield_ffxcorr.png Graphic file (type png)
-
-<use Figures/sect_nearfield_ffxcorr.png>
-Package pdftex.def Info: Figures/sect_nearfield_ffxcorr.png used on input line 
-245.
-(pdftex.def)             Requested size: 384.0pt x 274.86914pt.
-
-
-LaTeX Warning: Reference `fig:ch3_farfield_linear' on page 16 undefined on inpu
-t line 251.
-
-[16 <./Figures/ToA_tau.png>]) [17 <./Figures/sect_nearfield_ffxcorr.png>]
-[18]
-\openout2 = `sect_velocity_reconstruction.aux'.
-
- (./sect_velocity_reconstruction.tex [19
-
-
-] [20]
-<Figures/ch4_St005_lambda.png, id=195, 517.09184pt x 524.6802pt>
-File: Figures/ch4_St005_lambda.png Graphic file (type png)
-
-<use Figures/ch4_St005_lambda.png>
-Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
-(pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
-
-<Figures/ch4_centerline_mach_temporal.png, id=196, 385.07864pt x 202.71735pt>
-File: Figures/ch4_centerline_mach_temporal.png Graphic file (type png)
-
-<use Figures/ch4_centerline_mach_temporal.png>
-Package pdftex.def Info: Figures/ch4_centerline_mach_temporal.png used on input
- line 77.
-(pdftex.def)             Requested size: 252.94499pt x 133.16284pt.
-
-<Figures/ch4_rawUx_acceleration.png, id=197, 384.59685pt x 204.0423pt>
-File: Figures/ch4_rawUx_acceleration.png Graphic file (type png)
-
-<use Figures/ch4_rawUx_acceleration.png>
-Package pdftex.def Info: Figures/ch4_rawUx_acceleration.png used on input line 
-83.
-(pdftex.def)             Requested size: 252.94499pt x 134.19507pt.
-
-
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 21 undefined
- on input line 91.
-
-
-LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 21 undefined on
- input line 92.
-
-[21] <Figures/ch4_St025_lambda.png, id=202, 594.5412pt x 655.0071pt>
-File: Figures/ch4_St025_lambda.png Graphic file (type png)
-
-<use Figures/ch4_St025_lambda.png>
-Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
-(pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
- [22 <./Figures/ch4_St005_lambda.png>]
-[23 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
-ion.png>]
-
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 24 undefined
- on input line 129.
-
-[24 <./Figures/ch4_St025_lambda.png>]
-<Figures/ch4_St035_lambda_evolution.png, id=216, 589.2414pt x 502.7583pt>
-File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
-
-<use Figures/ch4_St035_lambda_evolution.png>
-Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
-ine 147.
-(pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
-) [25] [26 <./Figures/ch4_St035_lambda_evolution.png>]
-\openout2 = `sect_acoustic_source.aux'.
-
- (./sect_acoustic_source.tex [27
-
-
-]
-<Figures/LES_phavg_streamwise_Ur.png, id=228, 380.1402pt x 199.7061pt>
-File: Figures/LES_phavg_streamwise_Ur.png Graphic file (type png)
-
-<use Figures/LES_phavg_streamwise_Ur.png>
-Package pdftex.def Info: Figures/LES_phavg_streamwise_Ur.png used on input line
- 65.
-(pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
-
-<Figures/LES_phavg_streamwise_p.png, id=229, 380.1402pt x 199.7061pt>
-File: Figures/LES_phavg_streamwise_p.png Graphic file (type png)
-
-<use Figures/LES_phavg_streamwise_p.png>
-Package pdftex.def Info: Figures/LES_phavg_streamwise_p.png used on input line 
-70.
-(pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
-
-<Figures/LES_2CDil.png, id=230, 380.1402pt x 203.8014pt>
-File: Figures/LES_2CDil.png Graphic file (type png)
-
-<use Figures/LES_2CDil.png>
-Package pdftex.def Info: Figures/LES_2CDil.png used on input line 87.
-(pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
-
-<Figures/LES_3CDil.png, id=231, 380.1402pt x 203.8014pt>
-File: Figures/LES_3CDil.png Graphic file (type png)
-
-<use Figures/LES_3CDil.png>
-Package pdftex.def Info: Figures/LES_3CDil.png used on input line 92.
-(pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
- [28] [29 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
-se_p.png> <./Figures/LES_2CDil.png> <./Figures/LES_3CDil.png>] <Figures/ch5_val
-id_Inst_Uz.png, id=242, 393.99194pt x 199.947pt>
-File: Figures/ch5_valid_Inst_Uz.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_Uz.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_Uz.png used on input line 129.
-(pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
-
-<Figures/ch5_valid_Inst_Ur.png, id=243, 391.58295pt x 199.947pt>
-File: Figures/ch5_valid_Inst_Ur.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_Ur.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_Ur.png used on input line 134.
-(pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
-
-<Figures/ch5_valid_Inst_solUz.png, id=244, 393.99194pt x 199.947pt>
-File: Figures/ch5_valid_Inst_solUz.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_solUz.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_solUz.png used on input line 13
-9.
-(pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
-
-<Figures/ch5_valid_Inst_solUr.png, id=245, 391.58295pt x 199.947pt>
-File: Figures/ch5_valid_Inst_solUr.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_solUr.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_solUr.png used on input line 14
-4.
-(pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
-
-<Figures/ch5_valid_Inst_potUz.png, id=246, 391.58295pt x 204.0423pt>
-File: Figures/ch5_valid_Inst_potUz.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_potUz.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_potUz.png used on input line 14
-9.
-(pdftex.def)             Requested size: 172.79883pt x 90.0404pt.
-
-<Figures/ch5_valid_Inst_potUr.png, id=247, 391.58295pt x 201.99464pt>
-File: Figures/ch5_valid_Inst_potUr.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_potUr.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_potUr.png used on input line 15
-4.
-(pdftex.def)             Requested size: 172.79883pt x 89.13681pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-<Figures/ch5_valid_Inst_ps.png, id=251, 405.6756pt x 204.0423pt>
-File: Figures/ch5_valid_Inst_ps.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_ps.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_ps.png used on input line 181.
-(pdftex.def)             Requested size: 252.94499pt x 127.2241pt.
- [31 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
-ures/ch5_valid_Inst_solUz.png> <./Figures/ch5_valid_Inst_solUr.png> <./Figures/
-ch5_valid_Inst_potUz.png> <./Figures/ch5_valid_Inst_potUr.png>]
-
-LaTeX Warning: Reference `eq:source_integration' on page 32 undefined on input 
-line 195.
-
-<Figures/ch5_valid_Inst_source.png, id=262, 394.71465pt x 215.3646pt>
-File: Figures/ch5_valid_Inst_source.png Graphic file (type png)
-
-<use Figures/ch5_valid_Inst_source.png>
-Package pdftex.def Info: Figures/ch5_valid_Inst_source.png used on input line 1
-98.
-(pdftex.def)             Requested size: 252.94499pt x 138.0136pt.
-
-<Figures/sect_aeroacoustic_wvpkt_validation.png, id=263, 472.164pt x 337.7418pt
->
-File: Figures/sect_aeroacoustic_wvpkt_validation.png Graphic file (type png)
- <use Figures/sect_aeroacoustic_wvpkt_validation.png>
-Package pdftex.def Info: Figures/sect_aeroacoustic_wvpkt_validation.png used on
- input line 210.
-(pdftex.def)             Requested size: 345.59766pt x 247.20912pt.
- [32 <./Figures/ch5_valid_Inst_ps.png>] [33 <./Figures/ch5_valid_Inst_source.pn
-g> <./Figures/sect_aeroacoustic_wvpkt_validation.png>]
-<Figures/ch5_St005_FF_v2.png, id=275, 369.66106pt x 218.85765pt>
-File: Figures/ch5_St005_FF_v2.png Graphic file (type png)
-
-<use Figures/ch5_St005_FF_v2.png>
-Package pdftex.def Info: Figures/ch5_St005_FF_v2.png used on input line 247.
-(pdftex.def)             Requested size: 252.94499pt x 149.75627pt.
-
-<Figures/ch5_St025_FF_v3.png, id=276, 369.66106pt x 186.2157pt>
-File: Figures/ch5_St025_FF_v3.png Graphic file (type png)
-
-<use Figures/ch5_St025_FF_v3.png>
-Package pdftex.def Info: Figures/ch5_St025_FF_v3.png used on input line 253.
-(pdftex.def)             Requested size: 252.94499pt x 127.4206pt.
-
-<Figures/ch5_St035_FF_v3.png, id=277, 366.28845pt x 184.5294pt>
-File: Figures/ch5_St035_FF_v3.png Graphic file (type png)
-
-<use Figures/ch5_St035_FF_v3.png>
-Package pdftex.def Info: Figures/ch5_St035_FF_v3.png used on input line 258.
-(pdftex.def)             Requested size: 252.94499pt x 127.4296pt.
- [34]
-<Figures/ch5_St005_PSL_101.png, id=281, 385.44pt x 203.8014pt>
-File: Figures/ch5_St005_PSL_101.png Graphic file (type png)
-
-<use Figures/ch5_St005_PSL_101.png>
-Package pdftex.def Info: Figures/ch5_St005_PSL_101.png used on input line 277.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
-
-<Figures/ch5_St005_PSL_161.png, id=282, 385.44pt x 203.8014pt>
-File: Figures/ch5_St005_PSL_161.png Graphic file (type png)
-
-<use Figures/ch5_St005_PSL_161.png>
-Package pdftex.def Info: Figures/ch5_St005_PSL_161.png used on input line 282.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
-
-<Figures/ch5_St025_PSL_41.png, id=283, 385.44pt x 203.8014pt>
-File: Figures/ch5_St025_PSL_41.png Graphic file (type png)
-
-<use Figures/ch5_St025_PSL_41.png>
-Package pdftex.def Info: Figures/ch5_St025_PSL_41.png used on input line 290.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [35 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
-/ch5_St035_FF_v3.png>]
-
-LaTeX Warning: Reference `fig:SL_St005' on page 36 undefined on input line 299.
-
-
-<Figures/ch5_St005_SL_131.png, id=290, 385.44pt x 203.8014pt>
-File: Figures/ch5_St005_SL_131.png Graphic file (type png)
-
-<use Figures/ch5_St005_SL_131.png>
-Package pdftex.def Info: Figures/ch5_St005_SL_131.png used on input line 307.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
-
-<Figures/ch5_St025_SL_1.png, id=291, 385.44pt x 203.8014pt>
-File: Figures/ch5_St025_SL_1.png Graphic file (type png)
-
-<use Figures/ch5_St025_SL_1.png>
-Package pdftex.def Info: Figures/ch5_St025_SL_1.png used on input line 313.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [36 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
-<Figures/sect_acoustic_source_modulated_source.png, id=297, 465.1779pt x 340.63
-26pt>
-File: Figures/sect_acoustic_source_modulated_source.png Graphic file (type png)
-
- <use Figures/sect_acoustic_source_modulated_source.png>
-Package pdftex.def Info: Figures/sect_acoustic_source_modulated_source.png used
- on input line 332.
-(pdftex.def)             Requested size: 345.59766pt x 253.07771pt.
- [37 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
-es/ch5_St025_SL_1.png>]) [38 <./Figures/sect_acoustic_source_modulated_source.p
-ng>]
-\openout2 = `sect_conclusion.aux'.
-
-
-(./sect_conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39
-
-
-])
-[40] (./MCrawley_JFM_2016.bbl
-Underfull \vbox (badness 4454) has occurred while \output is active []
-
- [41
-
-]
-Missing character: There is no â in font cmr9!
-Missing character: There is no € in font cmr9!
-Missing character: There is no “ in font cmr9!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42])
-
-Package natbib Warning: There were undefined citations.
-
-[43] (./MCrawley_JFM_2016.aux (./sect_introduction.aux) (./sect_methodology.aux
-) (./sect_nearfield.aux) (./sect_velocity_reconstruction.aux)
-(./sect_acoustic_source.aux) (./sect_conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
-Here is how much of TeX's memory you used:
- 3365 strings out of 493085
- 48149 string characters out of 6136917
- 113096 words of memory out of 5000000
- 6696 multiletter control sequences out of 15000+600000
- 16097 words of font info for 61 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,9n,29p,820b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on MCrawley_JFM_2016.pdf (43 pages, 20648359 bytes).
-PDF statistics:
- 406 PDF objects out of 1000 (max. 8388607)
- 233 compressed objects within 3 object streams
- 0 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(epstopdf)                    date: 2016-08-20 15:04:18
+(epstop
