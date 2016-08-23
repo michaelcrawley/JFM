@@ -103,16 +103,6 @@ Wavelet--based conditional averaging has been used previously for structure iden
 The technique is based on the Local Intermittency Measure (LIM) \citep{Farge1992}, which is the ratio between the local energy of the wavelet coefficient for a specific time and scale $(\tau, s)$ and a time-averaged energy at the same scale $s$.
 The LIM was demonstrated to be a well-suited indicator for coherent structure identification \citep{Camussi1997}. 
 The LIM provides information about the instantaneous fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent, energetic events in the signal.
-The peaks are local maxima of LIM and are constrained by the following conditions:
-\begin{equation}
-		\begin{array}{ll}
-			& L(s, \tau) > T,\\
-			\\
-			& \frac{\partial L}{\partial \tau}(s, \tau) = 0,\\
-			\\
-			&\frac{\partial^{2} L}{\partial \tau^{2}}(s, \tau) < 0.
-		\end{array}
-\end{equation}
 
 An iterative process was used in order to fix the threshold, $T$. To initiate the iterative process it is needed first to select a 'first estimate' of the threshold. It was taken to be equal to 1. The algorithm of the iterative process is applied to each scale of the wavelet--decomposition and allows to have a threshold for each scale. The algorithm used to obtain this is:
 \begin{enumerate}
@@ -194,123 +184,123 @@ The similarities between the two last cases are strong as it can be observed fro
 	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
 	\label{fig:autoCondSt0p35}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-		\begin{subfigure}{.5\textwidth}
-			\centering
-			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X1DU0p7112.png}
-			\caption{}
-			\label{fig:ch3_farfield_phavg}
-		\end{subfigure}%
-		\begin{subfigure}{.5\textwidth}
-			\centering
-			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X3DU0p6806.png}
-			\caption{}
-			\label{fig:ch3_farfield_phavg}
-		\end{subfigure}%
-		\begin{subfigure}{.5\textwidth}
-			\centering
-			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X6DU0p6430.png}
-			\caption{}
-			\label{fig:ch3_farfield_phavg}
-		\end{subfigure}%
-		\begin{subfigure}{.5\textwidth}
-			\centering
-			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X9p50DU0p5873.png}
-			\caption{}
-			\label{fig:ch3_farfield_phavg}
-		\end{subfigure}%
+%		\begin{subfigure}{.5\textwidth}
+%			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X1DU0p7112.png}%
+%			\caption{}
+%			\label{fig:ch3_farfield_phavg}
+%		\end{subfigure}%
+%		\begin{subfigure}{.5\textwidth}
+%%			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X3DU0p6806.png}\\
+%%			\caption{}
+%%			\label{fig:ch3_farfield_phavg}
+%%		\end{subfigure}%
+%%		\begin{subfigure}{.5\textwidth}
+%%			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X6DU0p6430.png}%
+%%			\caption{}
+%%			\label{fig:ch3_farfield_phavg}
+%%		\end{subfigure}%
+%%		\begin{subfigure}{.5\textwidth}
+%%			\centering
+			\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p00X9p5DU0p5873.png}
+%			\caption{}
+%			\label{fig:ch3_farfield_phavg}
+%		\end{subfigure}%
 	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
 	\label{fig:crossCondSt0p00}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X1DU0p7060.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X3DU0p6962.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X6DU0p7054.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X9p50DU0p4585.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X1DU0p7060.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X3DU0p6962.png}\\
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X6DU0p7054.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p05X9p5DU0p4585.png}
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
 	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
 	\label{fig:crossCondSt0p15}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X1DU0p6223.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X3DU0p6647.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X6DU0p7505.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X9p50DU0p3901.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X1DU0p6223.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X3DU0p6647.png}\\
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X6DU0p7505.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p25X9p5DU0p3901.png}
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
 	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
 	\label{fig:crossCondSt0p25}
 \end{figure}
-%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
 	\centering
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X1DU0p6502.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X3DU0p7053.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X6DU0p4709.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-		\centering
-		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X9p50DU0p3532.png}
-		\caption{}
-		\label{fig:ch3_farfield_phavg}
-	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X1DU0p6502.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X3DU0p7053.png}\\
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X6DU0p4709.png} %
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%		\centering
+		\includegraphics[width=0.45\linewidth]{Figures/conditioning/crossCondSt0p35X9p5DU0p3532.png}
+%		\caption{}
+%		\label{fig:ch3_farfield_phavg}
+%	\end{subfigure}%
 	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
 	\label{fig:crossCondSt0p35}
 \end{figure}

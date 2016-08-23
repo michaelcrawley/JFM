@@ -1,4 +1,4 @@
-\begin{thebibliography}{64}
+\begin{thebibliography}{65}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \def\au#1{#1} \def\ed#1{#1} \def\yr#1{#1}\def\at#1{#1}\def\jt#1{\textit{#1}}
   \def\bt#1{#1}\def\bvol#1{\textbf{#1}} \def\vol#1{#1} \def\pg#1{#1}
@@ -155,6 +155,11 @@
   high-speed jets: real-time visualization with simultaneous acoustic
   measurements}.  \jt{Journal of Fluid Mechanics}  \bvol{544},  \pg{277--307}.
 
+\bibitem[Howe(1975)]{Howe1975}
+{\sc \au{Howe, M.~S.}} \yr{1975}  \at{Contributions to the theory of
+  aerodynamic sound, with application to excess jet noise and the theory of the
+  flute}.  \jt{Journal of Fluid Mechanics}  \bvol{71}~(4),  \pg{625--673}.
+
 \bibitem[Hussain \& Reynolds(1970)]{Hussain1970}
 {\sc \au{Hussain, A. K. M.~F.} \& \au{Reynolds, W.~C.}} \yr{1970}  \at{The
   mechanics of an organized wave in turbulent shear flow}.  \jt{Journal of
@@ -217,6 +222,12 @@
   to cavity flow and turbulent channel flow}.  \jt{AIAA Journal}
   \bvol{53}~(10),  \pg{2920--2935}.
 
+\bibitem[Lighthill(1952)]{Lighthill1952}
+{\sc \au{Lighthill, M.~J.}} \yr{1952} On sound generated aerodynamically. i.
+  general theory.  \bt{In {\em Proceedings of the Royal Society of London:
+  Series A, Mathematical and Physical Sciences\/}}, ,  \vol{vol. 211},  \pg{pp.
+  564--587}.  \publ{The Royal Society}.
+
 \bibitem[Lilley(2003)]{Lilley2003}
 {\sc \au{Lilley, G.~M.}} \yr{2003}  \at{The source of aerodynamic noise}.
   \jt{International Journal of Aeroacoustics}  \bvol{2}~(3),  \pg{241--254}.
@@ -247,6 +258,10 @@
 \bibitem[Obrist(2011)]{Obrist2011}
 {\sc \au{Obrist, D.}} \yr{2011}  \at{Acoustic emissions from convected wave
   packets}.  \jt{Physics of Fluids}  \bvol{23},  \pg{026101}.
+
+\bibitem[Powell(1964)]{Powell1964}
+{\sc \au{Powell, A.}} \yr{1964}  \at{Theory of vortex sound}.  \jt{Journal of
+  the Acoustical Society of America}  \bvol{36}~(1),  \pg{177--195}.
 
 \bibitem[Ribner(1962)]{Ribner1962}
 {\sc \au{Ribner, H.~S.}} \yr{1962}  \bt{Aerodynamic sound from fluid
@@ -301,11 +316,6 @@
   On the two components of turbulent mixing noise from supersonic jets.  \bt{In
   {\em 2nd AIAA/CEAS Aeroacoustics Conference\/}}.
 
-\bibitem[Tam {\em et~al.\/}(2008)Tam, Viswanathan, Ahuja \& Panda]{Tam2008}
-{\sc \au{Tam, C. K.~W.}, \au{Viswanathan, K.}, \au{Ahuja, K.} \& \au{Panda,
-  J.}} \yr{2008}  \at{The source of jet noise: Experimental evidence}.
-  \jt{Journal of Fluid Mechanics}  \bvol{615},  \pg{253--292}.
-
 \bibitem[Tinney {\em et~al.\/}(2006)Tinney, Coiffet, Delville, Hall, Jordan \&
   Glauser]{Tinney2006}
 {\sc \au{Tinney, C.~E.}, \au{Coiffet, F.}, \au{Delville, J.}, \au{Hall, A.~M.},
@@ -345,11 +355,6 @@
 {\sc \au{Veltin, J.}, \au{Day, B.} \& \au{McLaughlin, D.~K.}} \yr{2011}
   \at{Correlation of flowfield and acoustic field measurements in high-speed
   jets}.  \jt{AIAA Journal}  \bvol{49}~(1),  \pg{150--163}.
-
-\bibitem[Viswanathan(2006)]{Viswanathan2006}
-{\sc \au{Viswanathan, K.}} \yr{2006}  \at{Scaling laws and a method for
-  identifying components of jet noise}.  \jt{AIAA Journal}  \bvol{44}~(10),
-  \pg{2274--2285}.
 
 \bibitem[Wei \& Freund(2006)]{Wei2006}
 {\sc \au{Wei, M.} \& \au{Freund, J.~B.}} \yr{2006}  \at{A noise-controlled free
