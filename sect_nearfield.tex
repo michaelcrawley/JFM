@@ -170,7 +170,7 @@ The next figure \ref{fig:autoCondSt0p05} represents the auto--conditioning using
 	\label{fig:autoCondSt0p05}
 \end{figure}
 
-The similarities between the two last cases are strong as it can be observed from figures \ref{fig:autoCondSt0p25} and \ref{fig:autoCondSt0p35}. The excitation achieved a state in which it can be observed multiple energetic events on the same time--scale as the two previous cases. For the case $S_t = 0.25$ case, the energetic event seems to be the same as $S_t = 0.05$. For the highest case it is a little bit more difficult to see it as the time between two successive energetic events is really small. The energetic--events are not retrieving the baseline shape, a central peak surrounded by two smaller of the opposite sign. Another observation true only for these two presented cases is that the length on which the excitation takes effect is becoming smaller as the excitation is becoming higher. On figure \ref{fig:autoCondSt0p25} the excitation seems to takes place up to $x/D=6$ while on the following figure, \ref{fig:autoCondSt0p35}, it is up to $x/D=4$. 
+The similarities between the two last cases are strong as it can be observed from figures \ref{fig:autoCondSt0p25} and \ref{fig:autoCondSt0p35}. The excitation achieved a state in which it can be observed multiple energetic events on the same time--scale as the two previous cases. For the case $S_t = 0.25$ case, the energetic event seems to be the same as $S_t = 0.05$. For the highest case it is more difficult to observe it as the time between two successive energetic events is really short. The characteristic energetic--events of the forced cases are not similar in shape as the baseline, a central peak surrounded by two smaller of the opposite sign. It can be noted that the distance from the nozzle on which the excitation takes effect is becoming shorter as the excitation is higher: on figure \ref{fig:autoCondSt0p25} the excitation seems to take place up to $x/D=6$ while on the following figure, \ref{fig:autoCondSt0p35}, it is up to $x/D=4$, shortened by around $2D$ with compare to the lowest case. 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p25.png}
@@ -185,6 +185,7 @@ The similarities between the two last cases are strong as it can be observed fro
 	\label{fig:autoCondSt0p35}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%
+As it was explained before, the previous figures were the auto--conditioning. 
 \begin{figure}
 	\centering
 %		\begin{subfigure}{.5\textwidth}
@@ -303,6 +304,16 @@ The similarities between the two last cases are strong as it can be observed fro
 %	\end{subfigure}%
 	\caption{Cross--conditioning of the near--field array using the reference signal at (a). $x/D = 1$, (b). $x/D=3$, (c). $x/D=6$ and (d). $x/D=9.50$}
 	\label{fig:crossCondSt0p35}
+\end{figure}
+
+The maximum value at each axial position was extracted from the cross--conditioning figures. A linear interpolation was performed in order to find the first order polynomial corresponding to these maxima. The local velocity at the position of the reference signal is then deduced: it is the inverse of the first order coefficient of the polynomial. Figure \ref{fig:velocityProfiles} is the velocity profile for the different forcing cases. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1\textwidth]{Figures/conditioning/fluctuationVelocity.eps}
+	% \caption{\textit{Velocity profiles for baseline and forced cases extracted from cross--conditioning: (\textcolor{black}{$\bigtriangledown$}) baseline, (\textcolor{blue}{$\bigtriangleup$}) $S_t = 0.05$, (\textcolor{black}{\rhd}) $S_t = 0.25$, (\textcolor{black}{\lhd}) $S_t = 0.35$}}
+	% I don't manage to get that thing working...
+	\label{fig:velocityProfiles}
 \end{figure}
 
 \subsection{Identifying the Acoustic Source Region}
