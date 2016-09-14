@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.18)  26 AUG 2016 01:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.18)  12 SEP 2016 03:15
 entering extended mode
 **./MCrawley_JFM_2016.tex
 (MCrawley_JFM_2016.tex
@@ -397,7 +397,7 @@ Package natbib Warning: Citation `Guj2003' on page 11 undefined on input line 1
 02.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1442) has occurred while \output is active []
 
  [11]
 Package epstopdf Info: Source file: <Figures/negativePeak.eps>
@@ -409,7 +409,7 @@ Package epstopdf Info: Source file: <Figures/negativePeak.eps>
 (epstopdf)                    size: 10226 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/negativePeak-eps-co
 nverted-to.pdf Figures/negativePeak.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/negativePeak-eps-converted-to.pdf, id=76, 490.83376pt x 355.3275pt>
@@ -417,7 +417,7 @@ File: Figures/negativePeak-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/negativePeak-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/negativePeak-eps-converted-to.pdf used on inpu
-t line 129.
+t line 133.
 (pdftex.def)             Requested size: 172.79883pt x 125.093pt.
 Package epstopdf Info: Source file: <Figures/positivePeak.eps>
 (epstopdf)                    date: 2016-08-19 14:31:21
@@ -428,7 +428,7 @@ Package epstopdf Info: Source file: <Figures/positivePeak.eps>
 (epstopdf)                    size: 10235 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/positivePeak-eps-co
 nverted-to.pdf Figures/positivePeak.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/positivePeak-eps-converted-to.pdf, id=77, 490.83376pt x 355.3275pt>
@@ -436,7 +436,7 @@ File: Figures/positivePeak-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/positivePeak-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/positivePeak-eps-converted-to.pdf used on inpu
-t line 130.
+t line 134.
 (pdftex.def)             Requested size: 172.79883pt x 125.093pt.
 Package epstopdf Info: Source file: <Figures/compPeaks.eps>
 (epstopdf)                    date: 2016-08-19 14:31:21
@@ -446,7 +446,7 @@ Package epstopdf Info: Source file: <Figures/compPeaks.eps>
 (epstopdf)                    size: 11338 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/compPeaks-eps-conve
 rted-to.pdf Figures/compPeaks.eps>
-(epstopdf)             \includegraphics on input line 131.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/compPeaks-eps-converted-to.pdf, id=78, 490.83376pt x 355.3275pt>
@@ -454,13 +454,8 @@ File: Figures/compPeaks-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/compPeaks-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/compPeaks-eps-converted-to.pdf used on input l
-ine 131.
+ine 135.
 (pdftex.def)             Requested size: 172.79883pt x 125.093pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./Figures/negativePeak-eps-converted-to.pdf> <./Figures/positivePeak-eps-
-converted-to.pdf> <./Figures/compPeaks-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/condNcond.eps>
 (epstopdf)                    date: 2016-08-19 14:31:21
 (epstopdf)                    size: 193155 bytes
@@ -469,39 +464,40 @@ Package epstopdf Info: Source file: <Figures/condNcond.eps>
 (epstopdf)                    size: 11485 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/condNcond-eps-conve
 rted-to.pdf Figures/condNcond.eps>
-(epstopdf)             \includegraphics on input line 150.
+(epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/condNcond-eps-converted-to.pdf, id=145, 1445.4pt x 689.57625pt>
+<Figures/condNcond-eps-converted-to.pdf, id=79, 1445.4pt x 689.57625pt>
 File: Figures/condNcond-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/condNcond-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/condNcond-eps-converted-to.pdf used on input l
-ine 150.
+ine 154.
 (pdftex.def)             Requested size: 384.0pt x 183.1998pt.
-
+ [12 <./Figures/negativePeak-eps-converted-to.pdf> <./Figures/positivePeak-eps-
+converted-to.pdf> <./Figures/compPeaks-eps-converted-to.pdf>]
 <Figures/conditioning/autoCondSt0p00.png, id=146, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p00.png Graphic file (type png)
 
 <use Figures/conditioning/autoCondSt0p00.png>
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p00.png used on input 
-line 159.
+line 163.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
- [13 <./Figures/condNcond-eps-converted-to.pdf>]
-<Figures/conditioning/autoCondSt0p05.png, id=164, 843.90282pt x 460.72125pt>
+
+<Figures/conditioning/autoCondSt0p05.png, id=147, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p05.png Graphic file (type png)
 
 <use Figures/conditioning/autoCondSt0p05.png>
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p05.png used on input 
-line 168.
+line 172.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
-
+ [13 <./Figures/condNcond-eps-converted-to.pdf>]
 <Figures/conditioning/autoCondSt0p25.png, id=165, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p25.png Graphic file (type png)
 
 <use Figures/conditioning/autoCondSt0p25.png>
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p25.png used on input 
-line 176.
+line 180.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
  [14 <./Figures/conditioning/autoCondSt0p00.png (PNG copy)> <./Figures/conditio
 ning/autoCondSt0p05.png (PNG copy)>]
@@ -510,247 +506,68 @@ File: Figures/conditioning/autoCondSt0p35.png Graphic file (type png)
 
 <use Figures/conditioning/autoCondSt0p35.png>
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p35.png used on input 
-line 183.
+line 187.
 (pdftex.def)             Requested size: 384.0pt x 209.98509pt.
-
-<Figures/conditioning/crossCondSt0p00X1DU0p7112.png, id=170, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p00X1DU0p7112.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p00X1DU0p7112.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p00X1DU0p7112.png use
-d on input line 193.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p00X3DU0p6806.png, id=171, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p00X3DU0p6806.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p00X3DU0p6806.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p00X3DU0p6806.png use
-d on input line 199.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p00X6DU0p6430.png, id=172, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p00X6DU0p6430.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p00X6DU0p6430.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p00X6DU0p6430.png use
-d on input line 205.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p00X9p5DU0p5873.png, id=173, 843.90282pt x 46
-0.72125pt>
-File: Figures/conditioning/crossCondSt0p00X9p5DU0p5873.png Graphic file (type p
-ng)
- <use Figures/conditioning/crossCondSt0p00X9p5DU0p5873.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p00X9p5DU0p5873.png u
-sed on input line 211.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p05X1DU0p7060.png, id=174, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p05X1DU0p7060.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p05X1DU0p7060.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p05X1DU0p7060.png use
-d on input line 223.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p05X3DU0p6962.png, id=175, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p05X3DU0p6962.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p05X3DU0p6962.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p05X3DU0p6962.png use
-d on input line 229.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p05X6DU0p7054.png, id=176, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p05X6DU0p7054.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p05X6DU0p7054.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p05X6DU0p7054.png use
-d on input line 235.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p05X9p5DU0p4585.png, id=177, 843.90282pt x 46
-0.72125pt>
-File: Figures/conditioning/crossCondSt0p05X9p5DU0p4585.png Graphic file (type p
-ng)
- <use Figures/conditioning/crossCondSt0p05X9p5DU0p4585.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p05X9p5DU0p4585.png u
-sed on input line 241.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p25X1DU0p6223.png, id=178, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p25X1DU0p6223.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p25X1DU0p6223.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p25X1DU0p6223.png use
-d on input line 253.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p25X3DU0p6647.png, id=179, 843.90282pt x 460.
-72125pt>
-File: Figures/conditioning/crossCondSt0p25X3DU0p6647.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p25X3DU0p6647.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p25X3DU0p6647.png use
-d on input line 259.
-(pdftex.def)             Requested size: 172.79883pt x 94.33598pt.
-
-<Figures/conditioning/crossCondSt0p25X6DU0p7505.png, id=180, 843.90282pt x 461.
-47406pt>
-File: Figures/conditioning/crossCondSt0p25X6DU0p7505.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p25X6DU0p7505.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p25X6DU0p7505.png use
-d on input line 265.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
-
-<Figures/conditioning/crossCondSt0p25X9p5DU0p3901.png, id=181, 843.90282pt x 46
-1.47406pt>
-File: Figures/conditioning/crossCondSt0p25X9p5DU0p3901.png Graphic file (type p
-ng)
- <use Figures/conditioning/crossCondSt0p25X9p5DU0p3901.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p25X9p5DU0p3901.png u
-sed on input line 271.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
-
-<Figures/conditioning/crossCondSt0p35X1DU0p6502.png, id=182, 843.90282pt x 461.
-47406pt>
-File: Figures/conditioning/crossCondSt0p35X1DU0p6502.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p35X1DU0p6502.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p35X1DU0p6502.png use
-d on input line 283.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
-
-<Figures/conditioning/crossCondSt0p35X3DU0p7053.png, id=183, 843.90282pt x 461.
-47406pt>
-File: Figures/conditioning/crossCondSt0p35X3DU0p7053.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p35X3DU0p7053.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p35X3DU0p7053.png use
-d on input line 289.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
-
-<Figures/conditioning/crossCondSt0p35X6DU0p4709.png, id=184, 843.90282pt x 461.
-47406pt>
-File: Figures/conditioning/crossCondSt0p35X6DU0p4709.png Graphic file (type png
-)
- <use Figures/conditioning/crossCondSt0p35X6DU0p4709.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p35X6DU0p4709.png use
-d on input line 295.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
-
-<Figures/conditioning/crossCondSt0p35X9p5DU0p3532.png, id=185, 843.90282pt x 46
-1.47406pt>
-File: Figures/conditioning/crossCondSt0p35X9p5DU0p3532.png Graphic file (type p
-ng)
- <use Figures/conditioning/crossCondSt0p35X9p5DU0p3532.png>
-Package pdftex.def Info: Figures/conditioning/crossCondSt0p35X9p5DU0p3532.png u
-sed on input line 301.
-(pdftex.def)             Requested size: 172.79883pt x 94.49013pt.
  [15 <./Figures/conditioning/autoCondSt0p25.png (PNG copy)> <./Figures/conditio
-ning/autoCondSt0p35.png (PNG copy)>]
-Package epstopdf Info: Source file: <Figures/conditioning/fluctuationVelocity.e
-ps>
-(epstopdf)                    date: 2016-08-18 20:08:41
-(epstopdf)                    size: 99839 bytes
-(epstopdf)             Output file: <Figures/conditioning/fluctuationVelocity-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2016-08-26 00:11:21
-(epstopdf)                    size: 5606 bytes
-(epstopdf)             Command: <epstopdf --outfile=Figures/conditioning/fluctu
-ationVelocity-eps-converted-to.pdf Figures/conditioning/fluctuationVelocity.eps
->
-(epstopdf)             \includegraphics on input line 313.
-Package epstopdf Info: Output file is already uptodate.
-
-<Figures/conditioning/fluctuationVelocity-eps-converted-to.pdf, id=189, 844.153
-75pt x 461.725pt>
-File: Figures/conditioning/fluctuationVelocity-eps-converted-to.pdf Graphic fil
-e (type pdf)
-
-<use Figures/conditioning/fluctuationVelocity-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/conditioning/fluctuationVelocity-eps-converted
--to.pdf used on input line 313.
-(pdftex.def)             Requested size: 384.0pt x 210.03589pt.
- [16 <./Figures/conditioning/crossCondSt0p00X1DU0p7112.png (PNG copy)> <./Figur
-es/conditioning/crossCondSt0p00X3DU0p6806.png (PNG copy)> <./Figures/conditioni
-ng/crossCondSt0p00X6DU0p6430.png (PNG copy)> <./Figures/conditioning/crossCondS
-t0p00X9p5DU0p5873.png (PNG copy)> <./Figures/conditioning/crossCondSt0p05X1DU0p
-7060.png (PNG copy)> <./Figures/conditioning/crossCondSt0p05X3DU0p6962.png (PNG
- copy)> <./Figures/conditioning/crossCondSt0p05X6DU0p7054.png (PNG copy)> <./Fi
-gures/conditioning/crossCondSt0p05X9p5DU0p4585.png (PNG copy)>] [17 <./Figures/
-conditioning/crossCondSt0p25X1DU0p6223.png (PNG copy)> <./Figures/conditioning/
-crossCondSt0p25X3DU0p6647.png (PNG copy)> <./Figures/conditioning/crossCondSt0p
-25X6DU0p7505.png (PNG copy)> <./Figures/conditioning/crossCondSt0p25X9p5DU0p390
-1.png (PNG copy)> <./Figures/conditioning/crossCondSt0p35X1DU0p6502.png (PNG co
-py)> <./Figures/conditioning/crossCondSt0p35X3DU0p7053.png (PNG copy)> <./Figur
-es/conditioning/crossCondSt0p35X6DU0p4709.png (PNG copy)> <./Figures/conditioni
-ng/crossCondSt0p35X9p5DU0p3532.png (PNG copy)>]
-<Figures/sect_nearfield_fullxcorr.png, id=196, 299.1978pt x 251.4996pt>
+ning/autoCondSt0p35.png (PNG copy)>] <Figures/sect_nearfield_fullxcorr.png, id=
+173, 299.1978pt x 251.4996pt>
 File: Figures/sect_nearfield_fullxcorr.png Graphic file (type png)
 
 <use Figures/sect_nearfield_fullxcorr.png>
 Package pdftex.def Info: Figures/sect_nearfield_fullxcorr.png used on input lin
-e 348.
+e 223.
 (pdftex.def)             Requested size: 182.40234pt x 153.32626pt.
 
-<Figures/sect_nearfield_acousticxcorr.png, id=197, 251.9814pt x 251.0178pt>
+<Figures/sect_nearfield_acousticxcorr.png, id=174, 251.9814pt x 251.0178pt>
 File: Figures/sect_nearfield_acousticxcorr.png Graphic file (type png)
 
 <use Figures/sect_nearfield_acousticxcorr.png>
 Package pdftex.def Info: Figures/sect_nearfield_acousticxcorr.png used on input
- line 349.
+ line 224.
 (pdftex.def)             Requested size: 153.98438pt x 153.40024pt.
- [18 <./Figures/conditioning/fluctuationVelocity-eps-converted-to.pdf>] [19 <./
-Figures/sect_nearfield_fullxcorr.png> <./Figures/sect_nearfield_acousticxcorr.p
-ng>]
-<Figures/ToA_tau.png, id=214, 514.13821pt x 259.03296pt>
+ [16] [17 <./Figures/sect_nearfield_fullxcorr.png> <./Figures/sect_nearfield_ac
+ousticxcorr.png>]
+<Figures/ToA_tau.png, id=183, 514.13821pt x 259.03296pt>
 File: Figures/ToA_tau.png Graphic file (type png)
 
 <use Figures/ToA_tau.png>
-Package pdftex.def Info: Figures/ToA_tau.png used on input line 376.
+Package pdftex.def Info: Figures/ToA_tau.png used on input line 251.
 (pdftex.def)             Requested size: 216.81pt x 109.23181pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 
-<Figures/sect_nearfield_ffxcorr.png, id=215, 475.5366pt x 340.3917pt>
+<Figures/sect_nearfield_ffxcorr.png, id=184, 475.5366pt x 340.3917pt>
 File: Figures/sect_nearfield_ffxcorr.png Graphic file (type png)
 
 <use Figures/sect_nearfield_ffxcorr.png>
 Package pdftex.def Info: Figures/sect_nearfield_ffxcorr.png used on input line 
-393.
+268.
 (pdftex.def)             Requested size: 384.0pt x 274.86914pt.
- [20 <./Figures/ToA_tau.png>]
 
-LaTeX Warning: Reference `fig:ch3_farfield_linear' on page 21 undefined on inpu
-t line 399.
+Underfull \vbox (badness 2781) has occurred while \output is active []
 
-) [21 <./Figures/sect_nearfield_ffxcorr.png>] [22]
+ [18 <./Figures/ToA_tau.png>]
+
+LaTeX Warning: Reference `fig:ch3_farfield_linear' on page 19 undefined on inpu
+t line 274.
+
+) [19 <./Figures/sect_nearfield_ffxcorr.png>] [20]
 \openout2 = `sect_velocity_reconstruction.aux'.
 
 
-(sect_velocity_reconstruction.tex [23
+(sect_velocity_reconstruction.tex [21
 
 
-] [24]
-<Figures/ch4_St005_lambda.png, id=233, 517.09184pt x 524.6802pt>
+] [22]
+<Figures/ch4_St005_lambda.png, id=203, 517.09184pt x 524.6802pt>
 File: Figures/ch4_St005_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St005_lambda.png>
 Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
 (pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
 
-<Figures/ch4_centerline_mach_temporal.png, id=234, 385.07864pt x 202.71735pt>
+<Figures/ch4_centerline_mach_temporal.png, id=204, 385.07864pt x 202.71735pt>
 File: Figures/ch4_centerline_mach_temporal.png Graphic file (type png)
 
 <use Figures/ch4_centerline_mach_temporal.png>
@@ -758,7 +575,7 @@ Package pdftex.def Info: Figures/ch4_centerline_mach_temporal.png used on input
  line 77.
 (pdftex.def)             Requested size: 252.94499pt x 133.16284pt.
 
-<Figures/ch4_rawUx_acceleration.png, id=235, 384.59685pt x 204.0423pt>
+<Figures/ch4_rawUx_acceleration.png, id=205, 384.59685pt x 204.0423pt>
 File: Figures/ch4_rawUx_acceleration.png Graphic file (type png)
 
 <use Figures/ch4_rawUx_acceleration.png>
@@ -767,42 +584,42 @@ Package pdftex.def Info: Figures/ch4_rawUx_acceleration.png used on input line
 (pdftex.def)             Requested size: 252.94499pt x 134.19507pt.
 
 
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 25 undefined
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 23 undefined
  on input line 91.
 
 
-LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 25 undefined on
+LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 23 undefined on
  input line 92.
 
-[25] <Figures/ch4_St025_lambda.png, id=240, 594.5412pt x 655.0071pt>
+[23] <Figures/ch4_St025_lambda.png, id=209, 594.5412pt x 655.0071pt>
 File: Figures/ch4_St025_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St025_lambda.png>
 Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
 (pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
- [26 <./Figures/ch4_St005_lambda.png>]
-[27 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
+ [24 <./Figures/ch4_St005_lambda.png>]
+[25 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
 ion.png>]
 
-LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 28 undefined
+LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 26 undefined
  on input line 129.
 
-[28 <./Figures/ch4_St025_lambda.png>]
-<Figures/ch4_St035_lambda_evolution.png, id=254, 589.2414pt x 502.7583pt>
+[26 <./Figures/ch4_St025_lambda.png>]
+<Figures/ch4_St035_lambda_evolution.png, id=224, 589.2414pt x 502.7583pt>
 File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
 
 <use Figures/ch4_St035_lambda_evolution.png>
 Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
 ine 147.
 (pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
-) [29] [30 <./Figures/ch4_St035_lambda_evolution.png>]
+) [27] [28 <./Figures/ch4_St035_lambda_evolution.png>]
 \openout2 = `sect_acoustic_source.aux'.
 
- (sect_acoustic_source.tex [31
+ (sect_acoustic_source.tex [29
 
 
 ]
-<Figures/LES_phavg_streamwise_Ur.png, id=266, 380.1402pt x 199.7061pt>
+<Figures/LES_phavg_streamwise_Ur.png, id=235, 380.1402pt x 199.7061pt>
 File: Figures/LES_phavg_streamwise_Ur.png Graphic file (type png)
 
 <use Figures/LES_phavg_streamwise_Ur.png>
@@ -810,7 +627,7 @@ Package pdftex.def Info: Figures/LES_phavg_streamwise_Ur.png used on input line
  65.
 (pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
 
-<Figures/LES_phavg_streamwise_p.png, id=267, 380.1402pt x 199.7061pt>
+<Figures/LES_phavg_streamwise_p.png, id=236, 380.1402pt x 199.7061pt>
 File: Figures/LES_phavg_streamwise_p.png Graphic file (type png)
 
 <use Figures/LES_phavg_streamwise_p.png>
@@ -818,36 +635,36 @@ Package pdftex.def Info: Figures/LES_phavg_streamwise_p.png used on input line
 70.
 (pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
 
-<Figures/LES_2CDil.png, id=268, 380.1402pt x 203.8014pt>
+<Figures/LES_2CDil.png, id=237, 380.1402pt x 203.8014pt>
 File: Figures/LES_2CDil.png Graphic file (type png)
 
 <use Figures/LES_2CDil.png>
 Package pdftex.def Info: Figures/LES_2CDil.png used on input line 87.
 (pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
 
-<Figures/LES_3CDil.png, id=269, 380.1402pt x 203.8014pt>
+<Figures/LES_3CDil.png, id=238, 380.1402pt x 203.8014pt>
 File: Figures/LES_3CDil.png Graphic file (type png)
 
 <use Figures/LES_3CDil.png>
 Package pdftex.def Info: Figures/LES_3CDil.png used on input line 92.
 (pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
- [32] [33 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
+ [30] [31 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
 se_p.png> <./Figures/LES_2CDil.png> <./Figures/LES_3CDil.png>] <Figures/ch5_val
-id_Inst_Uz.png, id=280, 393.99194pt x 199.947pt>
+id_Inst_Uz.png, id=250, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Uz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Uz.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Uz.png used on input line 129.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_Ur.png, id=281, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_Ur.png, id=251, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Ur.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Ur.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Ur.png used on input line 134.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_solUz.png, id=282, 393.99194pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUz.png, id=252, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUz.png>
@@ -855,7 +672,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUz.png used on input line 13
 9.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_solUr.png, id=283, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUr.png, id=253, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUr.png>
@@ -863,7 +680,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUr.png used on input line 14
 4.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_potUz.png, id=284, 391.58295pt x 204.0423pt>
+<Figures/ch5_valid_Inst_potUz.png, id=254, 391.58295pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_potUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUz.png>
@@ -871,7 +688,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUz.png used on input line 14
 9.
 (pdftex.def)             Requested size: 172.79883pt x 90.0404pt.
 
-<Figures/ch5_valid_Inst_potUr.png, id=285, 391.58295pt x 201.99464pt>
+<Figures/ch5_valid_Inst_potUr.png, id=255, 391.58295pt x 201.99464pt>
 File: Figures/ch5_valid_Inst_potUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUr.png>
@@ -881,21 +698,21 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUr.png used on input line 15
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-<Figures/ch5_valid_Inst_ps.png, id=289, 405.6756pt x 204.0423pt>
+ [32]
+<Figures/ch5_valid_Inst_ps.png, id=259, 405.6756pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_ps.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_ps.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_ps.png used on input line 181.
 (pdftex.def)             Requested size: 252.94499pt x 127.2241pt.
- [35 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
+ [33 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
 ures/ch5_valid_Inst_solUz.png> <./Figures/ch5_valid_Inst_solUr.png> <./Figures/
 ch5_valid_Inst_potUz.png> <./Figures/ch5_valid_Inst_potUr.png>]
 
-LaTeX Warning: Reference `eq:source_integration' on page 36 undefined on input 
+LaTeX Warning: Reference `eq:source_integration' on page 34 undefined on input 
 line 195.
 
-<Figures/ch5_valid_Inst_source.png, id=299, 394.71465pt x 215.3646pt>
+<Figures/ch5_valid_Inst_source.png, id=269, 394.71465pt x 215.3646pt>
 File: Figures/ch5_valid_Inst_source.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_source.png>
@@ -903,77 +720,77 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_source.png used on input line 1
 98.
 (pdftex.def)             Requested size: 252.94499pt x 138.0136pt.
 
-<Figures/sect_aeroacoustic_wvpkt_validation.png, id=300, 472.164pt x 337.7418pt
+<Figures/sect_aeroacoustic_wvpkt_validation.png, id=270, 472.164pt x 337.7418pt
 >
 File: Figures/sect_aeroacoustic_wvpkt_validation.png Graphic file (type png)
  <use Figures/sect_aeroacoustic_wvpkt_validation.png>
 Package pdftex.def Info: Figures/sect_aeroacoustic_wvpkt_validation.png used on
  input line 210.
 (pdftex.def)             Requested size: 345.59766pt x 247.20912pt.
- [36 <./Figures/ch5_valid_Inst_ps.png>] [37 <./Figures/ch5_valid_Inst_source.pn
+ [34 <./Figures/ch5_valid_Inst_ps.png>] [35 <./Figures/ch5_valid_Inst_source.pn
 g> <./Figures/sect_aeroacoustic_wvpkt_validation.png>]
-<Figures/ch5_St005_FF_v2.png, id=313, 369.66106pt x 218.85765pt>
+<Figures/ch5_St005_FF_v2.png, id=282, 369.66106pt x 218.85765pt>
 File: Figures/ch5_St005_FF_v2.png Graphic file (type png)
 
 <use Figures/ch5_St005_FF_v2.png>
 Package pdftex.def Info: Figures/ch5_St005_FF_v2.png used on input line 247.
 (pdftex.def)             Requested size: 252.94499pt x 149.75627pt.
 
-<Figures/ch5_St025_FF_v3.png, id=314, 369.66106pt x 186.2157pt>
+<Figures/ch5_St025_FF_v3.png, id=283, 369.66106pt x 186.2157pt>
 File: Figures/ch5_St025_FF_v3.png Graphic file (type png)
 
 <use Figures/ch5_St025_FF_v3.png>
 Package pdftex.def Info: Figures/ch5_St025_FF_v3.png used on input line 253.
 (pdftex.def)             Requested size: 252.94499pt x 127.4206pt.
 
-<Figures/ch5_St035_FF_v3.png, id=315, 366.28845pt x 184.5294pt>
+<Figures/ch5_St035_FF_v3.png, id=284, 366.28845pt x 184.5294pt>
 File: Figures/ch5_St035_FF_v3.png Graphic file (type png)
 
 <use Figures/ch5_St035_FF_v3.png>
 Package pdftex.def Info: Figures/ch5_St035_FF_v3.png used on input line 258.
 (pdftex.def)             Requested size: 252.94499pt x 127.4296pt.
- [38]
-<Figures/ch5_St005_PSL_101.png, id=319, 385.44pt x 203.8014pt>
+ [36]
+<Figures/ch5_St005_PSL_101.png, id=288, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_PSL_101.png Graphic file (type png)
 
 <use Figures/ch5_St005_PSL_101.png>
 Package pdftex.def Info: Figures/ch5_St005_PSL_101.png used on input line 277.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St005_PSL_161.png, id=320, 385.44pt x 203.8014pt>
+<Figures/ch5_St005_PSL_161.png, id=289, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_PSL_161.png Graphic file (type png)
 
 <use Figures/ch5_St005_PSL_161.png>
 Package pdftex.def Info: Figures/ch5_St005_PSL_161.png used on input line 282.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St025_PSL_41.png, id=321, 385.44pt x 203.8014pt>
+<Figures/ch5_St025_PSL_41.png, id=290, 385.44pt x 203.8014pt>
 File: Figures/ch5_St025_PSL_41.png Graphic file (type png)
 
 <use Figures/ch5_St025_PSL_41.png>
 Package pdftex.def Info: Figures/ch5_St025_PSL_41.png used on input line 290.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [39 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
+ [37 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
 /ch5_St035_FF_v3.png>]
 
-LaTeX Warning: Reference `fig:SL_St005' on page 40 undefined on input line 299.
+LaTeX Warning: Reference `fig:SL_St005' on page 38 undefined on input line 299.
 
 
-<Figures/ch5_St005_SL_131.png, id=328, 385.44pt x 203.8014pt>
+<Figures/ch5_St005_SL_131.png, id=298, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_SL_131.png Graphic file (type png)
 
 <use Figures/ch5_St005_SL_131.png>
 Package pdftex.def Info: Figures/ch5_St005_SL_131.png used on input line 307.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
 
-<Figures/ch5_St025_SL_1.png, id=329, 385.44pt x 203.8014pt>
+<Figures/ch5_St025_SL_1.png, id=299, 385.44pt x 203.8014pt>
 File: Figures/ch5_St025_SL_1.png Graphic file (type png)
 
 <use Figures/ch5_St025_SL_1.png>
 Package pdftex.def Info: Figures/ch5_St025_SL_1.png used on input line 313.
 (pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [40 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
-<Figures/sect_acoustic_source_modulated_source.png, id=335, 465.1779pt x 340.63
+ [38 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
+<Figures/sect_acoustic_source_modulated_source.png, id=305, 465.1779pt x 340.63
 26pt>
 File: Figures/sect_acoustic_source_modulated_source.png Graphic file (type png)
 
@@ -981,8 +798,8 @@ File: Figures/sect_acoustic_source_modulated_source.png Graphic file (type png)
 Package pdftex.def Info: Figures/sect_acoustic_source_modulated_source.png used
  on input line 332.
 (pdftex.def)             Requested size: 345.59766pt x 253.07771pt.
- [41 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
-es/ch5_St025_SL_1.png>]) [42 <./Figures/sect_acoustic_source_modulated_source.p
+ [39 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
+es/ch5_St025_SL_1.png>]) [40 <./Figures/sect_acoustic_source_modulated_source.p
 ng>]
 \openout2 = `sect_conclusion.aux'.
 
@@ -990,14 +807,14 @@ ng>]
 (sect_conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [41
 
 
 ])
-[44] (MCrawley_JFM_2016.bbl
+[42] (MCrawley_JFM_2016.bbl
 Underfull \vbox (badness 4454) has occurred while \output is active []
 
- [45
+ [43
 
 ]
 Missing character: There is no â in font cmr9!
@@ -1006,11 +823,11 @@ Missing character: There is no “ in font cmr9!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46])
+ [44])
 
 Package natbib Warning: There were undefined citations.
 
-[47] (MCrawley_JFM_2016.aux (sect_introduction.aux) (sect_methodology.aux)
+[45] (MCrawley_JFM_2016.aux (sect_introduction.aux) (sect_methodology.aux)
 (sect_nearfield.aux) (sect_velocity_reconstruction.aux)
 (sect_acoustic_source.aux) (sect_conclusion.aux))
 
@@ -1018,13 +835,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3519 strings out of 493335
- 53459 string characters out of 3139260
- 112620 words of memory out of 3000000
- 6870 multiletter control sequences out of 15000+200000
+ 3431 strings out of 493335
+ 49098 string characters out of 3139260
+ 112594 words of memory out of 3000000
+ 6799 multiletter control sequences out of 15000+200000
  16097 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,29p,1211b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,29p,1269b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
@@ -1047,9 +864,9 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on MCrawley_JFM_2016.pdf (47 pages, 21534608 bytes).
+Output written on MCrawley_JFM_2016.pdf (45 pages, 20283640 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
+ 408 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
