@@ -9,9 +9,6 @@ A level-1 auxiliary file: sect_acoustic_source.aux
 A level-1 auxiliary file: sect_conclusion.aux
 The style file: jfm.bst
 Database file #1: master.bib.bib
-Warning--I didn't find a database entry for "Phillips1960"
-Warning--I didn't find a database entry for "Lilley1974"
-Warning--I didn't find a database entry for "Goldstein2003"
 Warning--I didn't find a database entry for "Camussi1997b"
 Warning--I didn't find a database entry for "Guj1999"
 Warning--I didn't find a database entry for "Camussi2002"
@@ -19,47 +16,48 @@ Warning--I didn't find a database entry for "Guj2003"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--there's a number but no series in Baqui2014
 Warning--there's a number but no series in Hall2006
+Warning--empty institution in Lilley1974
 Warning--there's a number but no series in Speth2014
 Warning--there's a number but no series in Tam1996
-You've used 65 entries,
+You've used 68 entries,
             3068 wiz_defined-function locations,
-            1148 strings with 15926 characters,
-and the built_in function-call counts, 35198 in all, are:
-= -- 3199
-> -- 1532
-< -- 40
-+ -- 612
-- -- 525
-* -- 3738
-:= -- 5835
-add.period$ -- 136
-call.type$ -- 65
-change.case$ -- 513
-chr.to.int$ -- 65
-cite$ -- 69
-duplicate$ -- 1842
-empty$ -- 2871
-format.name$ -- 622
-if$ -- 6938
+            1160 strings with 16122 characters,
+and the built_in function-call counts, 36455 in all, are:
+= -- 3322
+> -- 1562
+< -- 44
++ -- 626
+- -- 534
+* -- 3854
+:= -- 6049
+add.period$ -- 142
+call.type$ -- 68
+change.case$ -- 531
+chr.to.int$ -- 68
+cite$ -- 73
+duplicate$ -- 1917
+empty$ -- 2983
+format.name$ -- 634
+if$ -- 7187
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 200
-num.names$ -- 262
-pop$ -- 477
+missing$ -- 65
+newline$ -- 209
+num.names$ -- 274
+pop$ -- 494
 preamble$ -- 1
-purify$ -- 434
+purify$ -- 449
 quote$ -- 0
-skip$ -- 830
+skip$ -- 867
 stack$ -- 0
-substring$ -- 2049
-swap$ -- 670
-text.length$ -- 7
+substring$ -- 2125
+swap$ -- 693
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 579
-warning$ -- 4
-while$ -- 296
+type$ -- 606
+warning$ -- 5
+while$ -- 309
 width$ -- 0
-write$ -- 722
-(There were 11 warnings)
+write$ -- 754
+(There were 9 warnings)

@@ -938,6 +938,17 @@ Flow Control},
   Timestamp                = {2015.09.17}
 }
 
+@TechReport{Lilley1974,
+  Title                    = {On tehe Noise From Jets},
+  Author                   = {G. M. Lilley},
+  Year                     = {1974},
+  Number                   = {pp. 13.1--13.12},
+  Type                     = {AGARD-CP-131},
+
+  Owner                    = {michael},
+  Timestamp                = {2016.09.18}
+}
+
 @Article{Michalke1984,
   Title                    = {Survey on Jet Instability Theory},
   Author                   = {A. Michalke},
@@ -1075,6 +1086,22 @@ Flow Control},
   __markedentry            = {[Michael:6]},
   Owner                    = {Michael},
   Timestamp                = {2015.09.17}
+}
+
+@Article{Phillips1960,
+  Title                    = {On the generation of sound by supersonic turbulent shear layers},
+  Author                   = {O. M. Phillips},
+  Journal                  = {Journal of Fluid Mechanics},
+  Year                     = {1960},
+
+  Month                    = {September},
+  Number                   = {1},
+  Pages                    = {1--28},
+  Volume                   = {9},
+
+  Doi                      = {http://dx.doi.org/10.1017/S0022112060000888},
+  Owner                    = {michael},
+  Timestamp                = {2016.09.18}
 }
 
 @Article{Picard2000,
@@ -1398,9 +1425,14 @@ Flow Control},
 @Article{Unnikrishnan2015,
   Title                    = {Acoustic, Thermal and Turbulent Modes in a Supersonic Cold Jet},
   Author                   = {S. Unnikrishnan and D. V. Gaitonde},
-  Journal                  = {Submitted to the Journal of Fluid Mechanics},
-  Year                     = {2015},
+  Journal                  = {Journal of Fluid Mechanics},
+  Year                     = {2016},
 
+  Month                    = {July},
+  Pages                    = {387--432},
+  Volume                   = {800},
+
+  Doi                      = {10.1017/jfm.2016.410},
   Owner                    = {michaelcrawley},
   Timestamp                = {2015.09.15}
 }
