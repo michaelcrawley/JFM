@@ -98,13 +98,21 @@ Instead of phase-averaging a conditional--averaging method, specifically wavelet
 A wavelet decomposition was chosen as it affords an efficient methodology for analyzing intermittent events in a given signal due to the finite energy of its basis functions.
 This is in contrast to the more standard Fourier decomposition in which continuously-oscillating basis functions spread information from a single instance in time across all transform coefficients.
 For this reason, the use of the wavelet decomposition has become increasingly common in aeroacoustic research; an overview of the wavelet transform and its applications to turbulence and acoustics can be found in \citet{Farge1992}.
+The wavelet decomposition is expressed as follow:
+\begin{equation}\label{eqn:waveletDecomposition}
+\tilde{w} \left( s, \tau \right) = \frac{1}{\sqrt{ \left| s \right|}} \int_{-\infty}^{+\infty} p \left( t \right) \overline{\Psi}\left( \frac{t - \tau}{s}\right) dt,
+\end{equation}
+where $s$ is the wavelet scale, which is inversely proportional to Fourier frequency, $\tau$ is the time--shift as in the Short Time Fourier Transform (STFT) formulation, $\overline{\Psi}$ is the complex conjugate of the so--called mother wavelet. The wavelet decomposition is as the STFT, a convolution of the signal to analyse with a family of functions, here the wavelets family. To get this wavelet family, which is also called the wavelet daughters, the mother wavelet is stretched/compressed and shifted. The strength of the wavelet decomposition with regards to STFT is the variation of the time--scale, which for STFT would correspond to its window. This allows a more localized information. In STFT the size of the window is fixed and the frequency is changing in order to retrieve the frequency content of the analysed signal while in the wavelet decomposition it is the time--scale (size of the window) which is different and the frequency is fixed. This difference allows to the wavelet decomposition to be more flexible and have a better resolution at both high and low frequencies.
 
-Wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}.
-The technique is based on the Local Intermittency Measure (LIM) \citep{Farge1992}, which is the ratio between the local energy of the wavelet coefficient for a specific time and scale $(\tau, s)$ and a time-averaged energy at the same scale $s$.
-The LIM was demonstrated to be a well-suited indicator for coherent structure identification \citep{Camussi1997}. 
-The LIM provides information about the instantaneous fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent, energetic events in a signal.
+Wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1997b,Guj1999,Camussi2002,Guj2003}. % Need to add these refs to the bibtex, as professor Mike asked... XD
+The technique is based on the Local Intermittency Measure (LIM) \citep{Farge1992}:
+\begin{equation}
+\label{eqn:LIM}
+L(s, \tau) = \frac{\tilde{w}^{2}(s, \tau)}{\left<\tilde{w}^{2} (s, \tau)\right>_{\tau}},
+\end{equation}
+where $w^{2}(s, \tau)$ is the local energy for a specific time and scale, and $\left< \bullet \right>_{t}$ represents a time average. Simply put, the LIM is the ratio between the local energy of the wavelet coefficient for a specific time and scale $(\tau, s)$ and a time-averaged energy at the same scale $s$. The LIM was demonstrated to be a well-suited indicator for coherent structure identification \citep{Camussi1997}.  The LIM provides information about the instantaneous fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent, energetic events in a signal.
 
-Several methods exist in order to select the threshold: using an arbitrary threshold, an iterative process using the Flatness Factor (skewness), or by evaluating the merit coefficient. 
+Several methods exist in order to select the threshold: using an arbitrary threshold, an iterative process to retrieve as specific value of the Flatness Factor (skewness, forth moment), or by evaluating the Merit index \citep{Grassucci2015}. 
 In the present study, a new method inspired by the merit coefficient was used to select a proper threshold. 
 In contrast to the merit coefficient method, which uses a global threshold across all scales, the new method iterates at each scale to identify the proper threshold per \eq{eqn:tEvaluation}
 
@@ -158,7 +166,7 @@ When the conditional--average is performed on a signal $p_{n}$ by using its own 
 	\label{fig:condNcond}
 \end{figure}
 
-For sake of brevity, only the results for four different cases, baseline and $S_t = 0.05, 0.25,$ and $0.35$, are presented. The following figure (\ref{fig:autoCondSt0p00}) represents the auto--conditioning of closest microphones array at $r/D = 1.2$ and for the microphones contained between $x/D=1$ and $x/D=14$. Here, only the positive peaks are used to perform the conditional--average. The reason will be explained later with a forced case. The results are non-dimensionalized by the local standard deviation. The first observation is that the energetic event detected using the wavelet--conditioning consists of a positive (or negative) central peak surrounded by two smaller lobs of the opposite sign. The local time--scale of the fluctuation grows as it is convected downstream. It is an expected result and can be reproduced using a simple auto--correlation at each axial position. The interests is to be able to appreciate the variation of the amplitude of the event according to its axial position. Up to $x/D=10$, the amplitude of the event is greater than the local standard deviation by at least twice. Then the fluctuation seems to get weaker and weaker as it is convected further downstream. 
+For sake of brevity, only the results for four different cases, baseline and $S_t = 0.05, 0.25,$ and $0.35$, are presented. The following figure (\fig{fig:autoCondSt0p00}) represents the auto--conditioning of closest microphones array at $r/D = 1.2$ and for the microphones contained between $x/D=1$ and $x/D=14$. Here, only the positive peaks are used to perform the conditional--average. The reason will be explained later with a forced case. The results are non-dimensionalized by the local standard deviation. The first observation is that the energetic event detected using the wavelet--conditioning consists of a positive (or negative) central peak surrounded by two smaller lobs of the opposite sign. The local time--scale of the fluctuation grows as it is convected downstream. It is an expected result and can be reproduced using a simple auto--correlation at each axial position. The interests is to be able to appreciate the variation of the amplitude of the event according to its axial position. Up to $x/D=10$, the amplitude of the event is greater than the local standard deviation by at least twice. Then the fluctuation seems to get weaker and weaker as it is convected further downstream. 
 
 \begin{figure}
 	\centering
@@ -167,7 +175,7 @@ For sake of brevity, only the results for four different cases, baseline and $S_
 	\label{fig:autoCondSt0p00}
 \end{figure}
 
-The next figure \ref{fig:autoCondSt0p05} represents the auto--conditioning using the forced case at $S_t = 0.05$. The shape of the energetic event is different with compare to the previous case: it consists of a central peak, here positive, followed by a negative lob. The negative lob is at first of the same amplitude as the central peak and is becoming weaker as the event is convected further downstream. It is interesting to see that downstream, from around $x/D=8$, the energetic event shape of the excited case becomes more similar to the baseline, consisting of a central peak and surrounded by two lobs of the opposite sign. This is the reason of why the conditional--average is done using only the positive (or negative) peaks. The region in which the central peak start to strongly becomes weaker is closer to the nozzle exit, in this case around $x/D = 8$. 
+The next figure \fig{fig:autoCondSt0p05} represents the auto--conditioning using the forced case at $S_t = 0.05$. The shape of the energetic event is different with compare to the previous case: it consists of a central peak, here positive, followed by a negative lob. The negative lob is at first of the same amplitude as the central peak and is becoming weaker as the event is convected further downstream. It is interesting to see that downstream, from around $x/D=8$, the energetic event shape of the excited case becomes more similar to the baseline, consisting of a central peak and surrounded by two lobs of the opposite sign. This is the reason of why the conditional--average is done using only the positive (or negative) peaks. The region in which the central peak start to strongly becomes weaker is closer to the nozzle exit, in this case around $x/D = 8$. 
 
 \begin{figure}
 	\centering
@@ -176,7 +184,7 @@ The next figure \ref{fig:autoCondSt0p05} represents the auto--conditioning using
 	\label{fig:autoCondSt0p05}
 \end{figure}
 
-The highest forcing cases are presented next. It can be observed from figures \ref{fig:autoCondSt0p25} and \ref{fig:autoCondSt0p35} that there are many similarities between these two cases. Using the same time scale of the two previous cases, it can be observed multiple energetic events on the same figure. For the case $S_t = 0.25$ case, the energetic event seems to be the same as $S_t = 0.05$. For the highest case it is more difficult to observe it as the time between two successive energetic events is really short and so two successive events are overlapping each other. 
+The highest forcing cases are presented next. It can be observed from figures \fig{fig:autoCondSt0p25} and \fig{fig:autoCondSt0p35} that there are many similarities between these two cases. Using the same time scale of the two previous cases, it can be observed multiple energetic events on the same figure. For the case $S_t = 0.25$ case, the energetic event seems to be the same as $S_t = 0.05$. For the highest case it is more difficult to observe it as the time between two successive energetic events is really short and so two successive events are overlapping each other. 
 
 \begin{figure}
 	\centering
@@ -191,7 +199,7 @@ The highest forcing cases are presented next. It can be observed from figures \r
 	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
 	\label{fig:autoCondSt0p35}
 \end{figure}
-The characteristic energetic--events of the forced cases are not similar in shape to the baseline, a central peak surrounded by two smaller of the opposite sign. It can be noted that the distance from the nozzle on which the excitation takes effect is becoming shorter as the excitation is higher: on figure \ref{fig:autoCondSt0p25} the excitation seems to maintain up to $x/D=6$ while on the following figure, \ref{fig:autoCondSt0p35}, it is up to $x/D=4$, shortened by around $2D$ with compare to the lowest case. 
+The characteristic energetic--events of the forced cases are not similar in shape to the baseline, a central peak surrounded by two smaller of the opposite sign. It can be noted that the distance from the nozzle on which the excitation takes effect is becoming shorter as the excitation is higher: on figure \fig{fig:autoCondSt0p25} the excitation seems to maintain up to $x/D=6$ while on the following figure, \fig{fig:autoCondSt0p35}, it is up to $x/D=4$, shortened by around $2D$ with compare to the lowest case. 
 %%%%%%%%%%%%%%%%%%%%%%%%
 All the figure presented in this section are time--structures. It is possible to obtain spatial structures by doing the conditional average in space instead in time. To do so, 
 
@@ -219,7 +227,7 @@ It has been shown that by using a temporally/spatially localized fluctuation as 
 A much more detailed explanation of the spatio-temporal wavelet transform, the justification for its use in decomposing the near-field pressure, and validation of the methodology using the current database can be found in \citet{Crawley2016}. 
 
 By decomposing the irrotational near-field pressure, the relationship between the near- and far-field can be more easily elucidated. 
-Two-point correlations were computed using both the full near-field and the acoustic near-field component, between each microphone in the near field and the far-field microphone at $30^\circ$; results can be found in \ref{fig:ch3_full_vs_partial_xcorr}. 
+Two-point correlations were computed using both the full near-field and the acoustic near-field component, between each microphone in the near field and the far-field microphone at $30^\circ$; results can be found in \fig{fig:ch3_full_vs_partial_xcorr}. 
 Examination in the spatio-temporal domain shows distinct regions of positive and negative correlation spanning several jet diameters and flow time scales.
 The time lag, $\tau$, in the figures have been non-dimensionalized by the ambient speed of sound, $a_\infty$, and $R$, the distance from each near-field microphone to the far-field microphone (note that this results in an ordinate that is scaled separately along the abscissa, due to the dependence of the axial position on $R$).
 \begin{figure}
