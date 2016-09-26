@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.18)  21 SEP 2016 10:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.18)  26 SEP 2016 22:30
 entering extended mode
 **./MCrawley_JFM_2016.tex
 (MCrawley_JFM_2016.tex
@@ -200,9 +200,7 @@ Package: natbib 2000/07/24 7.0a (PWD)
 LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count95
 )
-(MCrawley_JFM_2016.aux (sect_introduction.aux) (sect_methodology.aux)
-(sect_nearfield.aux) (sect_velocity_reconstruction.aux)
-(sect_acoustic_source.aux) (sect_conclusion.aux))
+(MCrawley_JFM_2016.aux)
 \openout1 = `MCrawley_JFM_2016.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -250,27 +248,132 @@ Non-PDF special ignored!]
 \openout2 = `sect_introduction.aux'.
 
  (sect_introduction.tex
+
+Package natbib Warning: Citation `Jordan2008' on page 2 undefined on input line
+ 5.
+
+
+Package natbib Warning: Citation `Arndt1997' on page 2 undefined on input line 
+11.
+
+
+Package natbib Warning: Citation `Tam1995' on page 2 undefined on input line 12
+.
+
+
+Package natbib Warning: Citation `Obrist2011' on page 2 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Cavalieri2010' on page 2 undefined on input l
+ine 18.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 2 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `Kearney-Fischer2013' on page 2 undefined on i
+nput line 18.
+
+
+Package natbib Warning: Citation `Cavalieri2013' on page 2 undefined on input l
+ine 19.
+
+
+Package natbib Warning: Citation `Baqui2014' on page 2 undefined on input line 
+19.
+
+
+Package natbib Warning: Citation `Lighthill1952' on page 2 undefined on input l
+ine 22.
+
+
+Package natbib Warning: Citation `Phillips1960' on page 2 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Lilley1974' on page 2 undefined on input line
+ 23.
+
+
+Package natbib Warning: Citation `Goldstein2003' on page 2 undefined on input l
+ine 23.
+
+
+Package natbib Warning: Citation `Powell1964' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Howe1975' on page 2 undefined on input line 2
+4.
+
+
+Package natbib Warning: Citation `Ribner1962' on page 2 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Cabana2008' on page 2 undefined on input line
+ 25.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2
 
-])
-[3]
+]
+
+Package natbib Warning: Citation `Ribner1962' on page 3 undefined on input line
+ 34.
+
+) [3]
 \openout2 = `sect_methodology.aux'.
 
  (sect_methodology.tex
+
+Package natbib Warning: Citation `Hahn2011' on page 4 undefined on input line 4
+.
+
 Missing character: There is no ã in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no – in font cmr10!
 Missing character: There is no ã in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no — in font cmr10!
+
+Package natbib Warning: Citation `Kearney-Fischer2009' on page 4 undefined on i
+nput line 15.
+
+
+Package natbib Warning: Citation `Hahn2011a' on page 4 undefined on input line 
+24.
+
+
+Package natbib Warning: Citation `Utkin2007' on page 4 undefined on input line 
+25.
+
 Missing character: There is no Î in font cmr10!
 Missing character: There is no ¼ in font cmr10!
- [4
+
+Package natbib Warning: Citation `Hahn2011a' on page 4 undefined on input line 
+31.
+
+[4
 
 
-] [5]
+]
+
+Package natbib Warning: Citation `Kearney-Fischer2009' on page 5 undefined on i
+nput line 48.
+
+
+Package natbib Warning: Citation `Sinha2012' on page 5 undefined on input line 
+63.
+
+[5]
+
+LaTeX Warning: Reference `fig:piv_setup' on page 6 undefined on input line 87.
+
 Package epstopdf Info: Source file: <Figures/ch2_piv_setup.eps>
 (epstopdf)                    date: 2016-08-19 14:31:15
 (epstopdf)                    size: 400257 bytes
@@ -294,6 +397,18 @@ ut line 90.
 \openout2 = `sect_nearfield.aux'.
 
  (sect_nearfield.tex
+
+Package natbib Warning: Citation `Sinha2012' on page 8 undefined on input line 
+4.
+
+
+Package natbib Warning: Citation `Hussain1970' on page 8 undefined on input lin
+e 5.
+
+
+LaTeX Warning: Reference `fig:ch3_nearfield' on page 8 undefined on input line 
+14.
+
 <Figures/ch3_nearfield_phavg_v2.png, id=43, 331.7193pt x 226.32555pt>
 File: Figures/ch3_nearfield_phavg_v2.png Graphic file (type png)
 
@@ -309,18 +424,38 @@ File: Figures/ch3_nearfield_linear_v2.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch3_nearfield_linear_v2.png used on input line
  25.
 (pdftex.def)             Requested size: 172.79883pt x 120.07973pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
 
+
+LaTeX Warning: Reference `fig:ch3_nearfield' on page 8 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `Veltin2011' on page 8 undefined on input line
+ 37.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
- [8
+
+
+LaTeX Warning: Reference `sect:velocity' on page 8 undefined on input line 39.
+
+[8
 
 
  <./Figures/ch3_nearfield_phavg_v2.png> <./Figures/ch3_nearfield_linear_v2.png>
 ]
+
+LaTeX Warning: Reference `fig:ch3_farfield' on page 9 undefined on input line 4
+2.
+
+
+Package natbib Warning: Citation `Kambe1983' on page 9 undefined on input line 
+45.
+
 <Figures/ch3_farfield_phavg_v2.png, id=54, 321.1197pt x 228.49365pt>
 File: Figures/ch3_farfield_phavg_v2.png Graphic file (type png)
 
@@ -337,6 +472,23 @@ Package pdftex.def Info: Figures/ch3_farfield_linear_v2.png used on input line
 57.
 (pdftex.def)             Requested size: 172.79883pt x 125.3265pt.
 
+
+LaTeX Warning: Reference `fig:ch3_farfield' on page 9 undefined on input line 6
+5.
+
+
+LaTeX Warning: Reference `fig:ch3_farfield_nonlinear' on page 9 undefined on in
+put line 67.
+
+
+Package natbib Warning: Citation `Crighton1990' on page 9 undefined on input li
+ne 70.
+
+
+Package natbib Warning: Citation `Crawley2015' on page 9 undefined on input lin
+e 71.
+
+
 <Figures/ch3_farfield_linearsuperposition_st035_v2.png, id=56, 316.18124pt x 20
 6.2104pt>
 File: Figures/ch3_farfield_linearsuperposition_st035_v2.png Graphic file (type 
@@ -346,11 +498,15 @@ Package pdftex.def Info: Figures/ch3_farfield_linearsuperposition_st035_v2.png
 used on input line 74.
 (pdftex.def)             Requested size: 172.79883pt x 112.69865pt.
 
-Underfull \vbox (badness 1838) has occurred while \output is active []
 
- [9 <./Figures/ch3_farfield_phavg_v2.png> <./Figures/ch3_farfield_linear_v2.png
->]
-<Figures/sect_nearfield_spectra.png, id=63, 411.4572pt x 272.4579pt>
+LaTeX Warning: Reference `fig:sect_nearfield_spectra_prms' on page 9 undefined 
+on input line 81.
+
+
+LaTeX Warning: Reference `fig:sect_nearfield_spectra_prms' on page 9 undefined 
+on input line 84.
+
+<Figures/sect_nearfield_spectra.png, id=57, 411.4572pt x 272.4579pt>
 File: Figures/sect_nearfield_spectra.png Graphic file (type png)
 
 <use Figures/sect_nearfield_spectra.png>
@@ -358,15 +514,28 @@ Package pdftex.def Info: Figures/sect_nearfield_spectra.png used on input line
 89.
 (pdftex.def)             Requested size: 168.96094pt x 111.8789pt.
 
-<Figures/sect_nearfield_prms.png, id=64, 428.802pt x 271.4943pt>
+<Figures/sect_nearfield_prms.png, id=58, 428.802pt x 271.4943pt>
 File: Figures/sect_nearfield_prms.png Graphic file (type png)
 
 <use Figures/sect_nearfield_prms.png>
 Package pdftex.def Info: Figures/sect_nearfield_prms.png used on input line 90.
 
 (pdftex.def)             Requested size: 176.64258pt x 111.83948pt.
- [10 <./Figures/ch3_farfield_linearsuperposition_st035_v2.png> <./Figures/sect_
-nearfield_spectra.png> <./Figures/sect_nearfield_prms.png>]
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [9 <./Figures/ch3_farfield_phavg_v2.png> <./Figures/ch3_farfield_linear_v2.png
+>]
+
+Package natbib Warning: Citation `Farge1992' on page 10 undefined on input line
+ 100.
+
+[10 <./Figures/ch3_farfield_linearsuperposition_st035_v2.png> <./Figures/sect_n
+earfield_spectra.png> <./Figures/sect_nearfield_prms.png>]
+
+Package natbib Warning: Citation `Camussi1997' on page 11 undefined on input li
+ne 107.
+
 
 Package natbib Warning: Citation `Camussi1997b' on page 11 undefined on input l
 ine 107.
@@ -384,13 +553,30 @@ Package natbib Warning: Citation `Guj2003' on page 11 undefined on input line 1
 07.
 
 
+Package natbib Warning: Citation `Farge1992' on page 11 undefined on input line
+ 108.
+
+
+Package natbib Warning: Citation `Camussi1997' on page 11 undefined on input li
+ne 113.
+
+
 Package natbib Warning: Citation `Grassucci2015' on page 11 undefined on input 
 line 115.
 
 
-Underfull \vbox (badness 6364) has occurred while \output is active []
+LaTeX Warning: Reference `eqn:tEvaluation' on page 11 undefined on input line 1
+17.
 
- [11]
+[11]
+
+LaTeX Warning: Reference `eqn:ensembleAverage' on page 12 undefined on input li
+ne 134.
+
+
+LaTeX Warning: Reference `eqn:ensembleAverage' on page 12 undefined on input li
+ne 139.
+
 Package epstopdf Info: Source file: <Figures/negativePeak.eps>
 (epstopdf)                    date: 2016-08-19 14:31:21
 (epstopdf)                    size: 243524 bytes
@@ -402,8 +588,7 @@ Package epstopdf Info: Source file: <Figures/negativePeak.eps>
 nverted-to.pdf Figures/negativePeak.eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/negativePeak-eps-converted-to.pdf, id=75, 490.83376pt x 355.3275pt>
+<Figures/negativePeak-eps-converted-to.pdf, id=76, 490.83376pt x 355.3275pt>
 File: Figures/negativePeak-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/negativePeak-eps-converted-to.pdf>
@@ -422,7 +607,7 @@ nverted-to.pdf Figures/positivePeak.eps>
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/positivePeak-eps-converted-to.pdf, id=76, 490.83376pt x 355.3275pt>
+<Figures/positivePeak-eps-converted-to.pdf, id=77, 490.83376pt x 355.3275pt>
 File: Figures/positivePeak-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/positivePeak-eps-converted-to.pdf>
@@ -440,15 +625,40 @@ rted-to.pdf Figures/compPeaks.eps>
 (epstopdf)             \includegraphics on input line 145.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/compPeaks-eps-converted-to.pdf, id=77, 490.83376pt x 355.3275pt>
+<Figures/compPeaks-eps-converted-to.pdf, id=78, 490.83376pt x 355.3275pt>
 File: Figures/compPeaks-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/compPeaks-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/compPeaks-eps-converted-to.pdf used on input l
 ine 145.
 (pdftex.def)             Requested size: 172.79883pt x 125.093pt.
- [12 <./Figures/negativePeak-eps-converted-to.pdf> <./Figures/positivePeak-eps-
-converted-to.pdf> <./Figures/compPeaks-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `fig:compPeaks' on page 12 undefined on input line 148
+.
+
+
+LaTeX Warning: Reference `eqn:ensembleAverage' on page 12 undefined on input li
+ne 150.
+
+[12 <./Figures/negativePeak-eps-converted-to.pdf> <./Figures/positivePeak-eps-c
+onverted-to.pdf> <./Figures/compPeaks-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:compPeaks' on page 13 undefined on input line 154
+.
+
+
+LaTeX Warning: Reference `eqn:ensembleAverage' on page 13 undefined on input li
+ne 160.
+
+
+LaTeX Warning: Reference `fig:condNcond' on page 13 undefined on input line 161
+.
+
+
+Package natbib Warning: Citation `Farge1992' on page 13 undefined on input line
+ 161.
+
 Package epstopdf Info: Source file: <Figures/condNcond.eps>
 (epstopdf)                    date: 2016-08-19 14:31:21
 (epstopdf)                    size: 193155 bytes
@@ -459,7 +669,6 @@ Package epstopdf Info: Source file: <Figures/condNcond.eps>
 rted-to.pdf Figures/condNcond.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
-
 <Figures/condNcond-eps-converted-to.pdf, id=145, 1445.4pt x 689.57625pt>
 File: Figures/condNcond-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -467,7 +676,12 @@ File: Figures/condNcond-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/condNcond-eps-converted-to.pdf used on input l
 ine 164.
 (pdftex.def)             Requested size: 384.0pt x 183.1998pt.
- [13 <./Figures/condNcond-eps-converted-to.pdf>]
+
+
+LaTeX Warning: Reference `fig:autoCondSt0p00' on page 13 undefined on input lin
+e 169.
+
+[13 <./Figures/condNcond-eps-converted-to.pdf>]
 <Figures/conditioning/autoCondSt0p00.png, id=163, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p00.png Graphic file (type png)
 
@@ -475,6 +689,10 @@ File: Figures/conditioning/autoCondSt0p00.png Graphic file (type png)
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p00.png used on input 
 line 173.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
+
+
+LaTeX Warning: Reference `fig:autoCondSt0p05' on page 14 undefined on input lin
+e 178.
 
 <Figures/conditioning/autoCondSt0p05.png, id=164, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p05.png Graphic file (type png)
@@ -484,6 +702,14 @@ Package pdftex.def Info: Figures/conditioning/autoCondSt0p05.png used on input
 line 182.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
 
+
+LaTeX Warning: Reference `fig:autoCondSt0p25' on page 14 undefined on input lin
+e 187.
+
+
+LaTeX Warning: Reference `fig:autoCondSt0p35' on page 14 undefined on input lin
+e 187.
+
 <Figures/conditioning/autoCondSt0p25.png, id=165, 843.90282pt x 460.72125pt>
 File: Figures/conditioning/autoCondSt0p25.png Graphic file (type png)
 
@@ -491,17 +717,63 @@ File: Figures/conditioning/autoCondSt0p25.png Graphic file (type png)
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p25.png used on input 
 line 191.
 (pdftex.def)             Requested size: 384.0pt x 209.64255pt.
- [14 <./Figures/conditioning/autoCondSt0p00.png (PNG copy)>]
-<Figures/conditioning/autoCondSt0p35.png, id=169, 843.90282pt x 461.47406pt>
+
+<Figures/conditioning/autoCondSt0p35.png, id=166, 843.90282pt x 461.47406pt>
 File: Figures/conditioning/autoCondSt0p35.png Graphic file (type png)
 
 <use Figures/conditioning/autoCondSt0p35.png>
 Package pdftex.def Info: Figures/conditioning/autoCondSt0p35.png used on input 
 line 198.
 (pdftex.def)             Requested size: 384.0pt x 209.98509pt.
- [15 <./Figures/conditioning/autoCondSt0p05.png (PNG copy)> <./Figures/conditio
-ning/autoCondSt0p25.png (PNG copy)>] [16 <./Figures/conditioning/autoCondSt0p35
-.png (PNG copy)>]
+
+
+LaTeX Warning: Reference `fig:autoCondSt0p25' on page 14 undefined on input lin
+e 202.
+
+
+LaTeX Warning: Reference `fig:autoCondSt0p35' on page 14 undefined on input lin
+e 202.
+
+[14 <./Figures/conditioning/autoCondSt0p00.png (PNG copy)>]
+
+Package natbib Warning: Citation `Arndt1997' on page 15 undefined on input line
+ 209.
+
+
+Package natbib Warning: Citation `Coiffet2006' on page 15 undefined on input li
+ne 213.
+
+[15 <./Figures/conditioning/autoCondSt0p05.png (PNG copy)> <./Figures/condition
+ing/autoCondSt0p25.png (PNG copy)>]
+
+Package natbib Warning: Citation `Tinney2008' on page 16 undefined on input lin
+e 215.
+
+
+Package natbib Warning: Citation `Kearney-Fischer2013' on page 16 undefined on 
+input line 223.
+
+
+Package natbib Warning: Citation `Antoine2004' on page 16 undefined on input li
+ne 225.
+
+
+Package natbib Warning: Citation `Kikuchi2010' on page 16 undefined on input li
+ne 225.
+
+
+Package natbib Warning: Citation `Farge1992' on page 16 undefined on input line
+ 226.
+
+
+Package natbib Warning: Citation `Crawley2016' on page 16 undefined on input li
+ne 227.
+
+[16 <./Figures/conditioning/autoCondSt0p35.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:ch3_full_vs_partial_xcorr' on page 17 undefined o
+n input line 230.
+
 <Figures/sect_nearfield_fullxcorr.png, id=176, 299.1978pt x 251.4996pt>
 File: Figures/sect_nearfield_fullxcorr.png Graphic file (type png)
 
@@ -517,8 +789,44 @@ File: Figures/sect_nearfield_acousticxcorr.png Graphic file (type png)
 Package pdftex.def Info: Figures/sect_nearfield_acousticxcorr.png used on input
  line 236.
 (pdftex.def)             Requested size: 153.98438pt x 153.40024pt.
- [17 <./Figures/sect_nearfield_fullxcorr.png> <./Figures/sect_nearfield_acousti
-cxcorr.png>]
+
+
+LaTeX Warning: Reference `fig:ch3_full_vs_partial_xcorr' on page 17 undefined o
+n input line 241.
+
+
+Package natbib Warning: Citation `Crawley2015' on page 17 undefined on input li
+ne 243.
+
+
+Package natbib Warning: Citation `Bogey2007' on page 17 undefined on input line
+ 244.
+
+
+LaTeX Warning: Reference `fig:ch3_full_vs_partial_xcorr' on page 17 undefined o
+n input line 249.
+
+[17 <./Figures/sect_nearfield_fullxcorr.png> <./Figures/sect_nearfield_acoustic
+xcorr.png>]
+
+LaTeX Warning: Reference `fig:ch3_ToA' on page 18 undefined on input line 252.
+
+
+Package natbib Warning: Citation `Arndt1997' on page 18 undefined on input line
+ 260.
+
+
+Package natbib Warning: Citation `Hall2006' on page 18 undefined on input line 
+260.
+
+
+Package natbib Warning: Citation `Koenig2013' on page 18 undefined on input lin
+e 260.
+
+
+Package natbib Warning: Citation `Juve1979' on page 18 undefined on input line 
+260.
+
 <Figures/ToA_tau.png, id=183, 514.13821pt x 259.03296pt>
 File: Figures/ToA_tau.png Graphic file (type png)
 
@@ -528,6 +836,18 @@ Package pdftex.def Info: Figures/ToA_tau.png used on input line 263.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
+
+
+LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 18 undefined on input line 2
+70.
+
+
+Package natbib Warning: Citation `Torrence1998' on page 18 undefined on input l
+ine 270.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 18 undefined on input li
+ne 276.
 
 <Figures/sect_nearfield_ffxcorr.png, id=184, 475.5366pt x 340.3917pt>
 File: Figures/sect_nearfield_ffxcorr.png Graphic file (type png)
@@ -541,20 +861,121 @@ Package pdftex.def Info: Figures/sect_nearfield_ffxcorr.png used on input line
 LaTeX Warning: Reference `fig:ch3_farfield_linear' on page 19 undefined on inpu
 t line 286.
 
-) [19] [20 <./Figures/sect_nearfield_ffxcorr.png>]
+
+LaTeX Warning: Reference `fig:ch3_farfield_nonlinear' on page 19 undefined on i
+nput line 287.
+
+
+LaTeX Warning: Reference `sect:velocity' on page 19 undefined on input line 290
+.
+
+[19 <./Figures/sect_nearfield_ffxcorr.png>]
+
+LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 20 undefined on input line 2
+92.
+
+
+Package natbib Warning: Citation `Crawley2015' on page 20 undefined on input li
+ne 292.
+
+
+Package natbib Warning: Citation `Crawley2016' on page 20 undefined on input li
+ne 297.
+
+
+Package natbib Warning: Citation `Crawley2016' on page 20 undefined on input li
+ne 299.
+
+) [20]
 \openout2 = `sect_velocity_reconstruction.aux'.
 
+ (sect_velocity_reconstruction.tex
 
-(sect_velocity_reconstruction.tex [21
+LaTeX Warning: Reference `sect:source' on page 21 undefined on input line 4.
 
 
-] [22]
+Package natbib Warning: Citation `Tinney2008b' on page 21 undefined on input li
+ne 16.
+
+
+Package natbib Warning: Citation `Sinha2010' on page 21 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Bonnet1994' on page 21 undefined on input lin
+e 18.
+
+
+Package natbib Warning: Citation `Ewing1997' on page 21 undefined on input line
+ 20.
+
+
+Package natbib Warning: Citation `Tinney2006' on page 21 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `Tinney2008b' on page 21 undefined on input li
+ne 20.
+
+
+Package natbib Warning: Citation `Durgesh2010' on page 21 undefined on input li
+ne 20.
+
+
+Package natbib Warning: Citation `Lasagna2015' on page 21 undefined on input li
+ne 22.
+
+[21
+
+
+]
+
+Package natbib Warning: Citation `Sirovich1987' on page 22 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Jordan2007' on page 22 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Noack2008' on page 22 undefined on input line
+ 36.
+
+
+Package natbib Warning: Citation `Schmid2010' on page 22 undefined on input lin
+e 36.
+
+
+Package natbib Warning: Citation `Haykin1994' on page 22 undefined on input lin
+e 42.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 22 undefined on input li
+ne 51.
+
+[22]
+
+Package natbib Warning: Citation `Adrian2000' on page 23 undefined on input lin
+e 57.
+
+
+LaTeX Warning: Reference `fig:ch4_impulse_structure_disintegration' on page 23 
+undefined on input line 58.
+
 <Figures/ch4_St005_lambda.png, id=203, 517.09184pt x 524.6802pt>
 File: Figures/ch4_St005_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St005_lambda.png>
 Package pdftex.def Info: Figures/ch4_St005_lambda.png used on input line 64.
 (pdftex.def)             Requested size: 361.34999pt x 366.66519pt.
+
+
+Package natbib Warning: Citation `Kearney-Fischer2009' on page 23 undefined on 
+input line 69.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 23 undefined on input li
+ne 72.
 
 <Figures/ch4_centerline_mach_temporal.png, id=204, 385.07864pt x 202.71735pt>
 File: Figures/ch4_centerline_mach_temporal.png Graphic file (type png)
@@ -573,6 +994,10 @@ Package pdftex.def Info: Figures/ch4_rawUx_acceleration.png used on input line
 (pdftex.def)             Requested size: 252.94499pt x 134.19507pt.
 
 
+Package natbib Warning: Citation `Michalke1965' on page 23 undefined on input l
+ine 90.
+
+
 LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 23 undefined
  on input line 91.
 
@@ -580,13 +1005,57 @@ LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 23 undefined
 LaTeX Warning: Reference `fig:ch4_St005_rawUx_snapshot' on page 23 undefined on
  input line 92.
 
-[23] <Figures/ch4_St025_lambda.png, id=209, 594.5412pt x 655.0071pt>
+
+LaTeX Warning: Reference `fig:ch4_impulse_structure_disintegration' on page 23 
+undefined on input line 93.
+
+
+Package natbib Warning: Citation `Tam1996' on page 23 undefined on input line 9
+4.
+
+
+LaTeX Warning: Reference `sect:nearfield' on page 23 undefined on input line 96
+.
+
+
+Package natbib Warning: Citation `Wei2006' on page 23 undefined on input line 9
+9.
+
+
+Package natbib Warning: Citation `Cavalieri2010b' on page 23 undefined on input
+ line 101.
+
+
+Package natbib Warning: Citation `Kibens1980' on page 23 undefined on input lin
+e 103.
+
+
+LaTeX Warning: Reference `fig:ch4_period_structure_disintegration' on page 23 u
+ndefined on input line 106.
+
+
+Package natbib Warning: Citation `Speth2015' on page 23 undefined on input line
+ 108.
+
+
+Package natbib Warning: Citation `Speth2015' on page 23 undefined on input line
+ 110.
+
+<Figures/ch4_St025_lambda.png, id=206, 594.5412pt x 655.0071pt>
 File: Figures/ch4_St025_lambda.png Graphic file (type png)
 
 <use Figures/ch4_St025_lambda.png>
 Package pdftex.def Info: Figures/ch4_St025_lambda.png used on input line 114.
 (pdftex.def)             Requested size: 361.34999pt x 398.10452pt.
- [24 <./Figures/ch4_St005_lambda.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+[24 <./Figures/ch4_St005_lambda.png>]
+
+LaTeX Warning: Reference `fig:ch4_period_structure_disintegration' on page 25 u
+ndefined on input line 119.
+
 [25 <./Figures/ch4_centerline_mach_temporal.png> <./Figures/ch4_rawUx_accelerat
 ion.png>]
 
@@ -594,6 +1063,10 @@ LaTeX Warning: Reference `fig:ch4_centerlinemach_temporal' on page 26 undefined
  on input line 129.
 
 [26 <./Figures/ch4_St025_lambda.png>]
+
+LaTeX Warning: Reference `fig:ch4_St035_structure_disintegration' on page 27 un
+defined on input line 137.
+
 <Figures/ch4_St035_lambda_evolution.png, id=224, 589.2414pt x 502.7583pt>
 File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
 
@@ -601,13 +1074,63 @@ File: Figures/ch4_St035_lambda_evolution.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch4_St035_lambda_evolution.png used on input l
 ine 147.
 (pdftex.def)             Requested size: 361.34999pt x 308.3238pt.
+
+
+LaTeX Warning: Reference `fig:ch3_farfield' on page 27 undefined on input line 
+153.
+
+
+LaTeX Warning: Reference `fig:ch3_xcorrOA' on page 27 undefined on input line 1
+53.
+
+
+LaTeX Warning: Reference `sect:source' on page 27 undefined on input line 159.
+
 ) [27] [28 <./Figures/ch4_St035_lambda_evolution.png>]
 \openout2 = `sect_acoustic_source.aux'.
 
- (sect_acoustic_source.tex [29
+
+(sect_acoustic_source.tex
+
+Package natbib Warning: Citation `Ribner1962' on page 29 undefined on input lin
+e 3.
+
+
+Package natbib Warning: Citation `Lilley2003' on page 29 undefined on input lin
+e 7.
+
+
+Package natbib Warning: Citation `Ristorcelli1997' on page 29 undefined on inpu
+t line 30.
+
+
+Package natbib Warning: Citation `Mitchell1995' on page 29 undefined on input l
+ine 31.
+
+
+Package natbib Warning: Citation `Colonius1997' on page 29 undefined on input l
+ine 31.
+
+
+Package natbib Warning: Citation `Freund2000' on page 29 undefined on input lin
+e 31.
+
+[29
 
 
 ]
+
+Package natbib Warning: Citation `Glauser1987' on page 30 undefined on input li
+ne 52.
+
+
+Package natbib Warning: Citation `Speth2014' on page 30 undefined on input line
+ 56.
+
+
+LaTeX Warning: Reference `fig:LES_streamwise_phavg' on page 30 undefined on inp
+ut line 58.
+
 <Figures/LES_phavg_streamwise_Ur.png, id=235, 380.1402pt x 199.7061pt>
 File: Figures/LES_phavg_streamwise_Ur.png Graphic file (type png)
 
@@ -624,6 +1147,14 @@ Package pdftex.def Info: Figures/LES_phavg_streamwise_p.png used on input line
 70.
 (pdftex.def)             Requested size: 230.40234pt x 121.04349pt.
 
+
+Package natbib Warning: Citation `Speth2014' on page 30 undefined on input line
+ 73.
+
+
+LaTeX Warning: Reference `fig:LES_streamwise_dil' on page 30 undefined on input
+ line 78.
+
 <Figures/LES_2CDil.png, id=237, 380.1402pt x 203.8014pt>
 File: Figures/LES_2CDil.png Graphic file (type png)
 
@@ -637,23 +1168,36 @@ File: Figures/LES_3CDil.png Graphic file (type png)
 <use Figures/LES_3CDil.png>
 Package pdftex.def Info: Figures/LES_3CDil.png used on input line 92.
 (pdftex.def)             Requested size: 230.40234pt x 123.52567pt.
- [30] [31 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwi
-se_p.png> <./Figures/LES_2CDil.png> <./Figures/LES_3CDil.png>] <Figures/ch5_val
-id_Inst_Uz.png, id=250, 393.99194pt x 199.947pt>
+
+
+Package natbib Warning: Citation `Unnikrishnan2015' on page 30 undefined on inp
+ut line 106.
+
+[30] [31 <./Figures/LES_phavg_streamwise_Ur.png> <./Figures/LES_phavg_streamwis
+e_p.png> <./Figures/LES_2CDil.png> <./Figures/LES_3CDil.png>]
+
+LaTeX Warning: Reference `fig:valid_helmholtz' on page 32 undefined on input li
+ne 114.
+
+
+Package natbib Warning: Citation `Unnikrishnan2015' on page 32 undefined on inp
+ut line 122.
+
+<Figures/ch5_valid_Inst_Uz.png, id=251, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Uz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Uz.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Uz.png used on input line 129.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_Ur.png, id=251, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_Ur.png, id=252, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_Ur.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_Ur.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_Ur.png used on input line 134.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_solUz.png, id=252, 393.99194pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUz.png, id=253, 393.99194pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUz.png>
@@ -661,7 +1205,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUz.png used on input line 13
 9.
 (pdftex.def)             Requested size: 172.79883pt x 87.6932pt.
 
-<Figures/ch5_valid_Inst_solUr.png, id=253, 391.58295pt x 199.947pt>
+<Figures/ch5_valid_Inst_solUr.png, id=254, 391.58295pt x 199.947pt>
 File: Figures/ch5_valid_Inst_solUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_solUr.png>
@@ -669,7 +1213,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_solUr.png used on input line 14
 4.
 (pdftex.def)             Requested size: 172.79883pt x 88.23322pt.
 
-<Figures/ch5_valid_Inst_potUz.png, id=254, 391.58295pt x 204.0423pt>
+<Figures/ch5_valid_Inst_potUz.png, id=255, 391.58295pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_potUz.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUz.png>
@@ -677,7 +1221,7 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUz.png used on input line 14
 9.
 (pdftex.def)             Requested size: 172.79883pt x 90.0404pt.
 
-<Figures/ch5_valid_Inst_potUr.png, id=255, 391.58295pt x 201.99464pt>
+<Figures/ch5_valid_Inst_potUr.png, id=256, 391.58295pt x 201.99464pt>
 File: Figures/ch5_valid_Inst_potUr.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_potUr.png>
@@ -688,20 +1232,41 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_potUr.png used on input line 15
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-<Figures/ch5_valid_Inst_ps.png, id=259, 405.6756pt x 204.0423pt>
+
+Package natbib Warning: Citation `Arndt1997' on page 33 undefined on input line
+ 167.
+
+
+LaTeX Warning: Reference `fig:valid_pseudopressure' on page 33 undefined on inp
+ut line 172.
+
+
+LaTeX Warning: Reference `fig:valid_helmholtz' on page 33 undefined on input li
+ne 172.
+
+<Figures/ch5_valid_Inst_ps.png, id=260, 405.6756pt x 204.0423pt>
 File: Figures/ch5_valid_Inst_ps.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_ps.png>
 Package pdftex.def Info: Figures/ch5_valid_Inst_ps.png used on input line 181.
 (pdftex.def)             Requested size: 252.94499pt x 127.2241pt.
- [33 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Fig
-ures/ch5_valid_Inst_solUz.png> <./Figures/ch5_valid_Inst_solUr.png> <./Figures/
-ch5_valid_Inst_potUz.png> <./Figures/ch5_valid_Inst_potUr.png>]
+
+
+LaTeX Warning: Reference `fig:valid_helmholtz' on page 33 undefined on input li
+ne 182.
+
+[33 <./Figures/ch5_valid_Inst_Uz.png> <./Figures/ch5_valid_Inst_Ur.png> <./Figu
+res/ch5_valid_Inst_solUz.png> <./Figures/ch5_valid_Inst_solUr.png> <./Figures/c
+h5_valid_Inst_potUz.png> <./Figures/ch5_valid_Inst_potUr.png>]
+
+LaTeX Warning: Reference `eq:ribner_source' on page 34 undefined on input line 
+187.
+
 
 LaTeX Warning: Reference `eq:source_integration' on page 34 undefined on input 
 line 195.
 
-<Figures/ch5_valid_Inst_source.png, id=269, 394.71465pt x 215.3646pt>
+<Figures/ch5_valid_Inst_source.png, id=270, 394.71465pt x 215.3646pt>
 File: Figures/ch5_valid_Inst_source.png Graphic file (type png)
 
 <use Figures/ch5_valid_Inst_source.png>
@@ -709,15 +1274,69 @@ Package pdftex.def Info: Figures/ch5_valid_Inst_source.png used on input line 1
 98.
 (pdftex.def)             Requested size: 252.94499pt x 138.0136pt.
 
-<Figures/sect_aeroacoustic_wvpkt_validation.png, id=270, 472.164pt x 337.7418pt
+
+LaTeX Warning: Reference `fig:valid_helmholtz' on page 34 undefined on input li
+ne 199.
+
+
+LaTeX Warning: Reference `sect:nearfield' on page 34 undefined on input line 20
+5.
+
+
+Package natbib Warning: Citation `Sinha2012' on page 34 undefined on input line
+ 205.
+
+
+Package natbib Warning: Citation `Tinney2008' on page 34 undefined on input lin
+e 206.
+
+
+<Figures/sect_aeroacoustic_wvpkt_validation.png, id=271, 472.164pt x 337.7418pt
 >
 File: Figures/sect_aeroacoustic_wvpkt_validation.png Graphic file (type png)
  <use Figures/sect_aeroacoustic_wvpkt_validation.png>
 Package pdftex.def Info: Figures/sect_aeroacoustic_wvpkt_validation.png used on
  input line 210.
 (pdftex.def)             Requested size: 345.59766pt x 247.20912pt.
- [34 <./Figures/ch5_valid_Inst_ps.png>] [35 <./Figures/ch5_valid_Inst_source.pn
-g> <./Figures/sect_aeroacoustic_wvpkt_validation.png>]
+ [34 <./Figures/ch5_valid_Inst_ps.png>]
+
+LaTeX Warning: Reference `fig:flowfield_wvpkts' on page 35 undefined on input l
+ine 215.
+
+
+LaTeX Warning: Reference `sect:NF_methodology' on page 35 undefined on input li
+ne 217.
+
+[35 <./Figures/ch5_valid_Inst_source.png> <./Figures/sect_aeroacoustic_wvpkt_va
+lidation.png>]
+
+Package natbib Warning: Citation `Arndt1997' on page 36 undefined on input line
+ 225.
+
+
+LaTeX Warning: Reference `sect:nearfield' on page 36 undefined on input line 22
+9.
+
+
+Package natbib Warning: Citation `Hileman2005' on page 36 undefined on input li
+ne 229.
+
+
+Package natbib Warning: Citation `Bridges1992' on page 36 undefined on input li
+ne 234.
+
+
+Package natbib Warning: Citation `Ristorcelli1997' on page 36 undefined on inpu
+t line 235.
+
+
+LaTeX Warning: Reference `fig:ch5_farfield' on page 36 undefined on input line 
+237.
+
+
+LaTeX Warning: Reference `fig:ch5_farfield' on page 36 undefined on input line 
+239.
+
 <Figures/ch5_St005_FF_v2.png, id=282, 369.66106pt x 218.85765pt>
 File: Figures/ch5_St005_FF_v2.png Graphic file (type png)
 
@@ -739,6 +1358,14 @@ File: Figures/ch5_St035_FF_v3.png Graphic file (type png)
 Package pdftex.def Info: Figures/ch5_St035_FF_v3.png used on input line 258.
 (pdftex.def)             Requested size: 252.94499pt x 127.4296pt.
  [36]
+
+LaTeX Warning: Reference `fig:PSL_St005' on page 37 undefined on input line 266
+.
+
+
+LaTeX Warning: Reference `fig:PSL_St025' on page 37 undefined on input line 271
+.
+
 <Figures/ch5_St005_PSL_101.png, id=288, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_PSL_101.png Graphic file (type png)
 
@@ -762,51 +1389,18 @@ Package pdftex.def Info: Figures/ch5_St025_PSL_41.png used on input line 290.
  [37 <./Figures/ch5_St005_FF_v2.png> <./Figures/ch5_St025_FF_v3.png> <./Figures
 /ch5_St035_FF_v3.png>]
 
+LaTeX Warning: Reference `fig:SL' on page 38 undefined on input line 296.
+
+
 LaTeX Warning: Reference `fig:SL_St005' on page 38 undefined on input line 299.
 
+
+
+Package natbib Warning: Citation `Michalke1972' on page 38 undefined on input l
+ine 300.
 
 <Figures/ch5_St005_SL_131.png, id=298, 385.44pt x 203.8014pt>
 File: Figures/ch5_St005_SL_131.png Graphic file (type png)
 
 <use Figures/ch5_St005_SL_131.png>
-Package pdftex.def Info: Figures/ch5_St005_SL_131.png used on input line 307.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
-
-<Figures/ch5_St025_SL_1.png, id=299, 385.44pt x 203.8014pt>
-File: Figures/ch5_St025_SL_1.png Graphic file (type png)
-
-<use Figures/ch5_St025_SL_1.png>
-Package pdftex.def Info: Figures/ch5_St025_SL_1.png used on input line 313.
-(pdftex.def)             Requested size: 249.59766pt x 131.97487pt.
- [38 <./Figures/ch5_St005_PSL_101.png> <./Figures/ch5_St005_PSL_161.png>]
-<Figures/sect_acoustic_source_modulated_source.png, id=305, 465.1779pt x 340.63
-26pt>
-File: Figures/sect_acoustic_source_modulated_source.png Graphic file (type png)
-
- <use Figures/sect_acoustic_source_modulated_source.png>
-Package pdftex.def Info: Figures/sect_acoustic_source_modulated_source.png used
- on input line 332.
-(pdftex.def)             Requested size: 345.59766pt x 253.07771pt.
- [39 <./Figures/ch5_St025_PSL_41.png> <./Figures/ch5_St005_SL_131.png> <./Figur
-es/ch5_St025_SL_1.png>]) [40 <./Figures/sect_acoustic_source_modulated_source.p
-ng>]
-\openout2 = `sect_conclusion.aux'.
-
-
-(sect_conclusion.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41
-
-
-])
-[42] (MCrawley_JFM_2016.bbl
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 \end{thebibliography}
-                   
+Package pdftex.def Info: Figures/ch5_St005_SL_131.pn
