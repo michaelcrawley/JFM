@@ -248,19 +248,6 @@
   Timestamp                = {2016.09.27}
 }
 
-@Article{Camussi1999,
-  Title                    = {Experimental analysis of intermittent coherent structures in the near field of a high Re turbulent jet flow},
-  Author                   = {R. Camussi and G. Guj},
-  Journal                  = {Physics of Fluids},
-  Year                     = {1999},
-  Number                   = {2},
-  Pages                    = {423--431},
-  Volume                   = {11},
-
-  Owner                    = {michael},
-  Timestamp                = {2016.09.27}
-}
-
 @Article{Camussi1997,
   Title                    = {Orthonormal wavelet decomposition of turbulent flows: intermittency and coherent structures},
   Author                   = {R. Camussi and G. Guj},
