@@ -55,9 +55,9 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 \end{figure}
 
 \subsection{Excited versus Natural Structures}
-The effect of excitation on the turbulent jet is to generate highly energetic coherent structures which persist downstream for several lengthscales.
+The effect of excitation on the turbulent jet is to generate highly energetic coherent structures which persist downstream for several length-scales.
 As can be seen by the strong tonal energies observed for the excited jets on \fig{fig:sect_nearfield_spectra_prms}a, the near-field response to these structures contains energy at the fundamental excitation frequency and numerous higher harmonics.
-As the excitation frequency increases from the impulse-excitation regime to the periodic, the dominance of the fundamental tone over the higher harmonics becomes more pronounced, though this is an artifact of the Fourier transform and not a fundamental physical phenomenon.
+As the excitation frequency increases from the impulse-excitation regime to the periodic, the dominance of the fundamental tone over the higher harmonics becomes more pronounced.
 The presence of these highly-energetic structures can also lead to an amplification of the broadband turbulence, over a wide band of frequencies both above and below the fundamental excitation frequency.
 It also produces a continuous upstream shift in the root-mean-squared peak amplitude of the phase-averaged, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (which is commonly identified as the jet column instability frequency in natural jets).
 However, the fluctuation intensities as a function of frequency in the excited jets saturate much further upstream, $x/D \simeq 3$ for $St_{DF} \simeq 0.3$,  than in the natural jet, further downstream near the end of the potential core at $x/D \simeq 6$.
@@ -73,35 +73,35 @@ In light of this issue, an investigation of the coherent structures in the natur
 Obviously, it is not possible to use standard phase--averaging with the unforced case since the natural turbulent structures, although dominated by Strouhal numbers related to the instabilities in the jet, contain a broad range of energetic scales with no fixed phase relationship.
 It is necessary then to use an alternative averaging method in order to extract a coherent signature of the unforced jet turbulent--structures.
 Instead of phase--averaging, which cannot be applied to natural jets, a conditional--averaging method, specifically wavelet--conditioning, was applied to both unforced and forced cases to determine how closely the forced structures relate to the natural structures in the jet.
-% A wavelet decomposition was chosen as it affords an efficient methodology for analyzing intermittent events in a given signal due to the finite energy of its basis functions. This is in contrast to the more standard Fourier decomposition in which continuously-oscillating basis functions spread information from a single instance in time across all transform coefficients. For this reason, the use of the wavelet decomposition has become increasingly common in aeroacoustic research; for brevity, the reader can refer to \citet{Farge1992}: an overview of the wavelet transform and its applications to turbulence and acoustics.
+A wavelet decomposition was used as it affords an efficient methodology for analyzing intermittent events in a given signal due to the finite energy of its basis functions. 
+This is in contrast to the more standard Fourier decomposition in which continuously-oscillating basis functions spread information from a single instance in time across all transform coefficients. 
+The use of the wavelet decomposition has become increasingly common in aeroacoustic research; for brevity, the reader can refer to \citet{Farge1992} for an overview of the wavelet transform and its applications to turbulence and acoustics.
 
-The wavelet coefficients are noted $\tilde{w} \left( s, \tau \right)$, where $s$ is the wavelet scale (inversely proportional to Fourier frequency) and $\tau$ is the time--shift as in the Short Time Fourier Transform (STFT) formulation.
-As STFT, the wavelet decomposition is a convolution of analyzed signal with a family of functions, the wavelets family.
-To get the wavelet family, the mother wavelet is stretched/compressed and shifted.
-The strength of the wavelet decomposition with regards to STFT is the variation of its time--scale, which for STFT would correspond to its window's length.
-This allows a more localized information.
-In STFT the size of the window (time--scale) is fixed at the beginning of the analysis but not the frequency, which allows to retrieve the frequency content.
-Inversely, the wavelet decomposition operate using a fixed frequency (usually noted $\omega_0$) and a window of variable length in order to retrieve the different time--scales.
-This fundamental difference between these two decomposition allows to the wavelet decomposition to be more flexible and have a better resolution at both high and low frequencies.
-For more details about the wavelet decomposition, the reader may refer to \citet{Farge1992}.
+%The wavelet coefficients are noted $\tilde{w} \left( s, \tau \right)$, where $s$ is the wavelet scale (inversely proportional to Fourier frequency) and $\tau$ is the time--shift as in the Short Time Fourier Transform (STFT) formulation.
+%As STFT, the wavelet decomposition is a convolution of analyzed signal with a family of functions, the wavelets family.
+%To get the wavelet family, the mother wavelet is stretched/compressed and shifted.
+%The strength of the wavelet decomposition with regards to STFT is the variation of its time--scale, which for STFT would correspond to its window's length.
+%This allows a more localized information.
+%In STFT the size of the window (time--scale) is fixed at the beginning of the analysis but not the frequency, which allows to retrieve the frequency content.
+%Inversely, the wavelet decomposition operate using a fixed frequency (usually noted $\omega_0$) and a window of variable length in order to retrieve the different time--scales.
+%This fundamental difference between these two decomposition allows to the wavelet decomposition to be more flexible and have a better resolution at both high and low frequencies.
+%For more details about the wavelet decomposition, the reader may refer to \citet{Farge1992}.
 
-The wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1999,Guj1999,Camussi2002,Guj2003}.
-The technique is based on two steps: first the selection of the energetic events in order to retrieve their time of occurrence; and the second is the conditional--averaging over these times to get the coherent structure signature.
-The technique and first step is based on the so--called Local Intermittency Measure (LIM) \citep{Farge1992}, $L(s, \tau)$, which is the ratio between a local energy of the wavelet coefficient for a specific time and scale $(\tau, s)$ and a time-averaged energy for the same scale.
+Wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1999,Guj1999,Camussi2002,Guj2003}.
+The technique educes the signature of coherent structures based on a conditional--average of a turbulent signal based upon a short--time window centered around highly energetic events identified by the wavelet transform.
+Identification of the energetic events is accomplished using the Local Intermittency Measure (LIM) \citep{Farge1992}, which is the ratio between a local energy of the wavelet coefficient for a specific time and scale and a time-averaged energy at that same scale.
 The LIM was demonstrated to be a well--suited indicator for coherent structure identification \citep{Camussi1997}.
-It provides information about the instantaneous fluctuation of energy and by choosing a proper threshold $T$ it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent energetic events in a signal.
+It provides information about the instantaneous fluctuation of energy and by choosing a proper threshold, $T$, it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent energetic events in a signal.
 
-Several methods exist to select the threshold: by selecting an arbitrary threshold, an iterative process to retrieve a specific value of the Flatness Factor (skewness, forth moment), or by evaluating the Merit index \citep{Grassucci2015}. 
-In the present study, a new method inspired by the Merit index was used to select a proper threshold. 
-In contrast to the Merit coefficient method, which uses a global threshold across all scales, the new method iterates at each scale to identify a proper threshold. At each iteration, the coefficient $R(T)$ \eq{eqn:tEvaluation} is evaluated.
-
+Several methods exist to select the threshold: by selecting an arbitrary threshold, an iterative process to retrieve a specific value of the Flatness Factor (skewness, fourth moment), or by evaluating the Merit index \citep{Grassucci2015}. 
+In the present study, a new method inspired by the Merit index was used to select the threshold. 
+In contrast to the original Merit coefficient method, which uses a global threshold across all scales, the new method iterates at each scale to identify a proper threshold. At each iteration, the coefficient $R(T)$ is evaluated:
 \begin{equation} \label{eqn:tEvaluation}
 R(T) = -\frac{\log\left(\frac{N_p}{N_m}\right)}{\log\left(\frac{\sigma_{w_p}}{\sigma_{w_m}}\right)}.
 \end{equation} 
 $N_p$ is the length of the set $\{L > T\}$, $N_m$ is the length of the set $\{L \leqslant T\}$, $\sigma_{w_p}$ the standard deviation of the set $\{w\left( \tau_p\right) | L\left( \tau_p \right) > T\}$ and $\sigma_{w_m}$ the standard deviation of the set $\{w\left( \tau_m\right) | L\left( \tau_m \right) \leqslant T\}$. The threshold is selected in the same manner as it is selected with Merit index \citep{Grassucci2015}: $T$ is selected as the value maximizing $R(T)$.
 
-The second step of the method, the conditional--averaging (\eq{eqn:ensembleAverage}) over the set of times $\{\tau_{i}\}$, is performed in order to get the coherent structures signature as for the phase--averaging.
-The conditional--average and phase--average are similar: the set of times $\{\tau_{i}\}$ replaces the phase over which the phase--average is performed.
+The conditional--averaging (\eq{eqn:ensembleAverage}) over the set of times $\{\tau_{i}\}$ is then performed in order to get the coherent structures signature as for the phase--averaging.
 At each time location corresponding to a peak of energy, a window $W$ of fixed time--length $l_{W}$ is selected from the original signal $p \left( t \right)$. The conditional--average, $\tilde{p}$ is evaluated from this set of windows:
 \begin{equation} \label{eqn:ensembleAverage}
 	\tilde{p}^n_{m}\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} p_{m}\left(\xi_{i}\right),
@@ -132,14 +132,15 @@ The formulation of the conditional--average was modified to take this observatio
 $sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) and the conditional--average be done with one or the other peak' sign.
 For a numerical database which is strongly limited in its time duration, it improves the results obtained with the wavelet--conditioning.
 The conditional--average using \eq{eqn:ensembleAverage} with all the peaks (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
-When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. The auto/cross--conditioning are presented in \fig{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$. For more information about the wavelet--transform, see \cite{Farge1992}.
-The cross--conditioning is only presented in theory but no results with valuable meaning were obtained for this specific study.
-\begin{figure}
-	\centering
-	\includegraphics[width=1\textwidth]{Figures/condNcond.eps}
-	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
-	\label{fig:condNcond}
-\end{figure}
+When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. 
+%The auto/cross--conditioning are presented in \fig{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$.
+%The cross--conditioning is only presented in theory but no results with valuable meaning were obtained for this specific study.
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=1\textwidth]{Figures/condNcond.eps}
+%	\caption{\textit{Auto--conditioning of a signal $p_n(t)$ and cross--conditioning of a signal $p_n(t)$}}
+%	\label{fig:condNcond}
+%\end{figure}
 
 For sake of brevity, only the results for four different cases, baseline and $S_t = 0.05, 0.25,$ and $0.35$, are presented.
 The following \fig{fig:autoCondSt0p00} represents the auto--conditioning of the closest microphones array at $r/D = 1.2$ and for the microphones contained between $x/D=1$ and $x/D=14$.
