@@ -108,30 +108,31 @@ At each time location corresponding to a peak of energy, a window $W$ of fixed t
 \end{equation}
 where the superscript $n$ and subscript $m$ stand for the position of the reference signal and of any other signal of the array, respectively.
 Also, the subscript $s$ stands for the scale, $N^n$ is the number of detected events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{l_W}{2}, \tilde{t}_{i} + \frac{l_w}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
-A first analysis using \eq{eqn:ensembleAverage} was performed on the microphones line--array at $r/D = 1.20$.
-A second analysis was then performed by doing the conditional--average only with negative/positive valued peaks in the real domain (pressure).
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Figures/negativePeak.eps}%
-	\includegraphics[width=0.45\linewidth]{Figures/positivePeak.eps}\\	
-	\includegraphics[width=0.45\linewidth]{Figures/compPeaks}
-	\caption{Auto--conditioning signatures of the signal at $x/D = 3$, (a) with only negative peaks, (b) with only positive peaks, (c) comparison between both} \label{fig:compPeaks}
-\end{figure}
-\fig{fig:compPeaks} presents the two subfigures for the different cases (negative/positive peaks) and a third subfigure to compare them.
-\begin{itemize}
-  \item $(a)$ conditional--average (\eq{eqn:ensembleAverage}) using only the negative peaks
-  \item $(b)$ only the positive peaks
-  \item a comparison between the two previous one ($(a)$ was inverted in order to compare it to $(b)$)
-\end{itemize}
-\fig{fig:compPeaks}c presents the resemblance between the signature of subfigures (a) and (b) on which the conditional--average was performed using only negative or positive peaks (it is important to understand that the differentiation is done by evaluating the value of each peak in the real domain and not in the LIM/wavelet domain). %At this point, it is believed to be the result of the passage of two successive large scale turbulent--structures, in the zone where their interaction take place.
-The formulation of the conditional--average was modified to take this observation into account and reformulated as follows:
-\begin{equation} \label{eqn:condAvgSign}
-\tilde{p}_{m}^n\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} sign\left( p_{n} \left( \tilde{t}_{i} \right) \right) p_{m} \left( \xi_{i} \right),
-\end{equation}
-$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) and the conditional--average be done with one or the other peak' sign.
-For a numerical database which is strongly limited in its time duration, it improves the results obtained with the wavelet--conditioning.
-The conditional--average using \eq{eqn:ensembleAverage} with all the peaks (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
+Based on the phase-averaged results, which indicated that a single coherent event could include both positive and negative fluctuations in the pressure domain, only positive pressure peaks were used for identifying the energetic events in the conditional-average.
+%A first analysis using \eq{eqn:ensembleAverage} was performed on the microphones line--array at $r/D = 1.20$.
+%A second analysis was then performed by doing the conditional--average only with negative/positive valued peaks in the real domain (pressure).
+%
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.45\linewidth]{Figures/negativePeak.eps}%
+%	\includegraphics[width=0.45\linewidth]{Figures/positivePeak.eps}\\	
+%	\includegraphics[width=0.45\linewidth]{Figures/compPeaks}
+%	\caption{Auto--conditioning signatures of the signal at $x/D = 3$, (a) with only negative peaks, (b) with only positive peaks, (c) comparison between both} \label{fig:compPeaks}
+%\end{figure}
+%\fig{fig:compPeaks} presents the two subfigures for the different cases (negative/positive peaks) and a third subfigure to compare them.
+%\begin{itemize}
+%  \item $(a)$ conditional--average (\eq{eqn:ensembleAverage}) using only the negative peaks
+%  \item $(b)$ only the positive peaks
+%  \item a comparison between the two previous one ($(a)$ was inverted in order to compare it to $(b)$)
+%\end{itemize}
+%\fig{fig:compPeaks}c presents the resemblance between the signature of subfigures (a) and (b) on which the conditional--average was performed using only negative or positive peaks (it is important to understand that the differentiation is done by evaluating the value of each peak in the real domain and not in the LIM/wavelet domain). %At this point, it is believed to be the result of the passage of two successive large scale turbulent--structures, in the zone where their interaction take place.
+%The formulation of the conditional--average was modified to take this observation into account and reformulated as follows:
+%\begin{equation} \label{eqn:condAvgSign}
+%\tilde{p}_{m}^n\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} sign\left( p_{n} \left( \tilde{t}_{i} \right) \right) p_{m} \left( \xi_{i} \right),
+%\end{equation}
+%$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) and the conditional--average be done with one or the other peak' sign.
+%For a numerical database which is strongly limited in its time duration, it improves the results obtained with the wavelet--conditioning.
+%The conditional--average using \eq{eqn:ensembleAverage} with all the peaks (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
 When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. 
 %The auto/cross--conditioning are presented in \fig{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$.
 %The cross--conditioning is only presented in theory but no results with valuable meaning were obtained for this specific study.
@@ -155,7 +156,7 @@ Then the fluctuation and its decay rate are getting strongly weaker as it is con
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p00.png}
+	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p00.png}
 	\caption{\textit{Natural jet auto--conditioning of the pressure array at $r/D = 1.20$}}
 	\label{fig:autoCondSt0p00}
 \end{figure}
@@ -164,12 +165,12 @@ The auto--conditioning of the lowest excitation case presented here, $S_t = 0.05
 The shape of the energetic event is different with compare to the unforced case consisting of a central positive valued peak (with regards to the position at $0$ time--shift) followed by a negative peak of the same amplitude.
 The negative peak amplitude is becoming weaker as the event is convected further downstream while the positive peak amplitude is unchanged.
 It is interesting to observe that further downstream, from $x/D=8$, the energetic event of this particular excited case becomes similar in shape to the unforced one, consisting of a central peak and surrounded by two lobs of the opposite sign.
-For the forced cases, as can be seen for this first one, it is important do not take both positive and negative valued peaks in the conditional--average equation \eq{eqn:condAvgSign}, especially at axial position close to the nozzle exit.
+%For the forced cases, as can be seen for this first one, it is important do not take both positive and negative valued peaks in the conditional--average equation \eq{eqn:condAvgSign}, especially at axial position close to the nozzle exit.
 The region in which the central peak start to strongly becomes weaker is closer to the nozzle exit, for this case $x/D = 8$. 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p05.png}
+	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p05.png}
 	\caption{\textit{Forced jet at $S_t = 0.05$ auto--conditioning of the pressure array at $r/D = 1.20$}}
 	\label{fig:autoCondSt0p05}
 \end{figure}
@@ -182,14 +183,14 @@ As for the highest case, it is difficult to observe it as the time between two s
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p25.png}
+	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p25.png}
 	\caption{\textit{Forced jet at $S_t = 0.25$ auto--conditioning of the pressure array at $r/D = 1.20$}}
 	\label{fig:autoCondSt0p25}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{Figures/conditioning/autoCondSt0p35.png}
+	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p35.png}
 	\caption{\textit{Forced jet at $S_t = 0.35$ auto--conditioning of the pressure array at $r/D = 1.20$}}
 	\label{fig:autoCondSt0p35}
 \end{figure}
@@ -203,17 +204,17 @@ Forcing the jet with plasma actuators drive it to have more regular and ordered 
 By comparison of the results obtained between the phase-averaging and wavelet-conditioning for the impulsively-excited jet ($St_{DF} = 0.05$) and the natural jet (\fig{fig:phase-wavelet_comparison}), several conclusions may be reached.
 First, while there are small discrepancies between the results obtained from the phase-averaging and wavelet-conditioning methods for the same signal, overall very similar waveforms are produced for the coherent structures.
 Clearly, the wavelet-conditioning is successful in identifying the excited structures over the natural turbulence of the jet, even without being given explicit phase information.
-More importantly, comparison of the coherent signatures educed by the wavelet-conditioning for the natural and impusively-excited jet show similar behavior.
-This indicates that, though the excited structures are more energetic than those normally found in the jet, the evolution of the natural turbulent structures mirrors (in a statistical sense) that of the intermittent structures generated by the impulse-excitation.
-Therefore, it is reasonable to expect that the acoustic source mechanisms identified for the excited structures are valid for the natural turbulent structures as well.
+In the upstream region of the jet, there are discrepancies between the waveform of the natural coherent structures educed by the wavelet-conditioning and the ones educed for the impulsively-excited jet.
+The expansion wave that precedes the primary compression wave of the natural structures is nearly non-existent for the excited structures, but the trailing expansion wave is more pronounced.
+However, as the structures convect downstream near the end of the potential core, the coherent waveforms for the natural and excited exhibit clear similarity.
+This indicates that, though the excited structures are more energetic than those normally found in the jet, the downstream evolution of the natural turbulent structures mirrors (in a statistical sense) that of the intermittent structures generated by the impulse-excitation.
+Therefore, it is reasonable to expect that any acoustic source mechanisms identified downstream for the excited structures are valid for the natural turbulent structures as well.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.45\textwidth]{Figures/conditioning/Phase-wavelet_comparison_x6D.png}
-	\caption{Comparison of results for natural and excited ($St_{DF} = 0.05$) jet at $x/D = 6$.}
+	\includegraphics[width=0.45\textwidth]{Figures/conditioning/Phase-wavelet_comparison_x3D_pa.png} %
+	\includegraphics[width=0.45\textwidth]{Figures/conditioning/Phase-wavelet_comparison_x6D_pa.png} 
+	\caption{Comparison of results for natural and excited ($St_{DF} = 0.05$) jet at $x/D = 3$ (a) and $6$ (b).}
 	\label{fig:phase-wavelet_comparison}
-	%NOTES FROM MIKE:
-	%BECAUSE I CAN'T FIGURE OUT THE NORMALIZATION USED FOR THE WAVELET-CONDITIONING, I'VE ARBITRARILY SCALED THESE WAVEFORMS TO MATCH THEIR PEAK AMPLITUDES. WE WILL WANT TO FIX THIS
-	%I ALSO NEED TO MAKE THE SAME FIGURE FOR X/D = 3
 \end{figure}
 
 \subsection{Identifying the Acoustic Source Region}
