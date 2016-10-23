@@ -41,7 +41,7 @@ At higher $St_{DF}$, a continuous oscillation between sharp expansion and compre
 \end{figure}
 
 As before, a linear superposition of the impulse response can well predict the waveform shape and amplitude at the higher excitation frequencies (\fig{fig:ch3_farfield}b), though in this case only up to $St_{DF}  = 0.25$. 
-From the phase-averaged waveforms alone it is not clear whether this breakdown in the linear superposition model at the highest excitation frequencies is due to nonlinear behavior or uncertainty in the phase-averaging. 
+From the phase-averaged waveforms alone it is not clear whether this breakdown in the linear superposition model at the higher excitation frequencies is due to nonlinear behavior or uncertainty in the phase-averaging. 
 Results comparing the linear superposition of the impulse response against the measured periodic response at $St_{DF}  = 0.35$ are shown in \fig{fig:ch3_farfield_nonlinear}.
 Some similarities may be found in the waveform shape and amplitude, but overall it is clear that the acoustic response of the jet to excitation at $St_{DF}  = 0.35$ is substantially modified from the response at lower frequencies.
 Though this is hardly conclusive in its own right, this result does suggest either changing or competing acoustic source mechanisms are present in these excited jets.
@@ -54,12 +54,11 @@ Additional details and analysis of the phase-averaged near- and far-field signal
 	\label{fig:ch3_farfield_nonlinear}
 \end{figure}
 
-\subsection{Excited versus Natural Structures}
-The effect of excitation on the turbulent jet is to generate highly energetic coherent structures which persist downstream for several length-scales.
-As can be seen by the strong tonal energies observed for the excited jets on \fig{fig:sect_nearfield_spectra_prms}a, the near-field response to these structures contains energy at the fundamental excitation frequency and numerous higher harmonics.
-As the excitation frequency increases from the impulse-excitation regime to the periodic, the dominance of the fundamental tone over the higher harmonics becomes more pronounced.
+\subsection{Coherent Structures in Excited versus Natural Jets}
+The effect of excitation of natural instabilities in the turbulent jet is to generate highly energetic coherent structures which persist downstream for several length-scales.
+As can be seen by the strong tonal energies observed in the pressure spectra for the excited jets (as illustrated in \fig{fig:sect_nearfield_spectra_prms}a), the near-field response to these structures contains energy at the fundamental excitation frequency and numerous higher harmonics.
 The presence of these highly-energetic structures can also lead to an amplification of the broadband turbulence, over a wide band of frequencies both above and below the fundamental excitation frequency.
-It also produces a continuous upstream shift in the root-mean-squared peak amplitude of the phase-averaged, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (which is commonly identified as the jet column instability frequency in natural jets).
+It also produces a continuous upstream shift in the phase-averaged root-mean-squared peak amplitude, as can be seen in \fig{fig:sect_nearfield_spectra_prms}b, with the maximum being obtained near $St_{DF} \simeq 0.3$ (identified as the jet column instability frequency in our natural jet).
 However, the fluctuation intensities as a function of frequency in the excited jets saturate much further upstream, $x/D \simeq 3$ for $St_{DF} \simeq 0.3$,  than in the natural jet, further downstream near the end of the potential core at $x/D \simeq 6$.
 In light of this issue, an investigation of the coherent structures in the natural jet and their comparison against the excited was deemed pertinent to the analysis of the excited structure dynamics.
 \begin{figure}
@@ -88,26 +87,30 @@ The use of the wavelet decomposition has become increasingly common in aeroacous
 %For more details about the wavelet decomposition, the reader may refer to \citet{Farge1992}.
 
 Wavelet--based conditional averaging has been used previously for structure identification in jets and other turbulent flows \citep{Camussi1997,Camussi1999,Guj1999,Camussi2002,Guj2003}.
-The technique educes the signature of coherent structures based on a conditional--average of a turbulent signal based upon a short--time window centered around highly energetic events identified by the wavelet transform.
+The technique educes the signature of coherent structures based on a conditional--average of a turbulent signal using a short--time window centered around highly energetic events identified by the wavelet transform.
 Identification of the energetic events is accomplished using the Local Intermittency Measure (LIM) \citep{Farge1992}, which is the ratio between a local energy of the wavelet coefficient for a specific time and scale and a time-averaged energy at that same scale.
 The LIM was demonstrated to be a well--suited indicator for coherent structure identification \citep{Camussi1997}.
 It provides information about the instantaneous fluctuation of energy and by choosing a proper threshold, $T$, it is possible to select a set of times $\{\tau_{i}\}$ corresponding to intermittent energetic events in a signal.
 
-Several methods exist to select the threshold: by selecting an arbitrary threshold, an iterative process to retrieve a specific value of the Flatness Factor (skewness, fourth moment), or by evaluating the Merit index \citep{Grassucci2015}. 
+Several methods exist to select the threshold: by selecting an arbitrary threshold, an iterative process to retrieve a specific value of the flatness factor (kurtosis, fourth moment), or by evaluating the Merit index \citep{Grassucci2015}. 
 In the present study, a new method inspired by the Merit index was used to select the threshold. 
-In contrast to the original Merit coefficient method, which uses a global threshold across all scales, the new method iterates at each scale to identify a proper threshold. At each iteration, the coefficient $R(T)$ is evaluated:
+In contrast to the original method, which uses a global threshold across all scales, the new method iterates at each scale to identify a proper threshold. 
+At each iteration, the coefficient $R(T)$ is evaluated:
 \begin{equation} \label{eqn:tEvaluation}
-R(T) = -\frac{\log\left(\frac{N_p}{N_m}\right)}{\log\left(\frac{\sigma_{w_p}}{\sigma_{w_m}}\right)}.
+R(T) = -\frac{\log\left(\frac{N_e}{N_w}\right)}{\log\left(\frac{\sigma_{w_e}}{\sigma_{w_w}}\right)}.
 \end{equation} 
-$N_p$ is the length of the set $\{L > T\}$, $N_m$ is the length of the set $\{L \leqslant T\}$, $\sigma_{w_p}$ the standard deviation of the set $\{w\left( \tau_p\right) | L\left( \tau_p \right) > T\}$ and $\sigma_{w_m}$ the standard deviation of the set $\{w\left( \tau_m\right) | L\left( \tau_m \right) \leqslant T\}$. The threshold is selected in the same manner as it is selected with Merit index \citep{Grassucci2015}: $T$ is selected as the value maximizing $R(T)$.
+%$N_p$ is the length of the set $\{L > T\}$, $N_m$ is the length of the set $\{L \leqslant T\}$, $\sigma_{w_p}$ the standard deviation of the set $\{w\left( \tau_p\right) | L\left( \tau_p \right) > T\}$ and $\sigma_{w_m}$ the standard deviation of the set $\{w\left( \tau_m\right) | L\left( \tau_m \right) \leqslant T\}$. 
+$N_e$ is the number of energetic samples ($LIM > T$), $N_w$ is the number of incoherent, weak samples ($L \leqslant T$), and $\sigma_{w_e}$ and $\sigma_{w_w}$ are the standard deviations for the energetic and weak wavelet coefficients.
+The threshold is selected as the value maximizing $R(T)$, in the same manner as with the original Merit index method \citep{Grassucci2015}.
 
 The conditional--averaging (\eq{eqn:ensembleAverage}) over the set of times $\{\tau_{i}\}$ is then performed in order to get the coherent structures signature as for the phase--averaging.
 At each time location corresponding to a peak of energy, a window $W$ of fixed time--length $l_{W}$ is selected from the original signal $p \left( t \right)$. The conditional--average, $\tilde{p}$ is evaluated from this set of windows:
 \begin{equation} \label{eqn:ensembleAverage}
-	\tilde{p}^n_{m}\left( W \right) = \left< p_{m} | P_{k} \right>_{\tilde{\tau}^n_{s}} = \frac{1}{N^n} \sum^{N^n}_{i = 1} p_{m}\left(\xi_{i}\right),
+	\tilde{p}^n\left( W \right) = \frac{1}{N_e} \sum^{N_e}_{i = 1} p^l \left(\xi_{i}\right),
 \end{equation}
-where the superscript $n$ and subscript $m$ stand for the position of the reference signal and of any other signal of the array, respectively.
-Also, the subscript $s$ stands for the scale, $N^n$ is the number of detected events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{l_W}{2}, \tilde{t}_{i} + \frac{l_w}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
+where the superscripts $n$ and $l$ correspond to the position of the reference signal and of any other signal of the array, respectively.
+Auto--conditioning occurs when the conditional--average is performed on a signal $p^{n}$ by using its own set of times ${\tilde{\tau}^n}$, making $n = l$. 
+The subscript $s$ corresponds to the scale, $N_e$ is the number of detected energetic events, $\tilde{\tau}^n_{s}$ is the set of corresponding times for a specific scale $s$ at which these events are occurring and $\{\xi_{i}\}$ is the interval surrounding each peak, $\xi_{i} \in \left[ \tilde{t}_{i} - \frac{x}{2}, \tilde{t}_{i} + \frac{x}{2} \right]$, $\tilde{t}_{i} \in \tilde{\tau}^n_{s}$.
 Based on the phase-averaged results, which indicated that a single coherent event could include both positive and negative fluctuations in the pressure domain, only positive pressure peaks were used for identifying the energetic events in the conditional-average.
 %A first analysis using \eq{eqn:ensembleAverage} was performed on the microphones line--array at $r/D = 1.20$.
 %A second analysis was then performed by doing the conditional--average only with negative/positive valued peaks in the real domain (pressure).
@@ -133,7 +136,7 @@ Based on the phase-averaged results, which indicated that a single coherent even
 %$sign\left( p_{n} \left( \tilde{t}_{i} \right) \right)$ is introduced to take into account the sign of the peak in the real domain. This operation might be unnecessary for an experimental database (with a long time--series) and the conditional--average be done with one or the other peak' sign.
 %For a numerical database which is strongly limited in its time duration, it improves the results obtained with the wavelet--conditioning.
 %The conditional--average using \eq{eqn:ensembleAverage} with all the peaks (not presented here) is not relevant as additional proof for the separation between negative/positive peaks.
-When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. 
+%When the conditional--average is performed on a signal $p_{n}$ by using its own set of times ${\tilde{\tau}^n_{s}}$, making $n = m$; it becomes the auto--conditioning. If the conditional--average of a signal $p_{m}$ is done by using the set of times of a signal $p_{n}$, and so $n \neq m$; it is then called the cross--conditioning. 
 %The auto/cross--conditioning are presented in \fig{fig:condNcond}: the top is the auto--conditioning where the selection of $W$ is done in the reference signal $n$; and the bottom is the cross--conditioning of another signal $m$ where $W$ is centered around the times obtained with signal $n$.
 %The cross--conditioning is only presented in theory but no results with valuable meaning were obtained for this specific study.
 %\begin{figure}
@@ -143,71 +146,54 @@ When the conditional--average is performed on a signal $p_{n}$ by using its own 
 %	\label{fig:condNcond}
 %\end{figure}
 
-For sake of brevity, only the results for four different cases, baseline and $S_t = 0.05, 0.25,$ and $0.35$, are presented.
-The following \fig{fig:autoCondSt0p00} represents the auto--conditioning of the closest microphones array at $r/D = 1.2$ and for the microphones contained between $x/D=1$ and $x/D=14$.
-The results of the conditional--average presented next are obtained with only positive valued peaks.
-The results are non-dimensionalized by the local standard deviation.
-First observation is about the shape of the coherent structure signature obtained with the wavelet--conditioning: a positive (or negative) valued central peak surrounded by two smaller lobs of the opposite sign.
-The local time--scale of the fluctuation grows as it is convected downstream.
-It is an expected result and can be reproduced using a simple auto--correlation at each axial position.
-The interests is to be able to appreciate the variation of the amplitude of the event according to its axial position.
-Up to $x/D=10$, the amplitude of the event is greater than the local standard deviation by at least twice.
-Then the fluctuation and its decay rate are getting strongly weaker as it is convected further downstream $x/D > 10$. 
+For sake of brevity, the results for only four cases, baseline and $St_{DF} = 0.05, 0.25,$ and $0.35$, are presented here in \fig{fig:WaveAutoCond}, which illustrates the auto--conditioning of the closest microphones array at $r/D = 1.2$.
+For the natural jet, the near-field signature of the coherent structures educed by the wavelet auto-conditioning take the form of a strong compression wave surrounded by a weaker expansion wave on both the leading and trailing edge. 
+As the structure convects downstream, the local time--scale of the fluctuation grows rapidly.
+This variation in time-scale with axial position is expected, given prior knowledge of the simple auto--correlation of the near-field pressure at each axial position.
+The amplitude of the compression wave is relatively strong over most of the domain; up to $x/D=10$ the amplitude of the event is greater than twice the local standard deviation before slowly decaying further downstream. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{Figures/wavelet_conditioning.png}
+	\caption{Wavelet auto--conditioned pressure field along the microphone array at $r/D = 1.20$ for the natural jet (a), $St_{DF} = 0.05$ (b), $St_{DF} = 0.25$ (c), and $St_{DF} = 0.35$ (d). The results have been non-dimensionalized by the local standard deviation, and the color-scale is consistent across all plots.}
+	\label{fig:WaveAutoCond}
+\end{figure}
+
+The auto--conditioning of the impulse excitation case, $St_{DF} = 0.05$, is presented in \fig{fig:WaveAutoCond}b.
+General agreement is observed between the impulsive structures and the natural jet turbulence; they take the form of a strong compression wave bookended by expansion waves, the time-scales of which increase with axial position.
+However, noticeable differences are also apparent; the excited structures exhibit a much stronger trailing expansion wave than the natural structures, and the decay in amplitude of the expansion and dominant compression waves is much more rapid with axial position.
+As a result, in the downstream region the energetic event of the impulse excitation case becomes similar in shape to the unforced one, consisting of a central peak and surrounded by two lobes of similar amplitude expansion waves.
+Results for the periodic excitation cases ($St_{DF} = 0.25$ and 0.35) are presented next in \fig{fig:WaveAutoCond}c and \fig{fig:WaveAutoCond}d, respectively.
+As with the phae-averaged near-field pressure results for these excitation cases, a repetition of energetic events with the same time--scale is observed in the upstream region; rather than one strong compression wave and two expansion waves, a single compression and expansion event occurs per excitation cycle.
+Further downstream however the continuous oscillations abruptly end however, at $x/D = 6$ for $St_{DF} =0.25$ and $x/D = 4$ for $St_{DF} =0.35$, and the shape of the coherent event begins to revert to that of the natural jet.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p00.png}
-	\caption{\textit{Natural jet auto--conditioning of the pressure array at $r/D = 1.20$}}
-	\label{fig:autoCondSt0p00}
+	\includegraphics[width=\textwidth]{Figures/wavelet_cross_conditioning.png}
+	\caption{Wavelet cross--conditioned pressure field along the microphone array at $r/D = 1.20$ for $St_{DF} = 0.05$ (a,b,c), $St_{DF} = 0.25$ (d,e,f), and $St_{DF} = 0.35$ (g,h,i). Reference microphones were set to $x/D = 1$ (a,d,g), $x/D = 6$ (b,e,h), and $x/D = 9$ (c,f,i).}
+	\label{fig:WaveCrossCond}
 \end{figure}
+The abrupt shift in the behavior of the wavelet auto-conditioned pressure fields for the periodically-excited jets was surprising, particularly in light of the phase-averaged results which show a continuous evolution of the near-field signature of the coherent structures. 
+The nature of this abrupt shift can be better understood by comparing the wavelet cross-correlations for the three excitation cases, as has been done in \fig{fig:WaveCrossCond} using reference microphones of $x/D = 1$, 6, and 9.
+For the impulsive structures (\fig{fig:WaveCrossCond}a, b, and c), the wavelet cross-conditioning is identifying a single energetic event which is coherent over the entire domain shown as it convects downstream.
+Identical trends were found for the baseline jet results, which are not shown here for brevity.
+In contrast, the results for $St_{DF} = 0.25$ indicate two distinctly separate coherent phenomena, one in the upstream region ($x/D \leq 6$) and another in the downstream region.
+Increasing the excitation frequency further to $St_{DF} = 0.35$ results in three distinct energetic events, one upstream ($x/D \leq 4$), one downstream ($x/D > 7$), and one near the end of the potential core.
+The exact nature of the flow phenomena which produce these distinct energetic signatures in the near-field pressure will be further elucidated in \sect{sect:velocity}.
+%The characteristic energetic--event of the forced cases, a positive valued peak followed by a negative valued one of the same amplitude, are not similar in shape to the unforced case, a central peak surrounded by two smaller of the opposite sign; at least for the few lengthscales directly after the nozzle exit.
+%The forced structures are more energetic and organized than the natural ones, especially close to the nozzle exit, but will have a similar behavior further downstream, principally the lowest excitation case at $S_t = 0.05$.
+%For the highest frequency excitation, due to the distance between successive structures, which is shorter (\fig{fig:autoCond}c and \fig{fig:autoCond}d), the jet does not have sufficient length (from the nozzle exit till the end of the potential core) to completely recover the natural jet behavior as for $S_t = 0.05$.
+%Because of the short distance between successive events, the coherent structures break down which lead to the energy cascade between large scales and fine scales is not as efficient as for $S_t = 0.05$ and the unforced cases.
+%It can be noted that the distance from the nozzle for which the excitation takes effect is becoming shorter as the frequency of the excitation is higher: on \fig{fig:autoCond}c the excitation effect is maintained up to $x/D=6$ while on the following \fig{fig:autoCond}d, it is up to $x/D=4$, shortened by around $2D$.
+%Forcing the jet with plasma actuators drive it to have more regular and ordered structures, which are more energetic than the ones observed for an unforced jet. The effect on the acoustic field is weaker as the shape of the spectra is the same \fig{fig:sect_nearfield_spectra_prms} with extra peaks due to the excitation and and a small elevation of the amplitude for the strongest excitation $S_t = 0.35$.
 
-The auto--conditioning of the lowest excitation case presented here, $S_t = 0.05$, is presented on \fig{fig:autoCondSt0p05}.
-The shape of the energetic event is different with compare to the unforced case consisting of a central positive valued peak (with regards to the position at $0$ time--shift) followed by a negative peak of the same amplitude.
-The negative peak amplitude is becoming weaker as the event is convected further downstream while the positive peak amplitude is unchanged.
-It is interesting to observe that further downstream, from $x/D=8$, the energetic event of this particular excited case becomes similar in shape to the unforced one, consisting of a central peak and surrounded by two lobs of the opposite sign.
-%For the forced cases, as can be seen for this first one, it is important do not take both positive and negative valued peaks in the conditional--average equation \eq{eqn:condAvgSign}, especially at axial position close to the nozzle exit.
-The region in which the central peak start to strongly becomes weaker is closer to the nozzle exit, for this case $x/D = 8$. 
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p05.png}
-	\caption{\textit{Forced jet at $S_t = 0.05$ auto--conditioning of the pressure array at $r/D = 1.20$}}
-	\label{fig:autoCondSt0p05}
-\end{figure}
-
-The highest forcing cases are presented next on \fig{fig:autoCondSt0p25} and \fig{fig:autoCondSt0p35}.
-A priori, the results of these two cases are similar.
-With compare two both previous cases, it can be observed multiple energetic events for the same time--scale on the figure.
-For $S_t = 0.25$ case, the energetic event is similar to the one at $S_t = 0.05$.
-As for the highest case, it is difficult to observe it as the time between two successive energetic events is really short and two successive events are overlapping each other. 
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p25.png}
-	\caption{\textit{Forced jet at $S_t = 0.25$ auto--conditioning of the pressure array at $r/D = 1.20$}}
-	\label{fig:autoCondSt0p25}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.65\textwidth]{Figures/conditioning/autoCondSt0p35.png}
-	\caption{\textit{Forced jet at $S_t = 0.35$ auto--conditioning of the pressure array at $r/D = 1.20$}}
-	\label{fig:autoCondSt0p35}
-\end{figure}
-The characteristic energetic--event of the forced cases, a positive valued peak followed by a negative valued one of the same amplitude, are not similar in shape to the unforced case, a central peak surrounded by two smaller of the opposite sign; at least for the few lengthscales directly after the nozzle exit.
-The forced structures are more energetic and organized than the natural ones, especially close to the nozzle exit, but will have a similar behavior further downstream, principally the lowest excitation case at $S_t = 0.05$.
-For the highest frequency excitation, due to the distance between successive structures, which is shorter (\fig{fig:autoCondSt0p25} and \fig{fig:autoCondSt0p35}), the jet does not have sufficient length (from the nozzle exit till the end of the potential core) to completely recover the natural jet behavior as for $S_t = 0.05$.
-Because of the short distance between successive events, the coherent structures break down which lead to the energy cascade between large scales and fine scales is not as efficient as for $S_t = 0.05$ and the unforced cases.
-It can be noted that the distance from the nozzle for which the excitation takes effect is becoming shorter as the frequency of the excitation is higher: on \fig{fig:autoCondSt0p25} the excitation effect is maintained up to $x/D=6$ while on the following \fig{fig:autoCondSt0p35}, it is up to $x/D=4$, shortened by around $2D$.
-Forcing the jet with plasma actuators drive it to have more regular and ordered structures, which are more energetic than the ones observed for an unforced jet. The effect on the acoustic field is weaker as the shape of the spectra is the same \fig{fig:sect_nearfield_spectra_prms} with extra peaks due to the excitation and and a small elevation of the amplitude for the strongest excitation $S_t = 0.35$.
-
+Finally, correlation of the excited structure evolution and that of the coherent structures in the natural jet was performed.
 By comparison of the results obtained between the phase-averaging and wavelet-conditioning for the impulsively-excited jet ($St_{DF} = 0.05$) and the natural jet (\fig{fig:phase-wavelet_comparison}), several conclusions may be reached.
 First, while there are small discrepancies between the results obtained from the phase-averaging and wavelet-conditioning methods for the same signal, overall very similar waveforms are produced for the coherent structures.
 Clearly, the wavelet-conditioning is successful in identifying the excited structures over the natural turbulence of the jet, even without being given explicit phase information.
 In the upstream region of the jet, there are discrepancies between the waveform of the natural coherent structures educed by the wavelet-conditioning and the ones educed for the impulsively-excited jet.
 The expansion wave that precedes the primary compression wave of the natural structures is nearly non-existent for the excited structures, but the trailing expansion wave is more pronounced.
 However, as the structures convect downstream near the end of the potential core, the coherent waveforms for the natural and excited exhibit clear similarity.
-This indicates that, though the excited structures are more energetic than those normally found in the jet, the downstream evolution of the natural turbulent structures mirrors (in a statistical sense) that of the intermittent structures generated by the impulse-excitation.
+This indicates that, though the excited structures are far more energetic than those normally found in the jet, the downstream evolution of the natural turbulent structures mirrors (in a statistical sense) that of the intermittent structures generated by the impulse-excitation.
 Therefore, it is reasonable to expect that any acoustic source mechanisms identified downstream for the excited structures are valid for the natural turbulent structures as well.
 \begin{figure}
 	\centering
@@ -222,7 +208,7 @@ Therefore, it is reasonable to expect that any acoustic source mechanisms identi
 Much of the difficulty in identifying the aeroacoustic source terms revolves around the dissimilar range of scales and fluctuation intensities of the turbulent eddies in the shear layer and the resulting radiated noise. 
 Outside the jet shear layer, in the irrotational near-field of the jet, strong hydrodynamic pressure fluctuations associated directly with the passage of coherent structures in the shear layer and their resultant weak acoustic radiation coexist \citep{Arndt1997}. 
 Beyond this, in the acoustic far-field, the hydrodynamic signature of the coherent structures is nonexistent owing to their strong exponential decay with radial distance.
-Owing to this, identification of pure acoustic waves and their corresponding source events is problematic.
+As a result, identification of pure acoustic waves and their corresponding source events is problematic.
 A decomposition of the pressure field into its constitutive hydrodynamic and acoustic components is therefore required. 
 By identification and prediction of coherence nulls in the near field, \citet{Coiffet2006} showed that the full irrotational near-field consistent primarily as a linear superposition of its hydrodynamic and acoustic components, which lead subsequent researchers to propose linear filters to extract the individual components from the near-field pressure, with varying degrees of success. 
 
@@ -281,8 +267,8 @@ While the near-field pressure and acoustic radiation towards aft polar angles in
 
 Here, the acoustic source region was assumed to be located at $x_s /D = 4$, which is just upstream of the end of the potential core in the unforced jet. 
 (Please note that this analysis is not meant to imply that the source region is located at a specific, fixed point – it is merely a convenient way of understanding the propagation paths.)
-Similar behavior is observed between the natural jet and the excited cases in \fig{fig:ch3_xcorrOA}; note that due to numerical discrepancies at the domain boundaries (see \citet{Torrence1998} for a discussion of the `cone of influence' of wavelet coefficients and the effect thereof), the correlation values have been truncated at the most upstream and downstream microphones.
-For the impulsively-excited jet, nearly identical correlation regions are observed between the excited and natural jet; in the periodically-excited jet continuous oscillations occur throughout time due to the similarity of continuously-generated large-scale structures and resultant acoustic radiation.
+Observed behavior of the excited jets shown in \fig{fig:ch3_xcorrOA} is similar to the natural jet behavior; note that due to numerical discrepancies at the domain boundaries (see \citet{Torrence1998} for a discussion of the `cone of influence' of wavelet coefficients and the effect thereof), the correlation values have been truncated at the most upstream and downstream microphones.
+For the impulsively-excited jet, nearly identical correlation regions are observed between the excited and natural jet; in the periodically-excited jet continuous oscillations occur throughout time due to the similarity of continuously and periodically generated large-scale structures and resultant acoustic radiation.
 In the upstream region of the jet, the peaks of the positive correlation region match $\tau_a$ nearly exactly. 
 In the downstream region, $\tau_a$ begins to increasingly over-predict the time lag for the maximum correlation. 
 On the other hand, $\tau_s$ tracks the time lags for the peak correlation consistently over the downstream region, but not the upstream region. 
@@ -303,7 +289,7 @@ It should also be noted that the peak correlation values between the acoustic ne
 From the current results alone, the significance of this estimated source region is not entirely clear.
 In \sect{sect:velocity} the time-resolved velocity field will be explored in detail to better elucidate the structure dynamics, with a particular focus on the region just upstream of the end of the potential core.
 
-The authors would like to make a special note here, concerning the discrepancy between the results presented in \fig{fig:ch3_xcorrOA} and those presented previously in \citet{Crawley2015}.
+A special note on the differences concerning the results presented in \fig{fig:ch3_xcorrOA} and those presented by \citet{Crawley2015} is warranted here.
 In that paper, the more simple Fourier filter was used to decompose the irrotational near-field; processing artifacts were noted and a parametric study was attempted to minimize their impact.
 In the resulting two-point correlations of the decomposed acoustic field, a shift in the apparent source region was noted to coincide with the shift of the peak pressure fluctuations measured just outside the shear layer (higher frequency excitation cases saturating further upstream near the nozzle exit).
 Because this behavior was observed across the entire range of filter parameters used, it was assumed to be representative of the true physical behavior and not a numerical artifact.
