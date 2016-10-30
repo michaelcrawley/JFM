@@ -100,7 +100,7 @@ At each iteration, the coefficient $R(T)$ is evaluated:
 R(T) = -\frac{\log\left(\frac{N_e}{N_w}\right)}{\log\left(\frac{\sigma_{w_e}}{\sigma_{w_w}}\right)}.
 \end{equation} 
 %$N_p$ is the length of the set $\{L > T\}$, $N_m$ is the length of the set $\{L \leqslant T\}$, $\sigma_{w_p}$ the standard deviation of the set $\{w\left( \tau_p\right) | L\left( \tau_p \right) > T\}$ and $\sigma_{w_m}$ the standard deviation of the set $\{w\left( \tau_m\right) | L\left( \tau_m \right) \leqslant T\}$. 
-$N_e$ is the number of energetic samples ($LIM > T$), $N_w$ is the number of incoherent, weak samples ($L \leqslant T$), and $\sigma_{w_e}$ and $\sigma_{w_w}$ are the standard deviations for the energetic and weak wavelet coefficients.
+$N_e$ is the number of energetic samples ($LIM > T$), $N_w$ is the number of incoherent, weak samples ($LIM \leqslant T$), and $\sigma_{w_e}$ and $\sigma_{w_w}$ are the standard deviations for the energetic and weak wavelet coefficients.
 The threshold is selected as the value maximizing $R(T)$, in the same manner as with the original Merit index method \citep{Grassucci2015}.
 
 The conditional--averaging (\eq{eqn:ensembleAverage}) over the set of times $\{\tau_{i}\}$ is then performed in order to get the coherent structures signature as for the phase--averaging.
@@ -147,10 +147,10 @@ Based on the phase-averaged results, which indicated that a single coherent even
 %\end{figure}
 
 For sake of brevity, the results for only four cases, baseline and $St_{DF} = 0.05, 0.25,$ and $0.35$, are presented here in \fig{fig:WaveAutoCond}, which illustrates the auto--conditioning of the closest microphones array at $r/D = 1.2$.
-For the natural jet, the near-field signature of the coherent structures educed by the wavelet auto-conditioning take the form of a strong compression wave surrounded by a weaker expansion wave on both the leading and trailing edge. 
+For the natural jet, the near-field signature of the coherent structures educed by the wavelet auto-conditioning take the form of a strong compression region surrounded by a weaker expansion region on both the leading and trailing edge. 
 As the structure convects downstream, the local time--scale of the fluctuation grows rapidly.
 This variation in time-scale with axial position is expected, given prior knowledge of the simple auto--correlation of the near-field pressure at each axial position.
-The amplitude of the compression wave is relatively strong over most of the domain; up to $x/D=10$ the amplitude of the event is greater than twice the local standard deviation before slowly decaying further downstream. 
+The amplitude of the compression region is relatively strong over most of the domain; up to $x/D=10$ the amplitude of the event is greater than twice the local standard deviation before slowly decaying further downstream. 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{Figures/wavelet_conditioning.png}
@@ -159,11 +159,11 @@ The amplitude of the compression wave is relatively strong over most of the doma
 \end{figure}
 
 The auto--conditioning of the impulse excitation case, $St_{DF} = 0.05$, is presented in \fig{fig:WaveAutoCond}b.
-General agreement is observed between the impulsive structures and the natural jet turbulence; they take the form of a strong compression wave bookended by expansion waves, the time-scales of which increase with axial position.
-However, noticeable differences are also apparent; the excited structures exhibit a much stronger trailing expansion wave than the natural structures, and the decay in amplitude of the expansion and dominant compression waves is much more rapid with axial position.
-As a result, in the downstream region the energetic event of the impulse excitation case becomes similar in shape to the unforced one, consisting of a central peak and surrounded by two lobes of similar amplitude expansion waves.
+General agreement is observed between the impulsive structures and the natural jet turbulence; they take the form of a strong compression region bookended by expansion regions, the time-scales of which increase with axial position.
+However, noticeable differences are also apparent; the excited structures exhibit a much stronger trailing expansion region than the natural structures, and the decay in amplitude of the expansion and dominant compression regions is much more rapid with axial position.
+As a result, in the downstream region the energetic event of the impulse excitation case becomes similar in shape to the unforced one, consisting of a central peak and surrounded by two lobes of similar amplitude expansion regions.
 Results for the periodic excitation cases ($St_{DF} = 0.25$ and 0.35) are presented next in \fig{fig:WaveAutoCond}c and \fig{fig:WaveAutoCond}d, respectively.
-As with the phae-averaged near-field pressure results for these excitation cases, a repetition of energetic events with the same time--scale is observed in the upstream region; rather than one strong compression wave and two expansion waves, a single compression and expansion event occurs per excitation cycle.
+As with the phae-averaged near-field pressure results for these excitation cases, a repetition of energetic events with the same time--scale is observed in the upstream region; rather than one strong compression region and two expansion regions, a single compression and expansion event occurs per excitation cycle.
 Further downstream however the continuous oscillations abruptly end however, at $x/D = 6$ for $St_{DF} =0.25$ and $x/D = 4$ for $St_{DF} =0.35$, and the shape of the coherent event begins to revert to that of the natural jet.
 
 \begin{figure}
@@ -186,12 +186,12 @@ The exact nature of the flow phenomena which produce these distinct energetic si
 %It can be noted that the distance from the nozzle for which the excitation takes effect is becoming shorter as the frequency of the excitation is higher: on \fig{fig:autoCond}c the excitation effect is maintained up to $x/D=6$ while on the following \fig{fig:autoCond}d, it is up to $x/D=4$, shortened by around $2D$.
 %Forcing the jet with plasma actuators drive it to have more regular and ordered structures, which are more energetic than the ones observed for an unforced jet. The effect on the acoustic field is weaker as the shape of the spectra is the same \fig{fig:sect_nearfield_spectra_prms} with extra peaks due to the excitation and and a small elevation of the amplitude for the strongest excitation $S_t = 0.35$.
 
-Finally, correlation of the excited structure evolution and that of the coherent structures in the natural jet was performed.
+Finally, analysis of the excited structure evolution vis-a-vis that of the coherent structures in the natural jet was performed.
 By comparison of the results obtained between the phase-averaging and wavelet-conditioning for the impulsively-excited jet ($St_{DF} = 0.05$) and the natural jet (\fig{fig:phase-wavelet_comparison}), several conclusions may be reached.
 First, while there are small discrepancies between the results obtained from the phase-averaging and wavelet-conditioning methods for the same signal, overall very similar waveforms are produced for the coherent structures.
 Clearly, the wavelet-conditioning is successful in identifying the excited structures over the natural turbulence of the jet, even without being given explicit phase information.
 In the upstream region of the jet, there are discrepancies between the waveform of the natural coherent structures educed by the wavelet-conditioning and the ones educed for the impulsively-excited jet.
-The expansion wave that precedes the primary compression wave of the natural structures is nearly non-existent for the excited structures, but the trailing expansion wave is more pronounced.
+The expansion region that precedes the primary compression region of the natural structures is nearly non-existent for the excited structures, but the trailing expansion region is more pronounced.
 However, as the structures convect downstream near the end of the potential core, the coherent waveforms for the natural and excited exhibit clear similarity.
 This indicates that, though the excited structures are far more energetic than those normally found in the jet, the downstream evolution of the natural turbulent structures mirrors (in a statistical sense) that of the intermittent structures generated by the impulse-excitation.
 Therefore, it is reasonable to expect that any acoustic source mechanisms identified downstream for the excited structures are valid for the natural turbulent structures as well.
@@ -283,7 +283,7 @@ It should be clarified here though, that the interpretation of these results is 
 \end{figure}
 
 However, these results should not be interpreted as indicating that the source mechanisms are necessarily consistent for all excitation frequencies. 
-For the lower-frequency periodic excitation ($St_{DF} \leq 0.25$), the consistency in the far-field response (\fig{fig:ch3_farfield_linear}) coupled with the consistency in the apparent source region is suggestive of a consistent dominant source mechanism.
+For the lower-frequency periodic excitation ($St_{DF} \leq 0.25$), the consistency in the far-field response (\fig{fig:ch3_farfield}b) coupled with the consistency in the apparent source region is suggestive of a consistent dominant source mechanism.
 In contrast, the inconsistency in the far-field response for the higher-frequency periodic excitation ($St_{DF} \geq 0.35$, \fig{fig:ch3_farfield_nonlinear}) is suggestive of a change in the dominant source mechanism, just one that is associated with the vortex dynamics in the jet shear layer upstream of the end of the potential core.
 It should also be noted that the peak correlation values between the acoustic near-field and the far-field are significantly lower (though certainly non-negligible) in the periodic excitation cases, suggesting a decaying coherence in the source mechanisms at these frequencies.
 From the current results alone, the significance of this estimated source region is not entirely clear.
